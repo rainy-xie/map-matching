@@ -1,0 +1,138 @@
+[
+  {
+    "id": "T01",
+    "title": "Route planning on orienteering maps with least-cost path analysis",
+    "authors": [
+      "Gáspár Albert",
+      "Zsófia Sárközy"
+    ],
+    "year": 2021,
+    "venue": "Proceedings of the International Cartographic Association, 4, article 4 (ICC 2021)",
+    "doi": "10.5194/ica-proc-4-4-2021",
+    "arxiv": null,
+    "landing_url": "https://ica-proc.copernicus.org/articles/4/4/2021/",
+    "pdf_url": "https://ica-proc.copernicus.org/articles/4/4/2021/ica-proc-4-4-2021.pdf",
+    "read_depth": "全文初读：摘要、完整方法、结果、讨论和结论；未复现计算",
+    "summary": "将定向地图的等高线、道路和覆盖类型转成成本栅格，用最小成本路径模拟路线选择。以11名专家的手绘路线调参，与26名运动员的选线比较，说明地图语义可转为运动代价。",
+    "relevance": "最直接对应地图语义如何成为区域属性和移动代价；可作为均匀栅格加地图成本的参照方法，再检验语义驱动剖分能否改善HMM定位纠正。路线规划输出不能直接当作实际轨迹真值。",
+    "limitations": "单一约5.17平方公里场地；主要验证为手绘理想路线，未开展专门的实地跑测；时间换算仅粗略参考历史比赛GPS；部分石地等地物因源数据问题未处理。文中60%地形和40%覆盖成本组合及表1权重为该案例经验调参，不能直接当通用参数。会议贡献基于摘要单盲评审。",
+    "read_sections": [
+      "PDF p.1 Abstract and Introduction",
+      "PDF pp.2-4 Sections 2.1-2.5 Materials and methods, Table 1",
+      "PDF p.5 Section 3 Results, Figure 6",
+      "PDF p.6 Sections 4-5 Discussion and Conclusion"
+    ],
+    "priority": 1,
+    "source_type": "Publisher open access, CC BY 4.0",
+    "path": "/Users/xieyuxin1/Documents/毕设/参考文献/04_定向地图与运动建模/2021_Albert_Route_planning_orienteering_LCP.pdf",
+    "pages": 7,
+    "sha256": "e52f19aeda1ae0300e6e673f61a7fb730a02d01f90cf30fff9cd2bf6685727ec",
+    "status": "downloaded_verified",
+    "verification": "PDF magic bytes checked; all pages opened and extracted with pypdf; title/authorship/version and research content checked against full text",
+    "download_checked_date": "2026-10-25",
+    "text_path": "/Users/xieyuxin1/Documents/毕设/参考文献/04_定向地图与运动建模/2021_Albert_Route_planning_orienteering_LCP.txt",
+    "student_reading": {
+      "status": "focused_reading_completed",
+      "synced_on": "2026-11-04",
+      "basis": "学生反馈已完成ChatGPT辅助的第一轮项目相关重点阅读，并已整理汇总笔记；2026年11月5日补读分享讨论正文；未标记为全篇通读、逐式核验或论文算法复现",
+      "notes_path": "02_阅读笔记.md",
+      "notes_section": "文献阅读笔记 04：定向越野地图的最小代价路径规划",
+      "discussion_url": "https://chatgpt.com/share/6aeb0b55-0664-83ec-b718-b698a3662796",
+      "discussion_access": "2026年11月4日首次访问曾显示回复无法加载；2026年11月5日经浏览器重新访问，已成功读取讨论正文",
+      "key_pdf_checks": [
+        "PDF第4页§2.4式(1)：HCR = TRI × sqrt(abs(PC) × SLO)，SLO在根号内",
+        "PDF第4页§2.4—2.5：各成本变量先归一化至0.1—1，再组合与峰值对齐；权重为案例经验",
+        "PDF第5—6页：手绘理想选线验证路线规划，不是GPS定位纠正验证"
+      ],
+      "discussion_access_checked_on": "2026-11-05",
+      "discussion_read_scope": "ACR/HCR/LCP框架、地形成本与融合、手绘选线实验、最终笔记及与HMM结合的讨论",
+      "discussion_access_history": [
+        {
+          "checked_on": "2026-11-04",
+          "result": "reply_load_failed",
+          "note": "当时浏览器中的助手回复显示无法加载，不表示分享永久不可访问"
+        },
+        {
+          "checked_on": "2026-11-05",
+          "result": "body_loaded",
+          "method": "浏览器渲染后的页面正文",
+          "scope": "ACR/HCR/LCP框架、地形成本与融合、手绘选线实验、最终笔记及与HMM结合的讨论",
+          "limit": "读取讨论正文；未逐个操作或验证交互组件，论文事实仍以原PDF定点核对为依据"
+        }
+      ]
+    }
+  },
+  {
+    "id": "T02",
+    "title": "Using crowdsourced fitness tracker data to model the relationship between slope and travel rates",
+    "authors": [
+      "Michael J. Campbell",
+      "Philip E. Dennison",
+      "Bret W. Butler",
+      "Wesley G. Page"
+    ],
+    "year": 2019,
+    "venue": "Applied Geography, 106, 93-107",
+    "doi": "10.1016/j.apgeog.2019.03.008",
+    "arxiv": null,
+    "landing_url": "https://doi.org/10.1016/j.apgeog.2019.03.008",
+    "pdf_url": "https://content.csbs.utah.edu/~pdennison/reprints/denn/2019_Campbell_etal_AG.pdf",
+    "read_depth": "关键章节初读：摘要、数据处理及拟合方法、验证设计、主要结果、讨论和结论；未逐项核验附录参数或复现",
+    "summary": "利用约3万名用户42万次活动构建坡度与移动速度的分位数模型，拟合时区分上下坡影响。清洗后约105万条记录随机分半训练验证，并用另取的100条徒步记录比较旅行时间。",
+    "relevance": "支持采用随坡度、方向和个体能力变化的速度范围，而不是固定速度阈值；可用于HMM转移可达性和候选区域搜索半径。按高程变化分割同质坡段的思路也可启发运动约束下的剖分。",
+    "limitations": "数据为盐湖城周边自然路面步道上的混合徒步、慢跑和跑步，不能直接代表离路穿越林地的定向运动员；匿名聚合数据无法确定每个样本的运动方式、疲劳和个体特征；植被、地表粗糙度等未建模；分位数拟合误差不是GPS定位误差，也不是个体瞬时速度预测误差；现有分位数须重新标定。",
+    "read_sections": [
+      "PDF p.1 Abstract",
+      "PDF pp.4-8 Section 3 Methods (slope segmentation, filtering, percentile fits, random split validation, 100 AllTrails hikes)",
+      "PDF pp.8-11 Section 4 Results",
+      "PDF pp.11-14 Sections 5-6 Discussion and Conclusions"
+    ],
+    "priority": 3,
+    "source_type": "Author institutional public full text, University of Utah",
+    "path": "/Users/xieyuxin1/Documents/毕设/参考文献/04_定向地图与运动建模/2019_Campbell_Slope_and_travel_rates.pdf",
+    "pages": 15,
+    "sha256": "db45e29f47d20318af0895722e22379abcd3d156817af77580ed1f7bc5c5e125",
+    "status": "downloaded_verified",
+    "verification": "PDF magic bytes checked; all pages opened and extracted with pypdf; title/authorship/version and research content checked against full text",
+    "download_checked_date": "2026-10-25",
+    "text_path": "/Users/xieyuxin1/Documents/毕设/参考文献/04_定向地图与运动建模/2019_Campbell_Slope_and_travel_rates.txt"
+  },
+  {
+    "id": "T03",
+    "title": "International Specification for Orienteering Maps: ISOM 2017-2, Revision 6, January 2024",
+    "authors": [
+      "IOF Map Commission",
+      "International Orienteering Federation"
+    ],
+    "year": 2024,
+    "venue": "International Orienteering Federation technical specification",
+    "doi": null,
+    "arxiv": null,
+    "isbn": "978-91-639-3394-3",
+    "landing_url": "https://orienteering.sport/iof/mapping/",
+    "pdf_url": "https://drive.google.com/uc?export=download&id=1XYQGmF-LlO4sfqhTx77f6EcJ_zphAhL0",
+    "source_landing_url": "https://tk.lof.lv/dokumenti",
+    "source_file_view_url": "https://drive.google.com/file/d/1XYQGmF-LlO4sfqhTx77f6EcJ_zphAhL0/view",
+    "read_depth": "相关条文精读：版本页、地图内容、可跑性、障碍、制图综合、精度、地理配准以及植被和禁入符号；未逐条读完全部制图尺寸",
+    "summary": "官方地图符号规范提供地物、可跑性、障碍及方向性信息。第2.3节给出相对速度分级，第2.6至2.8节解释制图综合、精度和地理配准，可用于建立地图语义到区域属性的映射。",
+    "relevance": "先定义每类区域的语义、相对通行速度和边界约束；将禁止进入与物理上难穿越区分；考虑制图位移和配准误差，避免把图上边界视为绝对准确。",
+    "limitations": "这是制图规范而非算法论文，也不是每位运动员的实测速度模型。已核验为Revision 6 January 2024，PDF注明2024-02-01生效、2025-01-01强制；本次不保证其为最新版本。文件来自拉脱维亚定向联合会技术委员会公开链接，PDF内版权及出版信息确认IOF来源。ISOM的impassable/uncrossable不自动等同比赛禁入；不能混用短距离定向ISSprOM的规则语义。",
+    "read_sections": [
+      "PDF pp.1-2 version and publication information",
+      "PDF p.4 Section 1.1 conventions, Section 2.1",
+      "PDF pp.5-6 Sections 2.2-2.4 content, runnability and barriers",
+      "PDF pp.6-8 Sections 2.6-2.8 generalisation, accuracy and georeferencing",
+      "PDF pp.27-28 Symbols 405-410 vegetation",
+      "PDF p.34 Symbol 520 area that shall not be entered"
+    ],
+    "priority": 2,
+    "source_type": "Official IOF specification; public copy linked by Latvian Orienteering Federation Technical Commission",
+    "path": "/Users/xieyuxin1/Documents/毕设/参考文献/04_定向地图与运动建模/2024_IOF_ISOM_2017-2_Revision6.pdf",
+    "pages": 44,
+    "sha256": "7f26347f0616d156aa33b97db41f5596f19e3b330a71d2e97e73df69cce76947",
+    "status": "downloaded_verified",
+    "verification": "PDF magic bytes checked; all pages opened and extracted with pypdf; title/authorship/version and research content checked against full text",
+    "download_checked_date": "2026-10-25",
+    "text_path": "/Users/xieyuxin1/Documents/毕设/参考文献/04_定向地图与运动建模/2024_IOF_ISOM_2017-2_Revision6.txt"
+  }
+]

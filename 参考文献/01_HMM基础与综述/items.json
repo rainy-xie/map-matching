@@ -1,0 +1,152 @@
+[
+  {
+    "id": "F01",
+    "title": "A Tutorial on Hidden Markov Models and Selected Applications in Speech Recognition",
+    "authors": [
+      "Lawrence R. Rabiner"
+    ],
+    "year": 1989,
+    "venue": "Proceedings of the IEEE 77(2):257–286",
+    "doi": "10.1109/5.18626",
+    "landing_url": "https://web.ece.ucsb.edu/Faculty/Rabiner/ece259/publications.html",
+    "pdf_url": "https://web.ece.ucsb.edu/Faculty/Rabiner/ece259/Reprints/tutorial%20on%20hmm%20and%20applications.pdf",
+    "status": "downloaded_verified",
+    "path": "/Users/xieyuxin1/Documents/毕设/参考文献/01_HMM基础与综述/Rabiner_1989_HMM_Tutorial.pdf",
+    "pages": 30,
+    "size_bytes": 2322272,
+    "sha256": "b4be31b1796821fdc2889f5351a259d5b08598be9c18ca990fb5d48245183579",
+    "extracted_chars": 0,
+    "document_type": "journal_tutorial",
+    "priority": "按需查阅",
+    "read_depth": "视觉阅读首页及PDF第4–8页（HMM要素、三个基本问题、前向后向与Viterbi）；未通读语音应用部分",
+    "summary": "HMM经典教程，系统区分模型要素、观测序列概率、最优状态序列和参数估计。适合查清初始分布、转移概率、观测模型及Viterbi回溯。",
+    "relevance": "为地图匹配中的概率模型和动态规划提供基础；先理解状态与观测，再结合Newson论文读具体定位建模。",
+    "limitations": "主要应用是语音；并非地图匹配方法或空间剖分创新。下载版本是扫描件，无法直接全文搜索；不必先读完全部语音识别内容。",
+    "read_sections": [
+      "II.B Elements of an HMM（PDF pp.4–5，印刷页260–261）",
+      "II.C The Three Basic Problems（PDF p.5）",
+      "III.A–B（PDF pp.6–8；Viterbi在PDF p.8/印刷页264）"
+    ],
+    "source_kind": "author_institutional_website",
+    "verified_at": "2026-10-25",
+    "metadata_sources": [
+      "https://web.ece.ucsb.edu/Faculty/Rabiner/ece259/publications.html",
+      "https://api.crossref.org/works/10.1109/5.18626"
+    ]
+  },
+  {
+    "id": "F01a",
+    "title": "Correction to A Tutorial on Hidden Markov Models and Selected Applications in Speech Recognition",
+    "authors": [
+      "Lawrence R. Rabiner"
+    ],
+    "year": null,
+    "venue": "Author errata, undated PDF",
+    "landing_url": "https://web.ece.ucsb.edu/Faculty/Rabiner/ece259/publications.html",
+    "pdf_url": "https://web.ece.ucsb.edu/Faculty/Rabiner/ece259/Reprints/hmm%20tutorial%20errata.pdf",
+    "status": "downloaded_verified",
+    "path": "/Users/xieyuxin1/Documents/毕设/参考文献/01_HMM基础与综述/Rabiner_HMM_Tutorial_Errata.pdf",
+    "pages": 2,
+    "size_bytes": 96002,
+    "sha256": "c185e0f0efc7085ab47daf089add7957ff2b296d0c0e6c14c29b6e92ab97dad0",
+    "extracted_chars": 1782,
+    "document_type": "errata",
+    "priority": "配套勘误",
+    "read_depth": "已读2页作者勘误，未逐式复核证明",
+    "summary": "修正原教程中模型比较公式及缩放计算说明。",
+    "relevance": "阅读原教程对应公式时一并核对，作为配套附件。",
+    "limitations": "不是独立研究论文；文件未标明修订日期，不将网页条目的年份当成该PDF的修订年份。",
+    "read_sections": [
+      "全篇2页"
+    ],
+    "source_kind": "author_institutional_website",
+    "verified_at": "2026-10-25"
+  },
+  {
+    "id": "F02",
+    "title": "Hidden Markov Map Matching Through Noise and Sparseness",
+    "authors": [
+      "Paul Newson",
+      "John Krumm"
+    ],
+    "year": 2009,
+    "venue": "ACM SIGSPATIAL GIS 2009:336–343",
+    "doi": "10.1145/1653771.1653818",
+    "landing_url": "https://www.microsoft.com/en-us/research/publication/hidden-markov-map-matching-noise-sparseness/",
+    "pdf_url": "https://www.microsoft.com/en-us/research/wp-content/uploads/2016/12/map-matching-ACM-GIS-camera-ready.pdf",
+    "status": "downloaded_verified",
+    "path": "/Users/xieyuxin1/Documents/毕设/参考文献/01_HMM基础与综述/Newson_Krumm_2009_HMM_Map_Matching.pdf",
+    "pages": 8,
+    "size_bytes": 863056,
+    "sha256": "822e305930251182f8b398aee6a73e04da05a5be0c6ae3b6d335d6858f76fc44",
+    "extracted_chars": 37637,
+    "document_type": "conference_paper",
+    "priority": "核心精读",
+    "read_depth": "已阅读摘要、问题定义、HMM方法、实现细节、数据及实验结论；未复现；首页渲染核验",
+    "summary": "以道路候选为状态，结合GPS距离观测和路径距离差转移，用Viterbi求最可能路线；通过降采样和加噪评价稳健性。",
+    "relevance": "第一篇精读，建立观测—候选—转移—序列求解的完整流程；同时借鉴噪声和采样率实验。",
+    "limitations": "针对车辆道路网络，不能直接表示越野穿林；论文是离线批处理。其人工真值为走过的路线，不是每个时刻的精确坐标，路线匹配正确不等于逐点定位误差为零。",
+    "read_sections": [
+      "§3 HMM Map Matching（PDF pp.3–4）",
+      "§4 Algorithm Particulars（PDF pp.5–6）",
+      "§5 Ground Truth Data（PDF p.6）",
+      "§6–7 Results/Conclusions（PDF pp.6–7）"
+    ],
+    "source_kind": "author_employer_publication",
+    "verified_at": "2026-10-25",
+    "metadata_sources": [
+      "https://www.microsoft.com/en-us/research/publication/hidden-markov-map-matching-noise-sparseness/",
+      "https://api.crossref.org/works/10.1145/1653771.1653818"
+    ],
+    "text_path": "/Users/xieyuxin1/Documents/毕设/参考文献/01_HMM基础与综述/Newson_Krumm_2009_HMM_Map_Matching.txt",
+    "student_reading": {
+      "status": "focused_reading_completed",
+      "synced_on": "2026-11-04",
+      "basis": "学生反馈已完成ChatGPT辅助的第一轮项目相关重点阅读，并已整理汇总笔记；未标记为全篇通读、逐式核验或论文算法复现",
+      "notes_path": "02_阅读笔记.md",
+      "notes_section": "文献阅读笔记 01：基于隐马尔可夫模型的地图匹配",
+      "discussion_url": "https://chatgpt.com/share/6aeaffe8-5a94-83ec-8fe1-f673bc0db829",
+      "discussion_access": "本对话先前可读",
+      "key_pdf_checks": [
+        "PDF第3—4页§3、图3与图4：路段状态及按时刻变化的最近候选位置",
+        "PDF第6页§5—6、图6：道路路线参照，不是逐时刻精确坐标"
+      ]
+    }
+  },
+  {
+    "id": "F03",
+    "title": "A Survey on Map-Matching Algorithms",
+    "authors": [
+      "Pingfu Chao",
+      "Yehong Xu",
+      "Wen Hua",
+      "Xiaofang Zhou"
+    ],
+    "year": 2019,
+    "venue": "arXiv preprint 1910.13065v1 (submitted to ADC 2020)",
+    "doi": "10.48550/arXiv.1910.13065",
+    "landing_url": "https://arxiv.org/abs/1910.13065",
+    "pdf_url": "https://arxiv.org/pdf/1910.13065v1",
+    "status": "downloaded_verified",
+    "path": "/Users/xieyuxin1/Documents/毕设/参考文献/01_HMM基础与综述/Chao_2019_Map_Matching_Survey_arxiv.pdf",
+    "pages": 12,
+    "size_bytes": 1875104,
+    "sha256": "e90cc7630226fd54ab75f8e09731af5f8931bbacae8b7c7ebb48e19634728395",
+    "extracted_chars": 35158,
+    "document_type": "survey_preprint",
+    "priority": "概览与实验参考",
+    "read_depth": "阅读摘要、问题定义、方法分类、状态转移模型、实验和结论；其他分类浏览；未复现",
+    "summary": "按相似度、状态转移、候选演化及评分框架梳理地图匹配，比较代表方法，分析采样、地图密度和轨迹质量带来的挑战。",
+    "relevance": "用于搭建相关工作框架、理解在线与离线区别，并设计采样率、异常点和计算成本实验。",
+    "limitations": "下载为2019 arXiv v1，不能代表2026最新研究；主要讨论户外车辆路网，不能以此断言行人或开放空间研究不存在。",
+    "read_sections": [
+      "§2 Problem Definition",
+      "§3.2 State-Transition Model",
+      "§4 Challenges and Evaluations",
+      "§5 Conclusion"
+    ],
+    "source_kind": "arxiv_author_manuscript",
+    "verified_at": "2026-10-25",
+    "text_path": "/Users/xieyuxin1/Documents/毕设/参考文献/01_HMM基础与综述/Chao_2019_Map_Matching_Survey_arxiv.txt"
+  }
+]

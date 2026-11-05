@@ -1,0 +1,33 @@
+{
+  "method": "map_only",
+  "label": "SYNTHETIC",
+  "mode": "offline_full_sequence",
+  "parameters": {
+    "candidate_radius_m": 30.0,
+    "max_candidates": 48,
+    "max_speed_mps": 8.0,
+    "motion_sigma_mps": 3.0
+  },
+  "cell_size_m": 4.0,
+  "map_build_s": 0.08864441700279713,
+  "inference_s": 0.005123708164319396,
+  "map_statistics": {
+    "partition": "uniform_grid_cell_centres",
+    "cell_size_m": 4.0,
+    "region_count": 2000,
+    "node_count": 2000,
+    "undirected_edge_count": 7732,
+    "unknown_node_count": 0,
+    "connection_queries": 0,
+    "dijkstra_runs": 0,
+    "cached_source_count": 0,
+    "cache_source_limit": 128
+  },
+  "n": 71,
+  "inputs_sha256": {
+    "observations": "761888a8747e9ce2eca7714d716f0d880ef19904e8c48cb63d5059341bb4ae6d",
+    "map": "1701fa0c90d536801aa39fdcc114a3dfb6c7700eff8709788b9b795573f80abd",
+    "config": "8b260a3a6f60bba6b225845c8b30a695571574208047703f3ef3f4ea91731136"
+  },
+  "reference_access": "No reference argument; audit guard denies opens of paths with a reference component"
+}

@@ -1,0 +1,25 @@
+{
+  "method": "map_only",
+  "mode": "independent_observations",
+  "score_is_calibrated_probability": false,
+  "transition_normalized": false,
+  "segments": 0,
+  "transition_pairs": 0,
+  "connection_queries": 0,
+  "speed_rejected_pairs": 0,
+  "unreachable_pairs": 0,
+  "no_candidate_indices": [
+    36,
+    37,
+    38
+  ],
+  "reset_indices": [],
+  "unknown_path_indices": [],
+  "observation_count": 71,
+  "candidate_total": 2927,
+  "candidate_max": 48,
+  "status_counts": {
+    "ok": 68,
+    "no_candidates": 3
+  }
+}

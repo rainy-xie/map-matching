@@ -1,0 +1,5 @@
+# Frozen experiment files and release hashes require byte-preserving checkouts.
+* -text
+
+# Python's CSV writer emits CRLF; preserve it without whitespace warnings.
+*.csv whitespace=trailing-space,space-before-tab,cr-at-eol

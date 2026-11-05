@@ -1,0 +1,131 @@
+{
+  "checked_on": "2026-10-27",
+  "files": [
+    {
+      "path": "/Users/xieyuxin1/Documents/毕设/参考文献/01_HMM基础与综述/Rabiner_1989_HMM_Tutorial.pdf",
+      "bytes": 2322272,
+      "pages": 30,
+      "sha256": "b4be31b1796821fdc2889f5351a259d5b08598be9c18ca990fb5d48245183579",
+      "has_header": true,
+      "has_eof": true,
+      "text_chars": 0
+    },
+    {
+      "path": "/Users/xieyuxin1/Documents/毕设/参考文献/01_HMM基础与综述/Rabiner_HMM_Tutorial_Errata.pdf",
+      "bytes": 96002,
+      "pages": 2,
+      "sha256": "c185e0f0efc7085ab47daf089add7957ff2b296d0c0e6c14c29b6e92ab97dad0",
+      "has_header": true,
+      "has_eof": true,
+      "text_chars": 1782
+    },
+    {
+      "path": "/Users/xieyuxin1/Documents/毕设/参考文献/01_HMM基础与综述/Newson_Krumm_2009_HMM_Map_Matching.pdf",
+      "bytes": 863056,
+      "pages": 8,
+      "sha256": "822e305930251182f8b398aee6a73e04da05a5be0c6ae3b6d335d6858f76fc44",
+      "has_header": true,
+      "has_eof": true,
+      "text_chars": 37637
+    },
+    {
+      "path": "/Users/xieyuxin1/Documents/毕设/参考文献/01_HMM基础与综述/Chao_2019_Map_Matching_Survey_arxiv.pdf",
+      "bytes": 1875104,
+      "pages": 12,
+      "sha256": "e90cc7630226fd54ab75f8e09731af5f8931bbacae8b7c7ebb48e19634728395",
+      "has_header": true,
+      "has_eof": true,
+      "text_chars": 35158
+    },
+    {
+      "path": "/Users/xieyuxin1/Documents/毕设/参考文献/02_开放区域地图匹配/Haunert_Budig_2012_Incomplete_Road_Data.pdf",
+      "bytes": 341680,
+      "pages": 4,
+      "sha256": "fcda9341a2333f6a1b0ff59c57ee93ad932dd45ec6ff655ceda1019454040ea1",
+      "has_header": true,
+      "has_eof": true,
+      "text_chars": 19172
+    },
+    {
+      "path": "/Users/xieyuxin1/Documents/毕设/参考文献/02_开放区域地图匹配/Ma_2024_EHMM_P.pdf",
+      "bytes": 3992145,
+      "pages": 27,
+      "sha256": "70bf97fd6e63b1864d4d2bdc4941845d265cefcdca730845a86bcedf55b18516",
+      "has_header": true,
+      "has_eof": true,
+      "text_chars": 77337
+    },
+    {
+      "path": "/Users/xieyuxin1/Documents/毕设/参考文献/02_开放区域地图匹配/Murphy_2019_On_Off_Road_sIMM.pdf",
+      "bytes": 5575091,
+      "pages": 10,
+      "sha256": "f62b1712f9ad5ef6089427610b900d6cef04e546d518125f76c15be7d7ca742c",
+      "has_header": true,
+      "has_eof": true,
+      "text_chars": 53870
+    },
+    {
+      "path": "/Users/xieyuxin1/Documents/毕设/参考文献/03_区域剖分与空间表示/2021_Behr_Map_Matching_for_Semi_Restricted_Trajectories.pdf",
+      "bytes": 4742375,
+      "pages": 16,
+      "sha256": "a98c5b0c8ceae4360f77d393b987aa7158e2b6a4bba708dca1a0b190aa147e66",
+      "has_header": true,
+      "has_eof": true,
+      "text_chars": 44411
+    },
+    {
+      "path": "/Users/xieyuxin1/Documents/毕设/参考文献/03_区域剖分与空间表示/2006_LaValle_Planning_Algorithms_Chapter6.pdf",
+      "bytes": 557338,
+      "pages": 36,
+      "sha256": "629ba8e701f8e6274830d4a79327f806839d4a19799613f2e0583fbb444f27d2",
+      "has_header": true,
+      "has_eof": true,
+      "text_chars": 151200
+    },
+    {
+      "path": "/Users/xieyuxin1/Documents/毕设/参考文献/03_区域剖分与空间表示/2022_Seo_Kia_Adaptive_Belief_Propagation_HMM.pdf",
+      "bytes": 5959144,
+      "pages": 8,
+      "sha256": "e5b4a48e6fea1b0f6370f2165db58f7bd976f724eb1430b5a829fd1142427534",
+      "has_header": true,
+      "has_eof": true,
+      "text_chars": 42104
+    },
+    {
+      "path": "/Users/xieyuxin1/Documents/毕设/参考文献/04_定向地图与运动建模/2021_Albert_Route_planning_orienteering_LCP.pdf",
+      "bytes": 2027941,
+      "pages": 7,
+      "sha256": "e52f19aeda1ae0300e6e673f61a7fb730a02d01f90cf30fff9cd2bf6685727ec",
+      "has_header": true,
+      "has_eof": true,
+      "text_chars": 32110
+    },
+    {
+      "path": "/Users/xieyuxin1/Documents/毕设/参考文献/04_定向地图与运动建模/2019_Campbell_Slope_and_travel_rates.pdf",
+      "bytes": 4377535,
+      "pages": 15,
+      "sha256": "db45e29f47d20318af0895722e22379abcd3d156817af77580ed1f7bc5c5e125",
+      "has_header": true,
+      "has_eof": true,
+      "text_chars": 65006
+    },
+    {
+      "path": "/Users/xieyuxin1/Documents/毕设/参考文献/04_定向地图与运动建模/2024_IOF_ISOM_2017-2_Revision6.pdf",
+      "bytes": 11738409,
+      "pages": 44,
+      "sha256": "7f26347f0616d156aa33b97db41f5596f19e3b330a71d2e97e73df69cce76947",
+      "has_header": true,
+      "has_eof": true,
+      "text_chars": 88498
+    },
+    {
+      "path": "/Users/xieyuxin1/Documents/毕设/参考文献/05_近期补充与运动约束/2026_Wang_AC_HMM_Azimuth_Constrained_Pedestrian.pdf",
+      "bytes": 9058536,
+      "pages": 18,
+      "sha256": "7f60498bea6de3d7c761252b0ef3baf3049a32a3ba3d162d2da5a89ae23fc31a",
+      "has_header": true,
+      "has_eof": true,
+      "text_chars": 76978
+    }
+  ]
+}

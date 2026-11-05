@@ -1,0 +1,19 @@
+{
+  "method": "raw",
+  "scenario": "wrong_map",
+  "seed": 20261101,
+  "label": "synthetic",
+  "n": 71,
+  "rmse_m": 8.712914583082895,
+  "mean_m": 7.761631528387613,
+  "median_m": 8.050053253336419,
+  "p95_m": 14.294075850183308,
+  "max_m": 18.008175208438317,
+  "status_counts": {
+    "raw": 71
+  },
+  "failure_count": 0,
+  "map_unknown_count": 0,
+  "aggregation": "all timestamps, unweighted; no success-only exclusion",
+  "percentile_method": "numpy linear"
+}

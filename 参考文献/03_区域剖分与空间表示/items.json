@@ -1,0 +1,144 @@
+[
+  {
+    "id": "Behr2021SemiRestricted",
+    "title": "Map Matching for Semi-Restricted Trajectories",
+    "authors": [
+      "Timon Behr",
+      "Thomas C. van Dijk",
+      "Axel Forsch",
+      "Jan-Henrik Haunert",
+      "Sabine Storandt"
+    ],
+    "year": 2021,
+    "venue": "11th International Conference on Geographic Information Science (GIScience 2021) – Part II, LIPIcs 208, 12:1–12:16",
+    "doi": "10.4230/LIPIcs.GIScience.2021.II.12",
+    "arxiv": null,
+    "landing_url": "https://drops.dagstuhl.de/entities/document/10.4230/LIPIcs.GIScience.2021.II.12",
+    "pdf_url": "https://drops.dagstuhl.de/storage/00lipics/lipics-vol208-giscience2021/LIPIcs.GIScience.2021.II.12/LIPIcs.GIScience.2021.II.12.pdf",
+    "document_type": "conference_paper",
+    "priority": "核心精读",
+    "read_depth": "已阅读摘要、方法、实验与结论；核对剖分示意图，尚未复现代码",
+    "summary": "面向道路与开放空间混合运动，将开放多边形三角剖分并接入路网，以候选位置和状态转移的能量模型、Dijkstra推断匹配路径。利用OSM及真实步行、骑行轨迹评价离路片段识别与轨迹表示。",
+    "relevance": "直接相关：可作为道路—面状区域统一表示、剖分后候选生成及基线设计的核心参考。作者代码：https://github.com/tcvdijk/tessa。",
+    "limitations": "使用能量最小化而非概率HMM；实验主要依靠人工标注的离路片段和与输入轨迹的形状距离，不等于高精度坐标真值验证。未直接验证定向越野的植被通行性或运动员特征。",
+    "read_sections": [
+      "Abstract（PDF p.1）",
+      "§2.1–2.2 Methodology（PDF pp.4–7）",
+      "Figure 5（PDF p.8，已视觉核对）",
+      "§3 Experiments（PDF pp.8–13）",
+      "§4 Conclusion and Future Work（PDF pp.13–14）"
+    ],
+    "status": "downloaded_verified",
+    "license": "CC BY 4.0",
+    "source_kind": "publisher_open_access",
+    "path": "/Users/xieyuxin1/Documents/毕设/参考文献/03_区域剖分与空间表示/2021_Behr_Map_Matching_for_Semi_Restricted_Trajectories.pdf",
+    "pages": 16,
+    "sha256": "a98c5b0c8ceae4360f77d393b987aa7158e2b6a4bba708dca1a0b190aa147e66",
+    "bytes": 4742375,
+    "verified_at": "2026-10-25",
+    "validation": "PDF文件头、pypdf解析/页数、SHA-256已核验；各抽查一张方法相关页面可正常渲染",
+    "student_reading": {
+      "status": "focused_reading_completed",
+      "synced_on": "2026-11-04",
+      "basis": "学生反馈已完成ChatGPT辅助的第一轮项目相关重点阅读，并已整理汇总笔记；2026年11月5日补读分享讨论正文；未标记为全篇通读、逐式核验或论文算法复现",
+      "notes_path": "02_阅读笔记.md",
+      "notes_section": "文献阅读笔记 02：面向半受限轨迹的地图匹配",
+      "discussion_url": "https://chatgpt.com/share/6aeb0b34-e7c4-83ec-a829-cb976f5e0096",
+      "discussion_access": "2026年11月4日首次访问曾显示回复无法加载；2026年11月5日经浏览器重新访问，已成功读取讨论正文",
+      "key_pdf_checks": [
+        "PDF第4—5页§2.1、第7页§2.2、第8页图5：剖分边接入图，候选不等于整个三角形",
+        "PDF第10—11页§3.2与图7：Fréchet/DTW相对输入GPS轨迹衡量形状",
+        "PDF第13页图9后正文：未匹配路径空洞为未匹配连接边构成的连续子路径"
+      ],
+      "discussion_access_checked_on": "2026-11-05",
+      "discussion_read_scope": "研究问题、候选与扩展图、能量与Dijkstra、实验形状指标与未匹配空洞、最终笔记和课题迁移讨论",
+      "discussion_access_history": [
+        {
+          "checked_on": "2026-11-04",
+          "result": "reply_load_failed",
+          "note": "当时浏览器中的助手回复显示无法加载，不表示分享永久不可访问"
+        },
+        {
+          "checked_on": "2026-11-05",
+          "result": "body_loaded",
+          "method": "浏览器渲染后的页面正文",
+          "scope": "研究问题、候选与扩展图、能量与Dijkstra、实验形状指标与未匹配空洞、最终笔记和课题迁移讨论",
+          "limit": "读取讨论正文；未逐个操作或验证交互组件，论文事实仍以原PDF定点核对为依据"
+        }
+      ]
+    }
+  },
+  {
+    "id": "LaValle2006Ch6",
+    "title": "Planning Algorithms — Chapter 6: Combinatorial Motion Planning",
+    "authors": [
+      "Steven M. LaValle"
+    ],
+    "year": 2006,
+    "venue": "Planning Algorithms, Cambridge University Press（作者公开章节）",
+    "doi": null,
+    "arxiv": null,
+    "landing_url": "https://lavalle.pl/planning/",
+    "pdf_url": "https://lavalle.pl/planning/ch6.pdf",
+    "document_type": "textbook_chapter",
+    "priority": "按需查阅",
+    "read_depth": "选读§6.1、§6.2.1–6.2.2及§6.3.2；核对二维剖分与邻接图示意，未通读全章",
+    "summary": "介绍精确单元分解、垂直/梯形剖分与三角剖分，说明如何把连续自由空间转成保持连通性的邻接图。适合学习区域、边界、孔洞与图的关系，以及二维剖分必须满足的基本条件。",
+    "relevance": "基础方法借鉴：用于定义剖分和拓扑连通性、理解单元内可达性；不是GPS地图匹配论文，也不是课题创新证据。",
+    "limitations": "主要解决运动规划与几何连通性；没有GPS噪声、HMM观测模型或定向地图语义。教材的规划最优性、完备性不能直接等同于定位准确性。",
+    "read_sections": [
+      "§6.1 Introduction（书页249–251；PDF pp.2–3）",
+      "§6.2.1 Representation（书页252–253；PDF pp.3–4）",
+      "§6.2.2 Vertical Cell Decomposition（书页253–260；PDF pp.4–7）",
+      "Figures 6.3–6.5（书页255–256；PDF p.5，已视觉核对）",
+      "§6.3.2 2D Decompositions（书页268–270；PDF pp.11–12）"
+    ],
+    "status": "downloaded_verified",
+    "license": "作者网站公开提供下载；保留版权",
+    "source_kind": "author_website",
+    "notes": "只下载第6章，非全书；PDF为双页排版，物理PDF页数与书内页码不同。未核验图书DOI，故留空。",
+    "path": "/Users/xieyuxin1/Documents/毕设/参考文献/03_区域剖分与空间表示/2006_LaValle_Planning_Algorithms_Chapter6.pdf",
+    "pages": 36,
+    "sha256": "629ba8e701f8e6274830d4a79327f806839d4a19799613f2e0583fbb444f27d2",
+    "bytes": 557338,
+    "verified_at": "2026-10-25",
+    "validation": "PDF文件头、pypdf解析/页数、SHA-256已核验；各抽查一张方法相关页面可正常渲染"
+  },
+  {
+    "id": "SeoKia2022AdaptiveHMM",
+    "title": "Online Target Localization using Adaptive Belief Propagation in the HMM Framework",
+    "authors": [
+      "Min-Won Seo",
+      "Solmaz S. Kia"
+    ],
+    "year": 2022,
+    "venue": "IEEE Robotics and Automation Letters 7(4):10288–10295（下载arXiv v5作者稿）",
+    "doi": "10.1109/LRA.2022.3193243",
+    "arxiv": "2203.03815v5",
+    "landing_url": "https://arxiv.org/abs/2203.03815",
+    "pdf_url": "https://arxiv.org/pdf/2203.03815v5",
+    "document_type": "journal_author_manuscript",
+    "priority": "方法借鉴",
+    "read_depth": "已阅读摘要、问题定义、方法、实验与结论；核对自适应细分图，尚未复现",
+    "summary": "把二维位置离散为HMM状态，按四叉树启发的由粗到细策略缩小Viterbi搜索空间，以减少计算与存储。室内UWB实验检验定位与开销，适合借鉴空间分辨率和推断成本之间的取舍。",
+    "relevance": "方法借鉴：连接自适应空间离散、HMM和定位，可用于思考“哪里细分、状态数如何影响计算”。并非直接的户外GPS地图匹配。",
+    "limitations": "测量来自室内UWB锚点；细化主要由概率支持区域驱动，不等于定向地图语义剖分。第一组用动作捕捉参照，第二组用规定几何路线；不能移用其误差数值证明户外效果，粗层误判的影响也应另行检验。",
+    "read_sections": [
+      "Abstract/§I Introduction（PDF pp.1–2）",
+      "§II Problem Definition（PDF p.2）",
+      "§III A–D（PDF pp.2–5）",
+      "Figure 4（PDF p.4，已视觉核对）",
+      "§IV Experimental Demonstrations（PDF pp.5–7）",
+      "§V Conclusions（PDF p.7）"
+    ],
+    "status": "downloaded_verified",
+    "license": "arXiv作者公开稿；许可详情见arXiv页面",
+    "source_kind": "arxiv_author_manuscript",
+    "path": "/Users/xieyuxin1/Documents/毕设/参考文献/03_区域剖分与空间表示/2022_Seo_Kia_Adaptive_Belief_Propagation_HMM.pdf",
+    "pages": 8,
+    "sha256": "e5b4a48e6fea1b0f6370f2165db58f7bd976f724eb1430b5a829fd1142427534",
+    "bytes": 5959144,
+    "verified_at": "2026-10-25",
+    "validation": "PDF文件头、pypdf解析/页数、SHA-256已核验；各抽查一张方法相关页面可正常渲染"
+  }
+]

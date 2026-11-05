@@ -1,0 +1,35 @@
+{
+  "prototype_version": "0.1.0",
+  "started_at": "2026-11-02T14:02:16.845086+08:00",
+  "python": "3.12.14 (main, Aug 25 2026, 13:50:33) [Clang 22.1.3 ]",
+  "executable": "/Users/xieyuxin1/Documents/毕设/数据核查/2026-11-01/.venv/bin/python",
+  "platform": "macOS-26.6.2-arm64-arm-64bit",
+  "machine": "arm64",
+  "packages": {
+    "numpy": "2.3.5",
+    "shapely": "2.1.2",
+    "pyproj": "3.7.2",
+    "pyogrio": "0.11.1",
+    "matplotlib": "3.10.7"
+  },
+  "source_sha256": {
+    "configs/default.json": "8b260a3a6f60bba6b225845c8b30a695571574208047703f3ef3f4ea91731136",
+    "gpsmap/__init__.py": "9305f2ff9f68fc95b90d95ec768f416eb4619d6d89ec4b3beb5df008773ae7c8",
+    "gpsmap/__main__.py": "6d8b7d7846a845059d7a3107143f11131f63c5511d669b44085b15ec5e3d2279",
+    "gpsmap/cli.py": "aa522c3932f25a7f58f94865b1a70685ab128cfc79cf344042e3057e9b74555f",
+    "gpsmap/contracts.py": "b1f2078eb3da28a659505da8fcecfe40383c785c58588af2fd2243ea09cc434d",
+    "gpsmap/evaluation.py": "146811a261ab2a368647fa606cfe9e9e2cc94f4ba4691bc9f50b45f09107b9e0",
+    "gpsmap/inference.py": "8cbbfe4590031531a45179e70d09b8d99b07faa7605c6139b24a773d762575b4",
+    "gpsmap/io.py": "981e02da2e661055b546ed57963113c2ba932b5fb92a09de163d7a31520b9201",
+    "gpsmap/prepare_map.py": "7622e3d93a78a3616fab869564f0355010f754c79deaa8d9603ab3a80a234574",
+    "gpsmap/report.py": "9697de89ace2329fbf1bf799733cc27aa766c365e88a4cea86b91ea54a6b5a3d",
+    "gpsmap/spatial.py": "23f90e88f89dd01622a36524eb9bc9f42762711f2f417c25eccaa44c47690346",
+    "requirements.txt": "5528a17c0b591ba05d3950cc93d1e07d710714ea0e6d63f2e321d46704cde8fd",
+    "tests/test_evaluation.py": "5f5001b2efd8a3d11abbdffd4d562a5b45a34db5ddab31ca6a447e28a79397ba",
+    "tests/test_inference.py": "ae453a7104da744fc5eac9b473dd653ccb72406f033a63a66ca6ddb57e4efa30",
+    "tests/test_integration.py": "5ecf142e4e84ead4bd2e3d61e90dc5a835281b1ae3df191fb932db45ef6dd330",
+    "tests/test_report.py": "159cb644f20a76c49e2ab27b9d93b6b83366b2f2a50e166964515914b3386a31",
+    "tests/test_spatial.py": "5e85448de0f07f7e89cadbb0b891c77032af953c1bcdcf680921611434de70b3"
+  },
+  "timing_policy": "perf_counter wall seconds; one cold subprocess per method and dataset; no runtime confidence interval"
+}

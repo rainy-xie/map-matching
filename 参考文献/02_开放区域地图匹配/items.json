@@ -1,0 +1,189 @@
+[
+  {
+    "id": "HaunertBudig2012",
+    "title": "An Algorithm for Map Matching Given Incomplete Road Data",
+    "authors": [
+      "Jan-Henrik Haunert",
+      "Benedikt Budig"
+    ],
+    "year": 2012,
+    "venue": "Proceedings of the 20th International Conference on Advances in Geographic Information Systems (SIGSPATIAL 2012)",
+    "doi": "10.1145/2424321.2424402",
+    "arxiv": null,
+    "publication_pages": "510–513",
+    "landing_url": "https://doi.org/10.1145/2424321.2424402",
+    "pdf_url": "https://www1.pub.informatik.uni-wuerzburg.de/pub/haunert/pdf/HaunertBudig2012.pdf",
+    "version": "作者公开预印本，首页注明发表于 ACM GIS 2012；正式出版题录经 Crossref 注册记录核对。",
+    "read_depth": "全文通读（4页，含方法、实验、结论）；关键方法与实验页已渲染检查；未复现实验。",
+    "read_sections": [
+      "Abstract",
+      "1 Motivation",
+      "2 Related Work",
+      "3 Our Algorithm（每个GPS点增加离路候选；三类连接；式5–9）",
+      "4 Experimental Results（4次徒步、7799点、65 km）",
+      "5 Conclusion and Future Work"
+    ],
+    "summary": "扩展道路HMM，为每个GPS点增加位于原观测处的离路候选，用道路内最短路和带代价的道路外连接统一匹配。作者在4次徒步、7799个GPS点上检验不完整路网处理，并报告离路区段识别结果。",
+    "relevance": "说明HMM处理行人离路或缺失道路早已有研究；可作简单离路候选基线，并启发道路/区域转换代价设计。其引用的加权区域最短路也连接了地图匹配与区域通行代价。",
+    "limitations": [
+      "离路候选直接取原GPS点，不能据此声称已纠正离路坐标误差。",
+      "离路-离路使用直线，离路单位代价为常量；未建模定向地图中的植被、障碍和分区语义。",
+      "假设相邻观测间最多切换一次道路内外；总体仍偏好已知路网。",
+      "离线算法；仅4次徒步案例和运行时间，缺乏系统的逐点坐标误差基准；不应将23个识别区段全正确等同于普遍100%准确率。"
+    ],
+    "metadata_sources": [
+      "https://api.crossref.org/works/10.1145/2424321.2424402",
+      "https://www1.pub.informatik.uni-wuerzburg.de/pub/haunert/pdf/HaunertBudig2012.pdf"
+    ],
+    "status": "downloaded_verified",
+    "path": "/Users/xieyuxin1/Documents/毕设/参考文献/02_开放区域地图匹配/Haunert_Budig_2012_Incomplete_Road_Data.pdf",
+    "pages": 4,
+    "sha256": "fcda9341a2333f6a1b0ff59c57ee93ad932dd45ec6ff655ceda1019454040ea1",
+    "bytes": 341680,
+    "verification": {
+      "pdf_header": true,
+      "eof_marker": true,
+      "all_pages_text_extracted": true
+    },
+    "checked_date": "2026-10-25"
+  },
+  {
+    "id": "MaWangLee2024",
+    "title": "An Enhanced Hidden Markov Model for Map-Matching in Pedestrian Navigation",
+    "authors": [
+      "Shengjie Ma",
+      "Pei Wang",
+      "Hyukjoon Lee"
+    ],
+    "year": 2024,
+    "venue": "Electronics, 13(9), article 1685",
+    "doi": "10.3390/electronics13091685",
+    "arxiv": null,
+    "landing_url": "https://www.mdpi.com/2079-9292/13/9/1685",
+    "pdf_url": "https://www.mdpi.com/2079-9292/13/9/1685/pdf",
+    "version": "出版版本，2024-04-26；PDF 27页；PDF链接由出版商Crossref记录确认。已下载PDF可读，但本轮重访部分MDPI端点返回429/403。",
+    "read_depth": "全文结构浏览，精读摘要、4.2方法、5实验、6结论；视觉核对第10页开放区状态及发射模型；未逐式推导或复现。",
+    "read_sections": [
+      "Abstract",
+      "4.1 Problem Definition",
+      "4.2.1 Initial States（短时校准与到达点）",
+      "4.2.2 Emission and Transition（附加open-field状态；道路总长度因子；距离/方向/位置差）",
+      "4.2.3 Algorithm（浏览）",
+      "4.2.4 Y-net开放区域轨迹预测",
+      "5.1 Data Collection and Data Preprocessing",
+      "5.2 Results and Discussion",
+      "6 Conclusions及Data Availability"
+    ],
+    "summary": "EHMM-P通过短时校准改善初始匹配，加入开放区域隐状态，并以道路总长度及运动距离、方向、位置差调整概率。先识别开放区观测，再接入预训练Y-net生成轨迹；在校园手机GPS上与常规HMM及Behr方法比较。",
+    "relevance": "与课题最接近的重点论文。帮助区分“识别人在开放区”和“纠正开放区坐标”，可借鉴初始分布、状态转换、道路/开放区分开评价。证明开放区域HMM与运动特征结合并非空白。",
+    "limitations": [
+      "核心EHMM-P只增加一个特殊open-field状态，开放区候选坐标取GPS观测本身；区域内轨迹恢复另靠Y-net，并非语义自适应剖分。",
+      "Y-net阶段用开放区前几个观测及退出前的目的地观测，不能把完整流程直接作为无延迟实时方法。",
+      "校园行走条件，未验证林地、坡地和定向越野跑动；搜索半径不随环境自适应，高斯假设和启发式参数有适用边界。",
+      "数据因隐私不公开，仅可向通讯作者申请；真值通过地标距离/角度人工测录，正文未完整交代独立测量设备精度与误差预算。",
+      "表3的4.63 m是作者报告的平均定位误差减少量，不是绝对误差；开放区轨迹效果包含Y-net贡献，不能全部归因于HMM。"
+    ],
+    "experiment_notes": "Dataset I：10个路口、每路口5条路径各重复5次，共7700点。Dataset II：5条预设路线双向形成10条轨迹；表2总计4830点，其中2141为开放区。1 Hz采样。指标包括道路匹配率、开放区识别、路线不匹配比例、离散Frechet距离。",
+    "metadata_sources": [
+      "https://www.mdpi.com/2079-9292/13/9/1685",
+      "https://api.crossref.org/works/10.3390/electronics13091685"
+    ],
+    "status": "downloaded_verified",
+    "path": "/Users/xieyuxin1/Documents/毕设/参考文献/02_开放区域地图匹配/Ma_2024_EHMM_P.pdf",
+    "pages": 27,
+    "sha256": "70bf97fd6e63b1864d4d2bdc4941845d265cefcdca730845a86bcedf55b18516",
+    "bytes": 3992145,
+    "verification": {
+      "pdf_header": true,
+      "eof_marker": true,
+      "all_pages_text_extracted": true
+    },
+    "checked_date": "2026-10-25",
+    "student_reading": {
+      "status": "focused_reading_completed",
+      "synced_on": "2026-11-04",
+      "basis": "学生反馈已完成ChatGPT辅助的第一轮项目相关重点阅读，并已整理汇总笔记；2026年11月5日补读分享讨论正文；未标记为全篇通读、逐式核验或论文算法复现",
+      "notes_path": "02_阅读笔记.md",
+      "notes_section": "文献阅读笔记 03：EHMM-P 行人地图匹配算法",
+      "discussion_url": "https://chatgpt.com/share/6aeb0b44-74ec-83ec-b5bd-039515ddce5a",
+      "discussion_access": "2026年11月4日首次访问曾显示回复无法加载；2026年11月5日经浏览器重新访问，已成功读取讨论正文",
+      "key_pdf_checks": [
+        "PDF第10页§4.2.2式(12)：开放区候选坐标直接取GPS观测",
+        "PDF第16页§4.2.4：Y-net目的地条件含后续观测，完整流程不等于无延迟在线定位",
+        "PDF第17页§5.1、第22页表3：人工地标参照；4.63 m是平均误差减少量，非绝对误差或RMSE"
+      ],
+      "discussion_access_checked_on": "2026-11-05",
+      "discussion_read_scope": "初始校准、开放区状态、观测与转移、Viterbi与Y-net输出、实验结果、最终笔记和研究问题讨论",
+      "discussion_access_history": [
+        {
+          "checked_on": "2026-11-04",
+          "result": "reply_load_failed",
+          "note": "当时浏览器中的助手回复显示无法加载，不表示分享永久不可访问"
+        },
+        {
+          "checked_on": "2026-11-05",
+          "result": "body_loaded",
+          "method": "浏览器渲染后的页面正文",
+          "scope": "初始校准、开放区状态、观测与转移、Viterbi与Y-net输出、实验结果、最终笔记和研究问题讨论",
+          "limit": "读取讨论正文；未逐个操作或验证交互组件，论文事实仍以原PDF定点核对为依据"
+        }
+      ]
+    }
+  },
+  {
+    "id": "MurphyPaoYuen2019",
+    "title": "Map matching when the map is wrong: Efficient on/off road vehicle tracking and map learning",
+    "authors": [
+      "James Murphy",
+      "Yuanyuan Pao",
+      "Albert Yuen"
+    ],
+    "year": 2019,
+    "venue": "Proceedings of the 12th ACM SIGSPATIAL International Workshop on Computational Transportation Science (IWCTS 2019)",
+    "doi": "10.1145/3357000.3366143",
+    "arxiv": "1809.09755v2",
+    "arxiv_doi": "10.48550/arXiv.1809.09755",
+    "publication_pages": "1–10",
+    "landing_url": "https://arxiv.org/abs/1809.09755",
+    "publisher_landing_url": "https://doi.org/10.1145/3357000.3366143",
+    "pdf_url": "https://arxiv.org/pdf/1809.09755v2",
+    "version": "arXiv v2，2019-09-05，10页；初版提交2018-09-25，会议发表2019-11-05。arXiv摘要页沿用旧标题“Efficient vehicle tracking on- and off-road for map learning”，本条采用v2 PDF首页标题。",
+    "read_depth": "精读摘要、3.1模型框架、3.2.1算法、3.3目标说明及4实验、5结论；浏览概率推导，未逐式推导或复现；第8页图文渲染核对。",
+    "read_sections": [
+      "Abstract",
+      "2 Existing Work（双模型与semi-interaction）",
+      "3.1 Outline of Approach",
+      "3.2.1 Forward sIMM Algorithm",
+      "3.3 MAP State Sequence Estimation（目标与反向采样框架）",
+      "4.1 Vehicle Localization",
+      "4.2 Map Learning",
+      "4.3 Performance",
+      "5 Conclusions"
+    ],
+    "summary": "用sIMM结合道路HMM和独立运行的自由空间Kalman类滤波器，按观测切换道路内外模型，并用反向过程恢复轨迹。车辆GPS与不完整路网案例展示减少错误吸路，也可依据重复离路轨迹发现地图遗漏。",
+    "relevance": "提供道路/自由空间混合模型参考，提醒地图约束可能出错、需要保留离路解释；适合做扩展阅读而非第一版复现目标。",
+    "limitations": [
+      "对象是主要沿道路行驶的车辆，离路模型是回退机制，不能直接推广为越野运动员模型。",
+      "自由空间滤波器不利用区域语义、地形或障碍；并非区域剖分方法。",
+      "展示以地图缺失案例和Lyft轨迹地图学习为主，没有系统的公开逐点真值精度基准。",
+      "报告运行时间约常规HMM的2–4倍；完整反向轨迹重建依赖后续观测，应与可在线运行的前向滤波区分。"
+    ],
+    "metadata_sources": [
+      "https://arxiv.org/abs/1809.09755",
+      "https://arxiv.org/pdf/1809.09755v2",
+      "https://api.crossref.org/works/10.1145/3357000.3366143"
+    ],
+    "download_repair": "原文件截断、缺EOF，已从arXiv v2重新下载后替换；重新解析全部10页并检查EOF及关键页渲染。",
+    "status": "downloaded_repaired_verified",
+    "path": "/Users/xieyuxin1/Documents/毕设/参考文献/02_开放区域地图匹配/Murphy_2019_On_Off_Road_sIMM.pdf",
+    "pages": 10,
+    "sha256": "f62b1712f9ad5ef6089427610b900d6cef04e546d518125f76c15be7d7ca742c",
+    "bytes": 5575091,
+    "verification": {
+      "pdf_header": true,
+      "eof_marker": true,
+      "all_pages_text_extracted": true
+    },
+    "checked_date": "2026-10-25"
+  }
+]

@@ -1,0 +1,38 @@
+test_all_fixture_maps_construct_with_shared_map_interface (test_evaluation.EvaluationTests.test_all_fixture_maps_construct_with_shared_map_interface) ... ok
+test_baseline_and_plot (test_evaluation.EvaluationTests.test_baseline_and_plot) ... ok
+test_known_errors_include_failed_rows (test_evaluation.EvaluationTests.test_known_errors_include_failed_rows) ... ok
+test_real_background_stays_unknown_and_synthetic (test_evaluation.EvaluationTests.test_real_background_stays_unknown_and_synthetic) ... ok
+test_reference_geometry_and_explicit_wrong_map (test_evaluation.EvaluationTests.test_reference_geometry_and_explicit_wrong_map) ... ok
+test_reproducibility_and_reference_independence (test_evaluation.EvaluationTests.test_reproducibility_and_reference_independence) ... ok
+test_timestamp_and_nonfinite_validation (test_evaluation.EvaluationTests.test_timestamp_and_nonfinite_validation) ... ok
+test_actual_time_difference_controls_speed_gate (test_inference.InferenceTests.test_actual_time_difference_controls_speed_gate) ... ok
+test_disconnected_restart_preserves_completed_segment (test_inference.InferenceTests.test_disconnected_restart_preserves_completed_segment) ... ok
+test_empty_sequence_and_single_unknown_candidate (test_inference.InferenceTests.test_empty_sequence_and_single_unknown_candidate) ... ok
+test_future_observations_can_change_first_estimate (test_inference.InferenceTests.test_future_observations_can_change_first_estimate) ... ok
+test_gaussian_density_in_two_dimensions (test_inference.InferenceTests.test_gaussian_density_in_two_dimensions) ... ok
+test_invalid_map_distance_rejected (test_inference.InferenceTests.test_invalid_map_distance_rejected) ... ok
+test_invalid_numeric_and_time_inputs_rejected (test_inference.InferenceTests.test_invalid_numeric_and_time_inputs_rejected) ... ok
+test_map_only_has_no_movement_queries (test_inference.InferenceTests.test_map_only_has_no_movement_queries) ... ok
+test_no_candidates_retains_raw_coordinate_and_breaks_chain (test_inference.InferenceTests.test_no_candidates_retains_raw_coordinate_and_breaks_chain) ... ok
+test_speed_boundary_and_unknown_restart_priority (test_inference.InferenceTests.test_speed_boundary_and_unknown_restart_priority) ... ok
+test_ties_are_deterministic (test_inference.InferenceTests.test_ties_are_deterministic) ... ok
+test_unknown_path_is_not_reported_as_confirmed (test_inference.InferenceTests.test_unknown_path_is_not_reported_as_confirmed) ... ok
+test_viterbi_matches_independent_exhaustive_enumeration (test_inference.InferenceTests.test_viterbi_matches_independent_exhaustive_enumeration) ... ok
+test_inference_ignores_changed_and_absent_reference (test_integration.IntegrationTests.test_inference_ignores_changed_and_absent_reference) ... ok
+test_observations_reject_reference_columns_and_invalid_time (test_integration.IntegrationTests.test_observations_reject_reference_columns_and_invalid_time) ... ok
+test_reference_path_is_denied_and_output_not_overwritten (test_integration.IntegrationTests.test_reference_path_is_denied_and_output_not_overwritten) ... ok
+test_full_input_scope_does_not_claim_unseen_scenarios (test_report.ReportTests.test_full_input_scope_does_not_claim_unseen_scenarios) ... ok
+test_partial_report_does_not_claim_complete_suite (test_report.ReportTests.test_partial_report_does_not_claim_complete_suite) ... ok
+test_diagonal_cannot_cut_blocked_corner (test_spatial.SpatialTests.test_diagonal_cannot_cut_blocked_corner) ... ok
+test_multicell_distance_and_cache (test_spatial.SpatialTests.test_multicell_distance_and_cache) ... ok
+test_obstacle_detour_and_disconnection (test_spatial.SpatialTests.test_obstacle_detour_and_disconnection) ... ok
+test_partial_boundary_cells_and_provenance_export (test_spatial.SpatialTests.test_partial_boundary_cells_and_provenance_export) ... ok
+test_radius_order_boundary_and_foreign_candidate (test_spatial.SpatialTests.test_radius_order_boundary_and_foreign_candidate) ... ok
+test_subgrid_gap_can_be_lost (test_spatial.SpatialTests.test_subgrid_gap_can_be_lost) ... ok
+test_unknown_edge_without_unknown_endpoint (test_spatial.SpatialTests.test_unknown_edge_without_unknown_endpoint) ... ok
+test_unknown_in_middle_is_retained (test_spatial.SpatialTests.test_unknown_in_middle_is_retained) ... ok
+
+----------------------------------------------------------------------
+Ran 33 tests in 2.230s
+
+OK

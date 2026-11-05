@@ -1,0 +1,52 @@
+{
+  "name": "wrong_map",
+  "bounds": [
+    0.0,
+    0.0,
+    200.0,
+    160.0
+  ],
+  "crs": "LOCAL_SYNTHETIC_METRES",
+  "source": "synthetic_design_v0.1; explicit experimental assumption",
+  "background": {
+    "passability": "allowed",
+    "source": "synthetic_design_v0.1; explicit experimental assumption"
+  },
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "kind": "deliberately_false_obstacle",
+        "passability": "blocked",
+        "source": "synthetic_design_v0.1; explicit experimental assumption"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              70,
+              50
+            ],
+            [
+              130,
+              50
+            ],
+            [
+              130,
+              110
+            ],
+            [
+              70,
+              110
+            ],
+            [
+              70,
+              50
+            ]
+          ]
+        ]
+      }
+    }
+  ]
+}

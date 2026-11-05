@@ -1,0 +1,19 @@
+{
+  "method": "hmm",
+  "scenario": "obstacle_detour",
+  "seed": 20261103,
+  "label": "synthetic",
+  "n": 71,
+  "rmse_m": 4.5197532027849165,
+  "mean_m": 3.900491732632885,
+  "median_m": 3.5723381698825776,
+  "p95_m": 7.794617575754826,
+  "max_m": 11.661903789690601,
+  "status_counts": {
+    "ok": 71
+  },
+  "failure_count": 0,
+  "map_unknown_count": 0,
+  "aggregation": "all timestamps, unweighted; no success-only exclusion",
+  "percentile_method": "numpy linear"
+}

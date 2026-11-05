@@ -1,0 +1,752 @@
+[
+  {
+    "path": "数据/Query4.DAT",
+    "bytes": 37738,
+    "sha256": "b7e2ca06fb52bbc6658f9d6c93a232cb6a2bf719bc1dc6a07adde173f78f6225"
+  },
+  {
+    "path": "数据/Query4.ID",
+    "bytes": 2464,
+    "sha256": "0e44f890d130cd2e42b7f7706a78a876bc8e3fcf8a580c39803102ba1edda893"
+  },
+  {
+    "path": "数据/Query4.IND",
+    "bytes": 17920,
+    "sha256": "49a55d7ecc40b74a57c101666f58bd6f43218fb96f22f7d2a3ac3a39d6b1e4b9"
+  },
+  {
+    "path": "数据/Query4.MAP",
+    "bytes": 29184,
+    "sha256": "04f84116b3a756f5e4202f1f6c99eb5d407cac0f201f3a4f69b9266a5471d7ed"
+  },
+  {
+    "path": "数据/Query4.TAB",
+    "bytes": 231,
+    "sha256": "61051f393494768f4852930097d982d5bfe88a41eefdd0d5a8dfe289b7f578c8"
+  },
+  {
+    "path": "数据/丰台数据/丰台数据/丰台政区.DAT",
+    "bytes": 321,
+    "sha256": "7e9cd700fc5f2d7be4dc6e733d9ef303d6d7367d45257f0cc9c066c1379d4903"
+  },
+  {
+    "path": "数据/丰台数据/丰台数据/丰台政区.ID",
+    "bytes": 4,
+    "sha256": "79b8326811c8aed22ebded58c3707f8c4a8bb778d565a89777a2739f2573644d"
+  },
+  {
+    "path": "数据/丰台数据/丰台数据/丰台政区.MAP",
+    "bytes": 17408,
+    "sha256": "3165ae78caf3a5284b1f71be07ccc6c69a24cc78a4d7729ebbe748ff60ab2aae"
+  },
+  {
+    "path": "数据/丰台数据/丰台数据/丰台政区.TAB",
+    "bytes": 253,
+    "sha256": "40df4f6ae22086791418b5db08b5489aa364bdacfa1410de172c34645859e249"
+  },
+  {
+    "path": "数据/丰台数据/丰台数据/服务点.DAT",
+    "bytes": 26514546,
+    "sha256": "c180d78f53ac25ce604b08392ddd58631ae09594804e863c50423fd87d52a64c"
+  },
+  {
+    "path": "数据/丰台数据/丰台数据/服务点.ID",
+    "bytes": 108000,
+    "sha256": "5a9643528de6965c4aef4e1a4d9cad889207425cb0affc0caecfd02d4a3768d7"
+  },
+  {
+    "path": "数据/丰台数据/丰台数据/服务点.MAP",
+    "bytes": 1132544,
+    "sha256": "4851ef37914cf20fa6ee65a9f49938c7e031f3a940c6770ba0462d41a9388c23"
+  },
+  {
+    "path": "数据/丰台数据/丰台数据/服务点.TAB",
+    "bytes": 518,
+    "sha256": "24f8956c71259e69daea7b23f458c8befe627104e890f555a6412a0185245a08"
+  },
+  {
+    "path": "数据/丰台数据/丰台数据/植被.DAT",
+    "bytes": 44692,
+    "sha256": "5a2b2de545cfdfd4dc9cee396828d822ab4fb4e5add2732735575b854674c953"
+  },
+  {
+    "path": "数据/丰台数据/丰台数据/植被.ID",
+    "bytes": 2920,
+    "sha256": "b73b1e0e3a134a8fb80686249e1052fc49c5007bcbbf283e1a626c82e259cede"
+  },
+  {
+    "path": "数据/丰台数据/丰台数据/植被.IND",
+    "bytes": 25088,
+    "sha256": "092d957daa04ef60288d03877c9c1d1771194a53875c8955ab8d195bc2c177c1"
+  },
+  {
+    "path": "数据/丰台数据/丰台数据/植被.MAP",
+    "bytes": 251392,
+    "sha256": "3670f2b5a8a1ac26486e9f36c6752c19b183ebfd0131771da448edc08ff83dd7"
+  },
+  {
+    "path": "数据/丰台数据/丰台数据/植被.TAB",
+    "bytes": 234,
+    "sha256": "89c415a2232ae63735f4b1a4b934cff4e4f95adfdd202d3de3965671b850f4ac"
+  },
+  {
+    "path": "数据/丰台数据/丰台数据/水系.DAT",
+    "bytes": 8618,
+    "sha256": "1a8c88afbe919a8b521a40931f69aa1ce6e653face214ac05f2650865efaa6c4"
+  },
+  {
+    "path": "数据/丰台数据/丰台数据/水系.ID",
+    "bytes": 416,
+    "sha256": "1f4115232adc60ba7eb6f2edc1cf6f9db661b8272106887dc16b25b7f499d080"
+  },
+  {
+    "path": "数据/丰台数据/丰台数据/水系.IND",
+    "bytes": 4096,
+    "sha256": "3f2f811dc0418d22a5339654562d41deb5f3a5409e96e43db6fe66366b16a8a7"
+  },
+  {
+    "path": "数据/丰台数据/丰台数据/水系.MAP",
+    "bytes": 85504,
+    "sha256": "2a329f86baaa6841de566cc2bf1b5c529d3d0d13eb8bffd00e3755264d722df3"
+  },
+  {
+    "path": "数据/丰台数据/丰台数据/水系.TAB",
+    "bytes": 260,
+    "sha256": "849b6758fcb1ace1616898c5cc443af86ddae088b156c503c1de32df6129acaf"
+  },
+  {
+    "path": "数据/丰台数据/丰台数据/道路.DAT",
+    "bytes": 49471950,
+    "sha256": "209aa054a8092de18ee2565a84a7e59b7e183307bf199549a1dfe54cf1738678"
+  },
+  {
+    "path": "数据/丰台数据/丰台数据/道路.ID",
+    "bytes": 104588,
+    "sha256": "d315189a61a5042c717047acd40897c4b794389601b0c513b8f4f2d56304f525"
+  },
+  {
+    "path": "数据/丰台数据/丰台数据/道路.IND",
+    "bytes": 889344,
+    "sha256": "0c5e517c937b44cc75eee414ebdd516408188ddb37864df5d61b81a8c0e95c1f"
+  },
+  {
+    "path": "数据/丰台数据/丰台数据/道路.MAP",
+    "bytes": 3292672,
+    "sha256": "bdcfbc18e7662845bef902e40624c3f6515157ee788d7e8b8e9a2f47d8ccbf4d"
+  },
+  {
+    "path": "数据/丰台数据/丰台数据/道路.TAB",
+    "bytes": 1893,
+    "sha256": "7f63917ae7f223a21b7f9553edc569472f04103cf918677d75b19351bfbca451"
+  },
+  {
+    "path": "数据/丰台数据/丰台数据/铁路.DAT",
+    "bytes": 3700,
+    "sha256": "7a7cd8dc6914f6f5428082314bf48f64ddc0304942c9e520b8fc8c88faa168b7"
+  },
+  {
+    "path": "数据/丰台数据/丰台数据/铁路.ID",
+    "bytes": 232,
+    "sha256": "0c9f63dcf22882ec5ba1b08ee3384d247a1d972ccde224f5e250b35c79bed340"
+  },
+  {
+    "path": "数据/丰台数据/丰台数据/铁路.MAP",
+    "bytes": 26112,
+    "sha256": "69ee242fd1c51b5f2efc4ff493a61e1e4891c634227c13b8f20a239a4ba5b311"
+  },
+  {
+    "path": "数据/丰台数据/丰台数据/铁路.TAB",
+    "bytes": 218,
+    "sha256": "5077d0315bb8d775eaa8f409a27fd40ed5bc3a58b15f3ad85d723bc022a73abb"
+  },
+  {
+    "path": "数据/办公用水.DAT",
+    "bytes": 5472,
+    "sha256": "8421c29f3d2df45f745a70f345095d68910a447f584fa0c2ee5b0b94541cd8dd"
+  },
+  {
+    "path": "数据/办公用水.ID",
+    "bytes": 360,
+    "sha256": "ac5dad9cdea87d8c277d353d781e18a3097f9dc358085d0f4213d4832318d14f"
+  },
+  {
+    "path": "数据/办公用水.IND",
+    "bytes": 15872,
+    "sha256": "b350999ec140da491d96bd46d71598f7c6f260e8a03732321e8efb0d8af1aea4"
+  },
+  {
+    "path": "数据/办公用水.MAP",
+    "bytes": 16384,
+    "sha256": "97e6f0fa771d5c992312727c21c4c4ed81b13f549e39a91bb5b3bab39d8b76d3"
+  },
+  {
+    "path": "数据/办公用水.TAB",
+    "bytes": 249,
+    "sha256": "fe5a3d66b0d804aa9184f89d35dc7405332c0246ac2b7c32d20271eeda8303a2"
+  },
+  {
+    "path": "数据/基础层.DAT",
+    "bytes": 11385,
+    "sha256": "574942539af08887853d12b9a0ab7ab2257e0b56fa3ff8838d0791f03170ab5e"
+  },
+  {
+    "path": "数据/基础层.ID",
+    "bytes": 4116,
+    "sha256": "7ad5768f5f0ae1a6bcb09ee32baec80f42d0e0b65370e92adf7385fd82fae9f7"
+  },
+  {
+    "path": "数据/基础层.IND",
+    "bytes": 138240,
+    "sha256": "2152c4de39ca5026bf7548f4e0f15320b641b586579482734c783d084945bf78"
+  },
+  {
+    "path": "数据/基础层.MAP",
+    "bytes": 119296,
+    "sha256": "b1686abb3056078cf254fc38ba796d7117ea6e3f2fb9a47627da98ff715282dd"
+  },
+  {
+    "path": "数据/基础层.TAB",
+    "bytes": 155,
+    "sha256": "67d556b3a30c63f81dc8a3f5084b328115489ba4084aaa9ea64c8a9754f768ae"
+  },
+  {
+    "path": "数据/无标题.DAT",
+    "bytes": 66,
+    "sha256": "9831918b1674ca063590d427a06a19aa8183fc0863c2f9564d780a95da986c49"
+  },
+  {
+    "path": "数据/无标题.ID",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "path": "数据/无标题.MAP",
+    "bytes": 1024,
+    "sha256": "65997a726290089a7313336d0534c6a4808dde3d046563adbf7b6b3642a0f7b2"
+  },
+  {
+    "path": "数据/无标题.TAB",
+    "bytes": 147,
+    "sha256": "900e44469c17298cec849604fe3c91e430d0b517c8e8c8eb9913f83b8af1bc5a"
+  },
+  {
+    "path": "数据/暖气.DAT",
+    "bytes": 1934,
+    "sha256": "a076053c81d358a794ed8ac1870525f320631456c512e9c38dcf9c8788b61973"
+  },
+  {
+    "path": "数据/暖气.ID",
+    "bytes": 176,
+    "sha256": "4e32d9a02739107774660f9dad399eac3e2a8c67701fef96375bb25950d1cf59"
+  },
+  {
+    "path": "数据/暖气.IND",
+    "bytes": 2560,
+    "sha256": "8167d013ca2b2e733429d678a8aeddfe15491ac29c04ade250afed2c602fdf4d"
+  },
+  {
+    "path": "数据/暖气.MAP",
+    "bytes": 23040,
+    "sha256": "abe719121b6d10ce63162062233a54408769c4d93b6382cadaeeff1c48e16dc3"
+  },
+  {
+    "path": "数据/暖气.TAB",
+    "bytes": 218,
+    "sha256": "9cf728cf4bf2b5bc12524115009f3edc51f1bb9cd68a086603e11a0d5c2f12de"
+  },
+  {
+    "path": "数据/污水雨水.DAT",
+    "bytes": 66896,
+    "sha256": "72932f2e9f26621ba0fa4cd3ad787c1ee4cf2e179a23e4cfd60f5579620bc9f3"
+  },
+  {
+    "path": "数据/污水雨水.ID",
+    "bytes": 4376,
+    "sha256": "7d827dca6789ed6f907c166473d6a02d54b5b3a67e723794ebae251e75dee694"
+  },
+  {
+    "path": "数据/污水雨水.IND",
+    "bytes": 31744,
+    "sha256": "90b023d4ef6cb7fef92977a95fb99a81f6833f55b93395ecc33ab2b7cd4a76e4"
+  },
+  {
+    "path": "数据/污水雨水.MAP",
+    "bytes": 362496,
+    "sha256": "78a970cbf1ac345f67eafd2cc4a9cf4726344b6f27ca9b28cf3950fd9879756a"
+  },
+  {
+    "path": "数据/污水雨水.TAB",
+    "bytes": 231,
+    "sha256": "61051f393494768f4852930097d982d5bfe88a41eefdd0d5a8dfe289b7f578c8"
+  },
+  {
+    "path": "数据/污水雨水1.DAT",
+    "bytes": 66896,
+    "sha256": "b21d348bb0a6d00e02beab4bf866c9ec4ca8abc8defe9732b0da53591d64e2e7"
+  },
+  {
+    "path": "数据/消防水.DAT",
+    "bytes": 1342,
+    "sha256": "2a2b5448326122ac41d89e2c72616f04b77a488e86e66c3834de0100c6c8b449"
+  },
+  {
+    "path": "数据/消防水.ID",
+    "bytes": 80,
+    "sha256": "dfc503a2c883265fe6faf705c48d8356af0d75b1dc3b1695dcd62c4df6eca980"
+  },
+  {
+    "path": "数据/消防水.IND",
+    "bytes": 1536,
+    "sha256": "9f62153d7dc4a9ebf11ccf33ea184e431cc086a2ff18b5ab208fd3a332498258"
+  },
+  {
+    "path": "数据/消防水.MAP",
+    "bytes": 8192,
+    "sha256": "0affd59a7b7e40d544b8365efcbb0a3b8fb3d22b5c6d952576aa6db4d9457eb9"
+  },
+  {
+    "path": "数据/消防水.TAB",
+    "bytes": 249,
+    "sha256": "fe5a3d66b0d804aa9184f89d35dc7405332c0246ac2b7c32d20271eeda8303a2"
+  },
+  {
+    "path": "数据/煤气.DAT",
+    "bytes": 1032,
+    "sha256": "9749650fbbaca8a6f31b9ed8520593371eb4ebeb36126654c17098792e4ab042"
+  },
+  {
+    "path": "数据/煤气.ID",
+    "bytes": 88,
+    "sha256": "3221db8750dfa041c55f1b2ec6baa2ac0f50eadb93b5c635f90d6c95c1d816ed"
+  },
+  {
+    "path": "数据/煤气.IND",
+    "bytes": 1536,
+    "sha256": "d73eea27047c84b10759aee4812b7509df9ecb59d37bd4e26ec29c16482d6846"
+  },
+  {
+    "path": "数据/煤气.MAP",
+    "bytes": 15360,
+    "sha256": "35d2b88fa7f50254910c3ef644a823fd4b8d78aebbe6da8e259c7aaf982652a7"
+  },
+  {
+    "path": "数据/煤气.TAB",
+    "bytes": 218,
+    "sha256": "9cf728cf4bf2b5bc12524115009f3edc51f1bb9cd68a086603e11a0d5c2f12de"
+  },
+  {
+    "path": "数据/电力线.DAT",
+    "bytes": 903,
+    "sha256": "47b609fe21b00eb612ef110cf406f4919b185522a3bcdf63916bc8b9f6e5ce0c"
+  },
+  {
+    "path": "数据/电力线.ID",
+    "bytes": 52,
+    "sha256": "7412ef50ab4ba4a2ce798dc9987089b13af1bcc7824ef7d36fab2bf4f3af4649"
+  },
+  {
+    "path": "数据/电力线.IND",
+    "bytes": 1024,
+    "sha256": "f2933fe2d0f24f11fd8abb68341c41aa5e8e8d816cba31a694e24017a1cc5ff0"
+  },
+  {
+    "path": "数据/电力线.MAP",
+    "bytes": 26112,
+    "sha256": "d2840f681f7ce0ab95f60992bed22bf641581e957be784035c376f504b2561dc"
+  },
+  {
+    "path": "数据/电力线.TAB",
+    "bytes": 221,
+    "sha256": "696ec651a6a2bab01815dc7a25bd5e77e68be7600c7ddff2027fd31e40f9746f"
+  },
+  {
+    "path": "数据/给姜艳媛/Query4.DAT",
+    "bytes": 37738,
+    "sha256": "b7e2ca06fb52bbc6658f9d6c93a232cb6a2bf719bc1dc6a07adde173f78f6225"
+  },
+  {
+    "path": "数据/给姜艳媛/Query4.ID",
+    "bytes": 2464,
+    "sha256": "0e44f890d130cd2e42b7f7706a78a876bc8e3fcf8a580c39803102ba1edda893"
+  },
+  {
+    "path": "数据/给姜艳媛/Query4.IND",
+    "bytes": 17920,
+    "sha256": "49a55d7ecc40b74a57c101666f58bd6f43218fb96f22f7d2a3ac3a39d6b1e4b9"
+  },
+  {
+    "path": "数据/给姜艳媛/Query4.MAP",
+    "bytes": 29184,
+    "sha256": "04f84116b3a756f5e4202f1f6c99eb5d407cac0f201f3a4f69b9266a5471d7ed"
+  },
+  {
+    "path": "数据/给姜艳媛/Query4.TAB",
+    "bytes": 231,
+    "sha256": "61051f393494768f4852930097d982d5bfe88a41eefdd0d5a8dfe289b7f578c8"
+  },
+  {
+    "path": "数据/给姜艳媛/办公用水.DAT",
+    "bytes": 5472,
+    "sha256": "8421c29f3d2df45f745a70f345095d68910a447f584fa0c2ee5b0b94541cd8dd"
+  },
+  {
+    "path": "数据/给姜艳媛/办公用水.ID",
+    "bytes": 360,
+    "sha256": "ac5dad9cdea87d8c277d353d781e18a3097f9dc358085d0f4213d4832318d14f"
+  },
+  {
+    "path": "数据/给姜艳媛/办公用水.IND",
+    "bytes": 15872,
+    "sha256": "b350999ec140da491d96bd46d71598f7c6f260e8a03732321e8efb0d8af1aea4"
+  },
+  {
+    "path": "数据/给姜艳媛/办公用水.MAP",
+    "bytes": 16384,
+    "sha256": "97e6f0fa771d5c992312727c21c4c4ed81b13f549e39a91bb5b3bab39d8b76d3"
+  },
+  {
+    "path": "数据/给姜艳媛/办公用水.TAB",
+    "bytes": 249,
+    "sha256": "fe5a3d66b0d804aa9184f89d35dc7405332c0246ac2b7c32d20271eeda8303a2"
+  },
+  {
+    "path": "数据/给姜艳媛/基础层.DAT",
+    "bytes": 11385,
+    "sha256": "574942539af08887853d12b9a0ab7ab2257e0b56fa3ff8838d0791f03170ab5e"
+  },
+  {
+    "path": "数据/给姜艳媛/基础层.ID",
+    "bytes": 4116,
+    "sha256": "7ad5768f5f0ae1a6bcb09ee32baec80f42d0e0b65370e92adf7385fd82fae9f7"
+  },
+  {
+    "path": "数据/给姜艳媛/基础层.IND",
+    "bytes": 138240,
+    "sha256": "2152c4de39ca5026bf7548f4e0f15320b641b586579482734c783d084945bf78"
+  },
+  {
+    "path": "数据/给姜艳媛/基础层.MAP",
+    "bytes": 119296,
+    "sha256": "b1686abb3056078cf254fc38ba796d7117ea6e3f2fb9a47627da98ff715282dd"
+  },
+  {
+    "path": "数据/给姜艳媛/基础层.TAB",
+    "bytes": 155,
+    "sha256": "67d556b3a30c63f81dc8a3f5084b328115489ba4084aaa9ea64c8a9754f768ae"
+  },
+  {
+    "path": "数据/给姜艳媛/无标题.DAT",
+    "bytes": 66,
+    "sha256": "9831918b1674ca063590d427a06a19aa8183fc0863c2f9564d780a95da986c49"
+  },
+  {
+    "path": "数据/给姜艳媛/无标题.ID",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "path": "数据/给姜艳媛/无标题.MAP",
+    "bytes": 1024,
+    "sha256": "65997a726290089a7313336d0534c6a4808dde3d046563adbf7b6b3642a0f7b2"
+  },
+  {
+    "path": "数据/给姜艳媛/无标题.TAB",
+    "bytes": 147,
+    "sha256": "900e44469c17298cec849604fe3c91e430d0b517c8e8c8eb9913f83b8af1bc5a"
+  },
+  {
+    "path": "数据/给姜艳媛/暖气.DAT",
+    "bytes": 1811,
+    "sha256": "d008a138024c02fec95d7302a0a281ea5a1b65b814c5abe46fb2cf96cc101831"
+  },
+  {
+    "path": "数据/给姜艳媛/暖气.ID",
+    "bytes": 164,
+    "sha256": "f8d7e0958b8cd404fab321f067d94194a8e05b4be0caaa5f6167356a56346b47"
+  },
+  {
+    "path": "数据/给姜艳媛/暖气.IND",
+    "bytes": 2560,
+    "sha256": "b71ffa82d6db894a395b13b97848e42ea9d3bc8c7368accca8f8951c1adac87f"
+  },
+  {
+    "path": "数据/给姜艳媛/暖气.MAP",
+    "bytes": 23040,
+    "sha256": "18cccb5eabdd64b7c3f5a15b9cf94ea8a5e080a8a2afd62d6253c7e8e409fd7f"
+  },
+  {
+    "path": "数据/给姜艳媛/暖气.TAB",
+    "bytes": 218,
+    "sha256": "9cf728cf4bf2b5bc12524115009f3edc51f1bb9cd68a086603e11a0d5c2f12de"
+  },
+  {
+    "path": "数据/给姜艳媛/污水雨水.DAT",
+    "bytes": 66896,
+    "sha256": "72932f2e9f26621ba0fa4cd3ad787c1ee4cf2e179a23e4cfd60f5579620bc9f3"
+  },
+  {
+    "path": "数据/给姜艳媛/污水雨水.ID",
+    "bytes": 4376,
+    "sha256": "7d827dca6789ed6f907c166473d6a02d54b5b3a67e723794ebae251e75dee694"
+  },
+  {
+    "path": "数据/给姜艳媛/污水雨水.IND",
+    "bytes": 31744,
+    "sha256": "90b023d4ef6cb7fef92977a95fb99a81f6833f55b93395ecc33ab2b7cd4a76e4"
+  },
+  {
+    "path": "数据/给姜艳媛/污水雨水.MAP",
+    "bytes": 362496,
+    "sha256": "78a970cbf1ac345f67eafd2cc4a9cf4726344b6f27ca9b28cf3950fd9879756a"
+  },
+  {
+    "path": "数据/给姜艳媛/污水雨水.TAB",
+    "bytes": 231,
+    "sha256": "61051f393494768f4852930097d982d5bfe88a41eefdd0d5a8dfe289b7f578c8"
+  },
+  {
+    "path": "数据/给姜艳媛/污水雨水1.DAT",
+    "bytes": 66896,
+    "sha256": "b21d348bb0a6d00e02beab4bf866c9ec4ca8abc8defe9732b0da53591d64e2e7"
+  },
+  {
+    "path": "数据/给姜艳媛/消防水.DAT",
+    "bytes": 1342,
+    "sha256": "2a2b5448326122ac41d89e2c72616f04b77a488e86e66c3834de0100c6c8b449"
+  },
+  {
+    "path": "数据/给姜艳媛/消防水.ID",
+    "bytes": 80,
+    "sha256": "dfc503a2c883265fe6faf705c48d8356af0d75b1dc3b1695dcd62c4df6eca980"
+  },
+  {
+    "path": "数据/给姜艳媛/消防水.IND",
+    "bytes": 1536,
+    "sha256": "9f62153d7dc4a9ebf11ccf33ea184e431cc086a2ff18b5ab208fd3a332498258"
+  },
+  {
+    "path": "数据/给姜艳媛/消防水.MAP",
+    "bytes": 8192,
+    "sha256": "0affd59a7b7e40d544b8365efcbb0a3b8fb3d22b5c6d952576aa6db4d9457eb9"
+  },
+  {
+    "path": "数据/给姜艳媛/消防水.TAB",
+    "bytes": 249,
+    "sha256": "fe5a3d66b0d804aa9184f89d35dc7405332c0246ac2b7c32d20271eeda8303a2"
+  },
+  {
+    "path": "数据/给姜艳媛/煤气.DAT",
+    "bytes": 1032,
+    "sha256": "9749650fbbaca8a6f31b9ed8520593371eb4ebeb36126654c17098792e4ab042"
+  },
+  {
+    "path": "数据/给姜艳媛/煤气.ID",
+    "bytes": 88,
+    "sha256": "3221db8750dfa041c55f1b2ec6baa2ac0f50eadb93b5c635f90d6c95c1d816ed"
+  },
+  {
+    "path": "数据/给姜艳媛/煤气.IND",
+    "bytes": 1536,
+    "sha256": "d73eea27047c84b10759aee4812b7509df9ecb59d37bd4e26ec29c16482d6846"
+  },
+  {
+    "path": "数据/给姜艳媛/煤气.MAP",
+    "bytes": 15360,
+    "sha256": "35d2b88fa7f50254910c3ef644a823fd4b8d78aebbe6da8e259c7aaf982652a7"
+  },
+  {
+    "path": "数据/给姜艳媛/煤气.TAB",
+    "bytes": 218,
+    "sha256": "9cf728cf4bf2b5bc12524115009f3edc51f1bb9cd68a086603e11a0d5c2f12de"
+  },
+  {
+    "path": "数据/给姜艳媛/电力线.DAT",
+    "bytes": 903,
+    "sha256": "47b609fe21b00eb612ef110cf406f4919b185522a3bcdf63916bc8b9f6e5ce0c"
+  },
+  {
+    "path": "数据/给姜艳媛/电力线.ID",
+    "bytes": 52,
+    "sha256": "7412ef50ab4ba4a2ce798dc9987089b13af1bcc7824ef7d36fab2bf4f3af4649"
+  },
+  {
+    "path": "数据/给姜艳媛/电力线.IND",
+    "bytes": 1024,
+    "sha256": "f2933fe2d0f24f11fd8abb68341c41aa5e8e8d816cba31a694e24017a1cc5ff0"
+  },
+  {
+    "path": "数据/给姜艳媛/电力线.MAP",
+    "bytes": 26112,
+    "sha256": "d2840f681f7ce0ab95f60992bed22bf641581e957be784035c376f504b2561dc"
+  },
+  {
+    "path": "数据/给姜艳媛/电力线.TAB",
+    "bytes": 221,
+    "sha256": "696ec651a6a2bab01815dc7a25bd5e77e68be7600c7ddff2027fd31e40f9746f"
+  },
+  {
+    "path": "数据/给姜艳媛/自来水.DAT",
+    "bytes": 16269,
+    "sha256": "ae59d560505409f63377c22c0f1207b3535347c7c32b060af84eba2d92cfc43b"
+  },
+  {
+    "path": "数据/给姜艳媛/自来水.ID",
+    "bytes": 1092,
+    "sha256": "1f842fe93def43cc7a7ff0206810e55e8079db7d3b12de0b6ca318a112a23656"
+  },
+  {
+    "path": "数据/给姜艳媛/自来水.IND",
+    "bytes": 12288,
+    "sha256": "2447d2e6dd11f8192c3495c8b798a6f58222aa3af582fdb71c38120ab1e287a0"
+  },
+  {
+    "path": "数据/给姜艳媛/自来水.MAP",
+    "bytes": 54784,
+    "sha256": "1c58544a9564e426eccb97626401de5334ac92f26988af12c4012754689bf30c"
+  },
+  {
+    "path": "数据/给姜艳媛/自来水.TAB",
+    "bytes": 249,
+    "sha256": "fe5a3d66b0d804aa9184f89d35dc7405332c0246ac2b7c32d20271eeda8303a2"
+  },
+  {
+    "path": "数据/给姜艳媛/辅助层.DAT",
+    "bytes": 10395,
+    "sha256": "0e9f3dbec63a51c05037777fd26d517eae486b6192b5700ddc7a2a79939a2059"
+  },
+  {
+    "path": "数据/给姜艳媛/辅助层.ID",
+    "bytes": 3756,
+    "sha256": "40eeefd417ad1bf808b418e6fddb547c9aa09760b4ebdccf90c7322e0011d928"
+  },
+  {
+    "path": "数据/给姜艳媛/辅助层.MAP",
+    "bytes": 210432,
+    "sha256": "c3a8b8cca689a97fb6f29509e394eca84b0e202f7ce62cf83e084e8acfe6cdd7"
+  },
+  {
+    "path": "数据/给姜艳媛/辅助层.TAB",
+    "bytes": 166,
+    "sha256": "8fcd158a743e3a2a5675e3519ce60480f211a67419659b1288b1010c48745c01"
+  },
+  {
+    "path": "数据/给姜艳媛/通信线.DAT",
+    "bytes": 1319,
+    "sha256": "5d9d6a4590661ba7ed36be3ebd411cfa8aeabbcb4dae919dfb75404364b7c848"
+  },
+  {
+    "path": "数据/给姜艳媛/通信线.ID",
+    "bytes": 116,
+    "sha256": "61becbef7f8ff7d5e49b8afbe65b0a143e8e3a240ad22efb65ce93b4ce1880d8"
+  },
+  {
+    "path": "数据/给姜艳媛/通信线.IND",
+    "bytes": 1536,
+    "sha256": "15e5398c1d6ba113910b9995ce1fcf2e7964c6c9df1ca9a0090677bf612501d3"
+  },
+  {
+    "path": "数据/给姜艳媛/通信线.MAP",
+    "bytes": 30720,
+    "sha256": "7a84475df573375f7a84eb3558059807e606d4b9f5a3f2741715d6b1e1db0519"
+  },
+  {
+    "path": "数据/给姜艳媛/通信线.TAB",
+    "bytes": 199,
+    "sha256": "6f68538c7366f4091af20c31cba47e2f732e7f9a5261d21d731df7833e99c4fe"
+  },
+  {
+    "path": "数据/自来水.DAT",
+    "bytes": 16151,
+    "sha256": "42f9694305c1ff5cf8d952d8a55cdae9f4c6948b926707dc074dc65db4684b86"
+  },
+  {
+    "path": "数据/自来水.ID",
+    "bytes": 1084,
+    "sha256": "51d7ce87909ab0939dbcc8709a90c7481c8ab72b3c264c0b2d7f49e33e76d962"
+  },
+  {
+    "path": "数据/自来水.IND",
+    "bytes": 7168,
+    "sha256": "77450fe57b628ccf1783ed2dbfcf9403d2acb7a7bd0c74636af1f0091180ac75"
+  },
+  {
+    "path": "数据/自来水.MAP",
+    "bytes": 51200,
+    "sha256": "4eed87bbde5833fe3199324d88ed08425faa39763aa8ea5d68b18c4531ab38d0"
+  },
+  {
+    "path": "数据/自来水.TAB",
+    "bytes": 230,
+    "sha256": "1e767c1b858e4ff77bcac905c18472dce0576f76a6d14e5307abf91df08f8f29"
+  },
+  {
+    "path": "数据/辅助层.DAT",
+    "bytes": 10395,
+    "sha256": "0e9f3dbec63a51c05037777fd26d517eae486b6192b5700ddc7a2a79939a2059"
+  },
+  {
+    "path": "数据/辅助层.ID",
+    "bytes": 3756,
+    "sha256": "40eeefd417ad1bf808b418e6fddb547c9aa09760b4ebdccf90c7322e0011d928"
+  },
+  {
+    "path": "数据/辅助层.MAP",
+    "bytes": 210432,
+    "sha256": "c3a8b8cca689a97fb6f29509e394eca84b0e202f7ce62cf83e084e8acfe6cdd7"
+  },
+  {
+    "path": "数据/辅助层.TAB",
+    "bytes": 166,
+    "sha256": "8fcd158a743e3a2a5675e3519ce60480f211a67419659b1288b1010c48745c01"
+  },
+  {
+    "path": "数据/辅助层2.DAT",
+    "bytes": 37738,
+    "sha256": "b7e2ca06fb52bbc6658f9d6c93a232cb6a2bf719bc1dc6a07adde173f78f6225"
+  },
+  {
+    "path": "数据/辅助层2.ID",
+    "bytes": 2464,
+    "sha256": "0e44f890d130cd2e42b7f7706a78a876bc8e3fcf8a580c39803102ba1edda893"
+  },
+  {
+    "path": "数据/辅助层2.IND",
+    "bytes": 17920,
+    "sha256": "49a55d7ecc40b74a57c101666f58bd6f43218fb96f22f7d2a3ac3a39d6b1e4b9"
+  },
+  {
+    "path": "数据/辅助层2.MAP",
+    "bytes": 29184,
+    "sha256": "04f84116b3a756f5e4202f1f6c99eb5d407cac0f201f3a4f69b9266a5471d7ed"
+  },
+  {
+    "path": "数据/辅助层2.TAB",
+    "bytes": 231,
+    "sha256": "61051f393494768f4852930097d982d5bfe88a41eefdd0d5a8dfe289b7f578c8"
+  },
+  {
+    "path": "数据/通信线.DAT",
+    "bytes": 1319,
+    "sha256": "60163888976c9a6fa19b5af39686bf749ea550f2d0a66114605a67ba7c777d00"
+  },
+  {
+    "path": "数据/通信线.ID",
+    "bytes": 116,
+    "sha256": "a066ef729e0be076ce57fd351c35b60f928a53d593b6eefc7458a29311f2138b"
+  },
+  {
+    "path": "数据/通信线.IND",
+    "bytes": 1024,
+    "sha256": "69d6a9a9a788cc723fbc3adcb1664939015400a2f4a046c7b66e6bb057695a19"
+  },
+  {
+    "path": "数据/通信线.MAP",
+    "bytes": 26112,
+    "sha256": "cde0ae0129d45fa84a11761ac51a941d216f11bb8c74ce7c28376aef10d3d909"
+  },
+  {
+    "path": "数据/通信线.TAB",
+    "bytes": 199,
+    "sha256": "6f68538c7366f4091af20c31cba47e2f732e7f9a5261d21d731df7833e99c4fe"
+  }
+]

@@ -1,0 +1,87 @@
+{
+  "name": "narrow_passage",
+  "bounds": [
+    0.0,
+    0.0,
+    200.0,
+    160.0
+  ],
+  "crs": "LOCAL_SYNTHETIC_METRES",
+  "source": "synthetic_design_v0.1; explicit experimental assumption",
+  "background": {
+    "passability": "allowed",
+    "source": "synthetic_design_v0.1; explicit experimental assumption"
+  },
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "kind": "obstacle",
+        "passability": "blocked",
+        "source": "synthetic_design_v0.1; explicit experimental assumption"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              90,
+              0
+            ],
+            [
+              110,
+              0
+            ],
+            [
+              110,
+              70
+            ],
+            [
+              90,
+              70
+            ],
+            [
+              90,
+              0
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "kind": "obstacle",
+        "passability": "blocked",
+        "source": "synthetic_design_v0.1; explicit experimental assumption"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              90,
+              86
+            ],
+            [
+              110,
+              86
+            ],
+            [
+              110,
+              160
+            ],
+            [
+              90,
+              160
+            ],
+            [
+              90,
+              86
+            ]
+          ]
+        ]
+      }
+    }
+  ]
+}

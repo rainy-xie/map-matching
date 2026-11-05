@@ -1,0 +1,33 @@
+{
+  "scenario": "open_low_noise",
+  "seed": 20261103,
+  "label": "synthetic",
+  "dataset_version": "0.1.0",
+  "n": 71,
+  "cell_size_m": 4.0,
+  "time_basis": "seconds relative to arbitrary synthetic start",
+  "coordinates": "LOCAL_SYNTHETIC_METRES",
+  "reference_source": "independent hand-authored or analytic route; no HMM or graph routing",
+  "reference_definition": {
+    "kind": "analytic_line",
+    "formula": "x=21.3+154u; y=35.7+82u"
+  },
+  "description": "Weak map information and low GPS noise; grid quantization may worsen an already good observation.",
+  "noise": {
+    "kind": "independent isotropic Gaussian",
+    "sigma_per_axis_m": 0.35,
+    "bias_m": [
+      0.0,
+      0.0
+    ],
+    "rng": "numpy.default_rng / PCG64",
+    "seed_sequence_entropy": [
+      20261103,
+      4
+    ],
+    "source": "synthetic engineering setting, not measured GPS error"
+  },
+  "parameter_policy": "fixed before model results; no result-based selection",
+  "split": "mechanism_suite_not_generalization_test",
+  "config_sha256": "5e65055d79cd1b3649682a6b0df6b419b49e7d66fca2775d0f6275d0c1483795"
+}

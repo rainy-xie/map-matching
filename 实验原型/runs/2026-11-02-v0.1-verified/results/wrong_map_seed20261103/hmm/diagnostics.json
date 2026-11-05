@@ -1,0 +1,29 @@
+{
+  "method": "hmm",
+  "mode": "offline",
+  "score_is_calibrated_probability": false,
+  "transition_normalized": false,
+  "segments": 4,
+  "transition_pairs": 122141,
+  "connection_queries": 57751,
+  "speed_rejected_pairs": 64392,
+  "unreachable_pairs": 0,
+  "no_candidate_indices": [
+    36,
+    37,
+    38
+  ],
+  "reset_indices": [
+    33,
+    34
+  ],
+  "unknown_path_indices": [],
+  "observation_count": 71,
+  "candidate_total": 2927,
+  "candidate_max": 48,
+  "status_counts": {
+    "ok": 66,
+    "reset_unreachable": 2,
+    "no_candidates": 3
+  }
+}

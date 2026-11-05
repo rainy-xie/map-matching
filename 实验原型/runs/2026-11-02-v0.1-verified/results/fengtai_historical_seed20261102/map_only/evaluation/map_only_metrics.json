@@ -1,0 +1,19 @@
+{
+  "method": "map_only",
+  "scenario": "fengtai_historical",
+  "seed": 20261102,
+  "label": "synthetic_on_historical_map",
+  "n": 71,
+  "rmse_m": 8.519415508052571,
+  "mean_m": 7.68458666167322,
+  "median_m": 8.157372144738837,
+  "p95_m": 13.1261715957803,
+  "max_m": 15.399229110722345,
+  "status_counts": {
+    "map_unknown": 71
+  },
+  "failure_count": 0,
+  "map_unknown_count": 71,
+  "aggregation": "all timestamps, unweighted; no success-only exclusion",
+  "percentile_method": "numpy linear"
+}

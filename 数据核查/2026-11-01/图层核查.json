@@ -1,0 +1,3991 @@
+[
+  {
+    "path": "数据/Query4.TAB",
+    "name": "Query4",
+    "info": {
+      "layer_name": "Query4",
+      "crs": "LOCAL_CS[\"Nonearth\",UNIT[\"Meter\",1],AXIS[\"Easting\",EAST],AXIS[\"Northing\",NORTH]]",
+      "encoding": "UTF-8",
+      "fields": [
+        "ID",
+        "编码",
+        "名称",
+        "主次管道或口径"
+      ],
+      "dtypes": [
+        "object",
+        "object",
+        "object",
+        "object"
+      ],
+      "fid_column": "",
+      "geometry_name": "",
+      "geometry_type": "Unknown",
+      "features": 616,
+      "total_bounds": [
+        507125.96,
+        309229.39,
+        507406.94,
+        309518.68
+      ],
+      "driver": "MapInfo File",
+      "capabilities": {
+        "random_read": true,
+        "fast_set_next_by_index": false,
+        "fast_spatial_filter": true,
+        "fast_feature_count": true,
+        "fast_total_bounds": true
+      },
+      "layer_metadata": null,
+      "dataset_metadata": null
+    },
+    "warnings": [],
+    "read_records": 616,
+    "null_geometry": 0,
+    "empty_geometry": 0,
+    "geometry_types": {
+      "LineString": 615,
+      "GeometryCollection": 1
+    },
+    "invalid_geometry": 0,
+    "invalid_reasons": {},
+    "z_geometry": 0,
+    "fields": {
+      "ID": {
+        "nonempty": 616,
+        "literal_NULL_count": 0,
+        "nonempty_excluding_literal_NULL": 616,
+        "unique_nonempty": 615,
+        "zero_count": 0,
+        "suspected_numeric_sentinel_count": 0
+      },
+      "编码": {
+        "nonempty": 616,
+        "literal_NULL_count": 0,
+        "nonempty_excluding_literal_NULL": 616,
+        "unique_nonempty": 1,
+        "zero_count": 0,
+        "suspected_numeric_sentinel_count": 0,
+        "top_values": [
+          [
+            "541000",
+            616
+          ]
+        ]
+      },
+      "名称": {
+        "nonempty": 616,
+        "literal_NULL_count": 0,
+        "nonempty_excluding_literal_NULL": 616,
+        "unique_nonempty": 1,
+        "zero_count": 0,
+        "suspected_numeric_sentinel_count": 0
+      },
+      "主次管道或口径": {
+        "nonempty": 0,
+        "literal_NULL_count": 0,
+        "nonempty_excluding_literal_NULL": 0,
+        "unique_nonempty": 0,
+        "zero_count": 0,
+        "suspected_numeric_sentinel_count": 0
+      }
+    },
+    "set_sha256": "d216f139bdb4c474acb3f7862a1315a4ca17d634ece27e29a53ab8ad1a928d31",
+    "dbf_header_records": 616,
+    "dbf_header_update_date_bytes": [
+      105,
+      1,
+      10
+    ]
+  },
+  {
+    "path": "数据/丰台数据/丰台数据/丰台政区.TAB",
+    "name": "丰台政区",
+    "info": {
+      "layer_name": "丰台政区",
+      "crs": "EPSG:4326",
+      "encoding": "UTF-8",
+      "fields": [
+        "ID",
+        "Kind",
+        "Name",
+        "Disp",
+        "ACode",
+        "Note"
+      ],
+      "dtypes": [
+        "int32",
+        "int32",
+        "object",
+        "int32",
+        "object",
+        "object"
+      ],
+      "fid_column": "",
+      "geometry_name": "",
+      "geometry_type": "Unknown",
+      "features": 1,
+      "total_bounds": [
+        116.048656,
+        39.76133399,
+        116.461607,
+        39.89551499
+      ],
+      "driver": "MapInfo File",
+      "capabilities": {
+        "random_read": true,
+        "fast_set_next_by_index": false,
+        "fast_spatial_filter": true,
+        "fast_feature_count": true,
+        "fast_total_bounds": true
+      },
+      "layer_metadata": null,
+      "dataset_metadata": null
+    },
+    "warnings": [],
+    "read_records": 1,
+    "null_geometry": 0,
+    "empty_geometry": 0,
+    "geometry_types": {
+      "Polygon": 1
+    },
+    "invalid_geometry": 0,
+    "invalid_reasons": {},
+    "z_geometry": 0,
+    "fields": {
+      "ID": {
+        "nonempty": 1,
+        "literal_NULL_count": 0,
+        "nonempty_excluding_literal_NULL": 1,
+        "unique_nonempty": 1,
+        "zero_count": 0,
+        "suspected_numeric_sentinel_count": 0
+      },
+      "Kind": {
+        "nonempty": 1,
+        "literal_NULL_count": 0,
+        "nonempty_excluding_literal_NULL": 1,
+        "unique_nonempty": 1,
+        "zero_count": 0,
+        "suspected_numeric_sentinel_count": 0,
+        "top_values": [
+          [
+            "10104",
+            1
+          ]
+        ]
+      },
+      "Name": {
+        "nonempty": 1,
+        "literal_NULL_count": 0,
+        "nonempty_excluding_literal_NULL": 1,
+        "unique_nonempty": 1,
+        "zero_count": 0,
+        "suspected_numeric_sentinel_count": 0
+      },
+      "Disp": {
+        "nonempty": 1,
+        "literal_NULL_count": 0,
+        "nonempty_excluding_literal_NULL": 1,
+        "unique_nonempty": 1,
+        "zero_count": 1,
+        "suspected_numeric_sentinel_count": 0
+      },
+      "ACode": {
+        "nonempty": 1,
+        "literal_NULL_count": 0,
+        "nonempty_excluding_literal_NULL": 1,
+        "unique_nonempty": 1,
+        "zero_count": 0,
+        "suspected_numeric_sentinel_count": 0
+      },
+      "Note": {
+        "nonempty": 0,
+        "literal_NULL_count": 0,
+        "nonempty_excluding_literal_NULL": 0,
+        "unique_nonempty": 0,
+        "zero_count": 0,
+        "suspected_numeric_sentinel_count": 0
+      }
+    },
+    "set_sha256": "cde68555bfa476bf60f0a6d579dff2d3002dbfed7eaafdb3aa4a98afcdac53e9",
+    "dbf_header_records": 1,
+    "dbf_header_update_date_bytes": [
+      115,
+      1,
+      12
+    ]
+  },
+  {
+    "path": "数据/丰台数据/丰台数据/服务点.TAB",
+    "name": "服务点",
+    "info": {
+      "layer_name": "服务点",
+      "crs": "EPSG:4326",
+      "encoding": "UTF-8",
+      "fields": [
+        "要素编号",
+        "编码",
+        "政区代码",
+        "名称",
+        "类型",
+        "简名",
+        "拼音",
+        "地址",
+        "电话号码",
+        "邮政编码",
+        "层面码",
+        "说明",
+        "显示等级",
+        "产品等级",
+        "多媒体文档数",
+        "多媒体文档名"
+      ],
+      "dtypes": [
+        "int32",
+        "int32",
+        "object",
+        "object",
+        "object",
+        "object",
+        "object",
+        "object",
+        "object",
+        "object",
+        "int32",
+        "object",
+        "int32",
+        "object",
+        "int32",
+        "object"
+      ],
+      "fid_column": "",
+      "geometry_name": "",
+      "geometry_type": "Point",
+      "features": 27000,
+      "total_bounds": [
+        116.057089,
+        39.765409,
+        116.4602,
+        39.895493
+      ],
+      "driver": "MapInfo File",
+      "capabilities": {
+        "random_read": true,
+        "fast_set_next_by_index": false,
+        "fast_spatial_filter": true,
+        "fast_feature_count": true,
+        "fast_total_bounds": true
+      },
+      "layer_metadata": null,
+      "dataset_metadata": null
+    },
+    "warnings": [],
+    "read_records": 27000,
+    "null_geometry": 0,
+    "empty_geometry": 0,
+    "geometry_types": {
+      "Point": 27000
+    },
+    "invalid_geometry": 0,
+    "invalid_reasons": {},
+    "z_geometry": 0,
+    "fields": {
+      "要素编号": {
+        "nonempty": 27000,
+        "literal_NULL_count": 0,
+        "nonempty_excluding_literal_NULL": 27000,
+        "unique_nonempty": 27000,
+        "zero_count": 0,
+        "suspected_numeric_sentinel_count": 0
+      },
+      "编码": {
+        "nonempty": 27000,
+        "literal_NULL_count": 0,
+        "nonempty_excluding_literal_NULL": 27000,
+        "unique_nonempty": 108,
+        "zero_count": 0,
+        "suspected_numeric_sentinel_count": 0,
+        "top_values": [
+          [
+            "811700",
+            4005
+          ],
+          [
+            "811900",
+            2888
+          ],
+          [
+            "810500",
+            2828
+          ],
+          [
+            "811432",
+            2467
+          ],
+          [
+            "811910",
+            1824
+          ],
+          [
+            "811810",
+            1326
+          ],
+          [
+            "810300",
+            1215
+          ],
+          [
+            "810890",
+            879
+          ],
+          [
+            "811331",
+            784
+          ],
+          [
+            "811350",
+            600
+          ]
+        ]
+      },
+      "政区代码": {
+        "nonempty": 27000,
+        "literal_NULL_count": 0,
+        "nonempty_excluding_literal_NULL": 27000,
+        "unique_nonempty": 9,
+        "zero_count": 0,
+        "suspected_numeric_sentinel_count": 0
+      },
+      "名称": {
+        "nonempty": 27000,
+        "literal_NULL_count": 0,
+        "nonempty_excluding_literal_NULL": 27000,
+        "unique_nonempty": 20353,
+        "zero_count": 0,
+        "suspected_numeric_sentinel_count": 0
+      },
+      "类型": {
+        "nonempty": 27000,
+        "literal_NULL_count": 27000,
+        "nonempty_excluding_literal_NULL": 0,
+        "unique_nonempty": 1,
+        "zero_count": 0,
+        "suspected_numeric_sentinel_count": 0,
+        "top_values": [
+          [
+            "NULL",
+            27000
+          ]
+        ]
+      },
+      "简名": {
+        "nonempty": 27000,
+        "literal_NULL_count": 0,
+        "nonempty_excluding_literal_NULL": 27000,
+        "unique_nonempty": 19631,
+        "zero_count": 0,
+        "suspected_numeric_sentinel_count": 0
+      },
+      "拼音": {
+        "nonempty": 27000,
+        "literal_NULL_count": 0,
+        "nonempty_excluding_literal_NULL": 27000,
+        "unique_nonempty": 20350,
+        "zero_count": 0,
+        "suspected_numeric_sentinel_count": 0
+      },
+      "地址": {
+        "nonempty": 27000,
+        "literal_NULL_count": 1282,
+        "nonempty_excluding_literal_NULL": 25718,
+        "unique_nonempty": 9208,
+        "zero_count": 0,
+        "suspected_numeric_sentinel_count": 0
+      },
+      "电话号码": {
+        "nonempty": 27000,
+        "literal_NULL_count": 19461,
+        "nonempty_excluding_literal_NULL": 7539,
+        "unique_nonempty": 7245,
+        "zero_count": 0,
+        "suspected_numeric_sentinel_count": 0
+      },
+      "邮政编码": {
+        "nonempty": 27000,
+        "literal_NULL_count": 24468,
+        "nonempty_excluding_literal_NULL": 2532,
+        "unique_nonempty": 47,
+        "zero_count": 0,
+        "suspected_numeric_sentinel_count": 0
+      },
+      "层面码": {
+        "nonempty": 27000,
+        "literal_NULL_count": 0,
+        "nonempty_excluding_literal_NULL": 27000,
+        "unique_nonempty": 1,
+        "zero_count": 0,
+        "suspected_numeric_sentinel_count": 27000
+      },
+      "说明": {
+        "nonempty": 27000,
+        "literal_NULL_count": 25707,
+        "nonempty_excluding_literal_NULL": 1293,
+        "unique_nonempty": 2,
+        "zero_count": 0,
+        "suspected_numeric_sentinel_count": 0
+      },
+      "显示等级": {
+        "nonempty": 27000,
+        "literal_NULL_count": 0,
+        "nonempty_excluding_literal_NULL": 27000,
+        "unique_nonempty": 8,
+        "zero_count": 5107,
+        "suspected_numeric_sentinel_count": 0,
+        "top_values": [
+          [
+            "11",
+            20679
+          ],
+          [
+            "0",
+            5107
+          ],
+          [
+            "10",
+            848
+          ],
+          [
+            "9",
+            222
+          ],
+          [
+            "8",
+            87
+          ],
+          [
+            "7",
+            34
+          ],
+          [
+            "6",
+            22
+          ],
+          [
+            "5",
+            1
+          ]
+        ]
+      },
+      "产品等级": {
+        "nonempty": 27000,
+        "literal_NULL_count": 0,
+        "nonempty_excluding_literal_NULL": 27000,
+        "unique_nonempty": 1,
+        "zero_count": 0,
+        "suspected_numeric_sentinel_count": 0
+      },
+      "多媒体文档数": {
+        "nonempty": 27000,
+        "literal_NULL_count": 0,
+        "nonempty_excluding_literal_NULL": 27000,
+        "unique_nonempty": 1,
+        "zero_count": 0,
+        "suspected_numeric_sentinel_count": 27000
+      },
+      "多媒体文档名": {
+        "nonempty": 27000,
+        "literal_NULL_count": 27000,
+        "nonempty_excluding_literal_NULL": 0,
+        "unique_nonempty": 1,
+        "zero_count": 0,
+        "suspected_numeric_sentinel_count": 0
+      }
+    },
+    "set_sha256": "6161365484d809268fc2c85fd7948cf4734cfb6646f93e17646a0cf942ff41fa",
+    "dbf_header_records": 27000,
+    "dbf_header_update_date_bytes": [
+      115,
+      1,
+      12
+    ]
+  },
+  {
+    "path": "数据/丰台数据/丰台数据/植被.TAB",
+    "name": "植被",
+    "info": {
+      "layer_name": "植被",
+      "crs": "EPSG:4326",
+      "encoding": "UTF-8",
+      "fields": [
+        "要素编号",
+        "编码",
+        "名称",
+        "显示等级"
+      ],
+      "dtypes": [
+        "int32",
+        "int32",
+        "object",
+        "int32"
+      ],
+      "fid_column": "",
+      "geometry_name": "",
+      "geometry_type": "Unknown",
+      "features": 730,
+      "total_bounds": [
+        116.083735,
+        39.76682999,
+        116.459795,
+        39.89519301
+      ],
+      "driver": "MapInfo File",
+      "capabilities": {
+        "random_read": true,
+        "fast_set_next_by_index": false,
+        "fast_spatial_filter": true,
+        "fast_feature_count": true,
+        "fast_total_bounds": true
+      },
+      "layer_metadata": null,
+      "dataset_metadata": null
+    },
+    "warnings": [],
+    "read_records": 730,
+    "null_geometry": 0,
+    "empty_geometry": 0,
+    "geometry_types": {
+      "Polygon": 730
+    },
+    "invalid_geometry": 0,
+    "invalid_reasons": {},
+    "z_geometry": 0,
+    "fields": {
+      "要素编号": {
+        "nonempty": 730,
+        "literal_NULL_count": 0,
+        "nonempty_excluding_literal_NULL": 730,
+        "unique_nonempty": 730,
+        "zero_count": 0,
+        "suspected_numeric_sentinel_count": 0
+      },
+      "编码": {
+        "nonempty": 730,
+        "literal_NULL_count": 0,
+        "nonempty_excluding_literal_NULL": 730,
+        "unique_nonempty": 1,
+        "zero_count": 0,
+        "suspected_numeric_sentinel_count": 0,
+        "top_values": [
+          [
+            "220200",
+            730
+          ]
+        ]
+      },
+      "名称": {
+        "nonempty": 730,
+        "literal_NULL_count": 661,
+        "nonempty_excluding_literal_NULL": 69,
+        "unique_nonempty": 58,
+        "zero_count": 0,
+        "suspected_numeric_sentinel_count": 0
+      },
+      "显示等级": {
+        "nonempty": 730,
+        "literal_NULL_count": 0,
+        "nonempty_excluding_literal_NULL": 730,
+        "unique_nonempty": 1,
+        "zero_count": 0,
+        "suspected_numeric_sentinel_count": 0,
+        "top_values": [
+          [
+            "7",
+            730
+          ]
+        ]
+      }
+    },
+    "set_sha256": "311fa900a45b42b22fdef032bbf343c737c0b19b4af2319b08a843c39ed527c9",
+    "dbf_header_records": 730,
+    "dbf_header_update_date_bytes": [
+      115,
+      1,
+      12
+    ]
+  },
+  {
+    "path": "数据/丰台数据/丰台数据/水系.TAB",
+    "name": "水系",
+    "info": {
+      "layer_name": "水系",
+      "crs": "EPSG:4326",
+      "encoding": "UTF-8",
+      "fields": [
+        "要素编号",
+        "编码",
+        "名称",
+        "河流代码",
+        "显示等级"
+      ],
+      "dtypes": [
+        "int32",
+        "int32",
+        "object",
+        "object",
+        "int32"
+      ],
+      "fid_column": "",
+      "geometry_name": "",
+      "geometry_type": "Unknown",
+      "features": 104,
+      "total_bounds": [
+        116.079318,
+        39.76463793,
+        116.437333,
+        39.89541201
+      ],
+      "driver": "MapInfo File",
+      "capabilities": {
+        "random_read": true,
+        "fast_set_next_by_index": false,
+        "fast_spatial_filter": true,
+        "fast_feature_count": true,
+        "fast_total_bounds": true
+      },
+      "layer_metadata": null,
+      "dataset_metadata": null
+    },
+    "warnings": [],
+    "read_records": 104,
+    "null_geometry": 0,
+    "empty_geometry": 0,
+    "geometry_types": {
+      "Polygon": 97,
+      "MultiPolygon": 7
+    },
+    "invalid_geometry": 0,
+    "invalid_reasons": {},
+    "z_geometry": 0,
+    "fields": {
+      "要素编号": {
+        "nonempty": 104,
+        "literal_NULL_count": 0,
+        "nonempty_excluding_literal_NULL": 104,
+        "unique_nonempty": 104,
+        "zero_count": 0,
+        "suspected_numeric_sentinel_count": 0
+      },
+      "编码": {
+        "nonempty": 104,
+        "literal_NULL_count": 0,
+        "nonempty_excluding_literal_NULL": 104,
+        "unique_nonempty": 4,
+        "zero_count": 0,
+        "suspected_numeric_sentinel_count": 0,
+        "top_values": [
+          [
+            "160401",
+            73
+          ],
+          [
+            "160201",
+            25
+          ],
+          [
+            "161103",
+            4
+          ],
+          [
+            "160405",
+            2
+          ]
+        ]
+      },
+      "名称": {
+        "nonempty": 104,
+        "literal_NULL_count": 90,
+        "nonempty_excluding_literal_NULL": 14,
+        "unique_nonempty": 15,
+        "zero_count": 0,
+        "suspected_numeric_sentinel_count": 0
+      },
+      "河流代码": {
+        "nonempty": 104,
+        "literal_NULL_count": 104,
+        "nonempty_excluding_literal_NULL": 0,
+        "unique_nonempty": 1,
+        "zero_count": 0,
+        "suspected_numeric_sentinel_count": 0
+      },
+      "显示等级": {
+        "nonempty": 104,
+        "literal_NULL_count": 0,
+        "nonempty_excluding_literal_NULL": 104,
+        "unique_nonempty": 2,
+        "zero_count": 0,
+        "suspected_numeric_sentinel_count": 0,
+        "top_values": [
+          [
+            "7",
+            93
+          ],
+          [
+            "5",
+            11
+          ]
+        ]
+      }
+    },
+    "set_sha256": "deb9638208165a4568aec2a455417a38e90ac06ec713298f71f5bd8f3cc330a9",
+    "dbf_header_records": 104,
+    "dbf_header_update_date_bytes": [
+      115,
+      1,
+      12
+    ]
+  },
+  {
+    "path": "数据/丰台数据/丰台数据/道路.TAB",
+    "name": "道路",
+    "info": {
+      "layer_name": "道路",
+      "crs": "EPSG:4326",
+      "encoding": "UTF-8",
+      "fields": [
+        "要素编号",
+        "编码",
+        "道路名称",
+        "道路名称的汉语拼音",
+        "道路路线全称",
+        "类型",
+        "公路编号",
+        "道路功能等级",
+        "道路技术等级",
+        "道路显示等级",
+        "内部路段标识码",
+        "特殊功能路段类型码",
+        "宽度",
+        "铺宽",
+        "比高",
+        "通行月份",
+        "最小曲率半径",
+        "最大纵坡",
+        "车道数",
+        "空间层次",
+        "隔离带类型",
+        "路段高度限制",
+        "路段宽度限制",
+        "路段载重限制",
+        "道路的最高限速",
+        "道路的最低限速",
+        "路段长度",
+        "平均车流量",
+        "平均车速",
+        "左侧的门牌编号方式",
+        "左侧的起始门牌编号",
+        "左侧的结尾门牌编号",
+        "右侧的门牌编号方式",
+        "右侧的起始门牌编号",
+        "右侧的结尾门牌编号",
+        "行政区划代码",
+        "始结点号",
+        "终结点号",
+        "单向行驶标志",
+        "单向行驶标志有效时段",
+        "路段端结点交通灯标志",
+        "路段始结点上的交管信息编码",
+        "路段始结点上的交管信息有效时段",
+        "路段终结点上的交管信息编码",
+        "路段终结点上的交管信息有效时段",
+        "道路收费标志",
+        "始结点上的路口分流车道代码",
+        "终结点上的路口分流车道代码",
+        "终结点出口编号及名称",
+        "终结点上的指路信息",
+        "始结点上的警告标志代码",
+        "终结点上的警告标志代码",
+        "禁行车辆编码",
+        "禁行车辆编码有效时段",
+        "路段交管信息编码",
+        "路段交管信息有效时段"
+      ],
+      "dtypes": [
+        "int32",
+        "int32",
+        "object",
+        "object",
+        "object",
+        "object",
+        "object",
+        "int32",
+        "int32",
+        "int32",
+        "int32",
+        "object",
+        "float64",
+        "float64",
+        "float64",
+        "object",
+        "float64",
+        "float64",
+        "int32",
+        "int32",
+        "int32",
+        "float64",
+        "float64",
+        "float64",
+        "int32",
+        "int32",
+        "float64",
+        "int32",
+        "int32",
+        "object",
+        "object",
+        "object",
+        "object",
+        "object",
+        "object",
+        "object",
+        "int32",
+        "int32",
+        "object",
+        "object",
+        "object",
+        "object",
+        "object",
+        "object",
+        "object",
+        "object",
+        "object",
+        "object",
+        "object",
+        "object",
+        "int32",
+        "int32",
+        "object",
+        "object",
+        "object",
+        "object"
+      ],
+      "fid_column": "",
+      "geometry_name": "",
+      "geometry_type": "LineString",
+      "features": 26145,
+      "total_bounds": [
+        116.072772,
+        39.765001,
+        116.460224,
+        39.895579
+      ],
+      "driver": "MapInfo File",
+      "capabilities": {
+        "random_read": true,
+        "fast_set_next_by_index": false,
+        "fast_spatial_filter": true,
+        "fast_feature_count": true,
+        "fast_total_bounds": true
+      },
+      "layer_metadata": null,
+      "dataset_metadata": null
+    },
+    "warnings": [],
+    "read_records": 26145,
+    "null_geometry": 0,
+    "empty_geometry": 0,
+    "geometry_types": {
+      "LineString": 26145
+    },
+    "invalid_geometry": 0,
+    "invalid_reasons": {},
+    "z_geometry": 0,
+    "fields": {
+      "要素编号": {
+        "nonempty": 26145,
+        "literal_NULL_count": 0,
+        "nonempty_excluding_literal_NULL": 26145,
+        "unique_nonempty": 26144,
+        "zero_count": 0,
+        "suspected_numeric_sentinel_count": 0
+      },
+      "编码": {
+        "nonempty": 26145,
+        "literal_NULL_count": 0,
+        "nonempty_excluding_literal_NULL": 26145,
+        "unique_nonempty": 11,
+        "zero_count": 0,
+        "suspected_numeric_sentinel_count": 0,
+        "top_values": [
+          [
+            "140314",
+            10132
+          ],
+          [
+            "140319",
+            4289
+          ],
+          [
+            "140317",
+            3543
+          ],
+          [
+            "140402",
+            2638
+          ],
+          [
+            "140316",
+            2080
+          ],
+          [
+            "140311",
+            1442
+          ],
+          [
+            "140305",
+            786
+          ],
+          [
+            "140318",
+            741
+          ],
+          [
+            "140307",
+            263
+          ],
+          [
+            "140309",
+            227
+          ]
+        ]
+      },
+      "道路名称": {
+        "nonempty": 26145,
+        "literal_NULL_count": 16399,
+        "nonempty_excluding_literal_NULL": 9746,
+        "unique_nonempty": 441,
+        "zero_count": 0,
+        "suspected_numeric_sentinel_count": 0
+      },
+      "道路名称的汉语拼音": {
+        "nonempty": 26145,
+        "literal_NULL_count": 16076,
+        "nonempty_excluding_literal_NULL": 10069,
+        "unique_nonempty": 541,
+        "zero_count": 0,
+        "suspected_numeric_sentinel_count": 0
+      },
+      "道路路线全称": {
+        "nonempty": 26145,
+        "literal_NULL_count": 25238,
+        "nonempty_excluding_literal_NULL": 907,
+        "unique_nonempty": 14,
+        "zero_count": 0,
+        "suspected_numeric_sentinel_count": 0
+      },
+      "类型": {
+        "nonempty": 26145,
+        "literal_NULL_count": 20,
+        "nonempty_excluding_literal_NULL": 26125,
+        "unique_nonempty": 2,
+        "zero_count": 0,
+        "suspected_numeric_sentinel_count": 0,
+        "top_values": [
+          [
+            "高级",
+            26125
+          ],
+          [
+            "NULL",
+            20
+          ]
+        ]
+      },
+      "公路编号": {
+        "nonempty": 26145,
+        "literal_NULL_count": 25136,
+        "nonempty_excluding_literal_NULL": 1009,
+        "unique_nonempty": 17,
+        "zero_count": 0,
+        "suspected_numeric_sentinel_count": 0
+      },
+      "道路功能等级": {
+        "nonempty": 26145,
+        "literal_NULL_count": 0,
+        "nonempty_excluding_literal_NULL": 26145,
+        "unique_nonempty": 5,
+        "zero_count": 601,
+        "suspected_numeric_sentinel_count": 0,
+        "top_values": [
+          [
+            "4",
+            18468
+          ],
+          [
+            "3",
+            3720
+          ],
+          [
+            "2",
+            2245
+          ],
+          [
+            "1",
+            1111
+          ],
+          [
+            "0",
+            601
+          ]
+        ]
+      },
+      "道路技术等级": {
+        "nonempty": 26145,
+        "literal_NULL_count": 0,
+        "nonempty_excluding_literal_NULL": 26145,
+        "unique_nonempty": 6,
+        "zero_count": 0,
+        "suspected_numeric_sentinel_count": 0,
+        "top_values": [
+          [
+            "6",
+            12005
+          ],
+          [
+            "4",
+            9326
+          ],
+          [
+            "2",
+            3024
+          ],
+          [
+            "1",
+            1137
+          ],
+          [
+            "3",
+            650
+          ],
+          [
+            "5",
+            3
+          ]
+        ]
+      },
+      "道路显示等级": {
+        "nonempty": 26145,
+        "literal_NULL_count": 0,
+        "nonempty_excluding_literal_NULL": 26145,
+        "unique_nonempty": 8,
+        "zero_count": 0,
+        "suspected_numeric_sentinel_count": 0
+      },
+      "内部路段标识码": {
+        "nonempty": 26145,
+        "literal_NULL_count": 0,
+        "nonempty_excluding_literal_NULL": 26145,
+        "unique_nonempty": 2,
+        "zero_count": 0,
+        "suspected_numeric_sentinel_count": 24897
+      },
+      "特殊功能路段类型码": {
+        "nonempty": 26145,
+        "literal_NULL_count": 23321,
+        "nonempty_excluding_literal_NULL": 2824,
+        "unique_nonempty": 9,
+        "zero_count": 0,
+        "suspected_numeric_sentinel_count": 0
+      },
+      "宽度": {
+        "nonempty": 26145,
+        "literal_NULL_count": 0,
+        "nonempty_excluding_literal_NULL": 26145,
+        "unique_nonempty": 4,
+        "zero_count": 0,
+        "suspected_numeric_sentinel_count": 0,
+        "top_values": [
+          [
+            "13.0",
+            14590
+          ],
+          [
+            "5.5",
+            10872
+          ],
+          [
+            "15.0",
+            624
+          ],
+          [
+            "3.5",
+            59
+          ]
+        ]
+      },
+      "铺宽": {
+        "nonempty": 26145,
+        "literal_NULL_count": 0,
+        "nonempty_excluding_literal_NULL": 26145,
+        "unique_nonempty": 1,
+        "zero_count": 0,
+        "suspected_numeric_sentinel_count": 26145,
+        "top_values": [
+          [
+            "-999999.9",
+            26145
+          ]
+        ]
+      },
+      "比高": {
+        "nonempty": 26145,
+        "literal_NULL_count": 0,
+        "nonempty_excluding_literal_NULL": 26145,
+        "unique_nonempty": 1,
+        "zero_count": 0,
+        "suspected_numeric_sentinel_count": 26145
+      },
+      "通行月份": {
+        "nonempty": 26145,
+        "literal_NULL_count": 0,
+        "nonempty_excluding_literal_NULL": 26145,
+        "unique_nonempty": 1,
+        "zero_count": 0,
+        "suspected_numeric_sentinel_count": 0,
+        "top_values": [
+          [
+            "111111111111",
+            26145
+          ]
+        ]
+      },
+      "最小曲率半径": {
+        "nonempty": 26145,
+        "literal_NULL_count": 0,
+        "nonempty_excluding_literal_NULL": 26145,
+        "unique_nonempty": 1,
+        "zero_count": 0,
+        "suspected_numeric_sentinel_count": 26145
+      },
+      "最大纵坡": {
+        "nonempty": 26145,
+        "literal_NULL_count": 0,
+        "nonempty_excluding_literal_NULL": 26145,
+        "unique_nonempty": 1,
+        "zero_count": 0,
+        "suspected_numeric_sentinel_count": 26145,
+        "top_values": [
+          [
+            "-999999.9",
+            26145
+          ]
+        ]
+      },
+      "车道数": {
+        "nonempty": 26145,
+        "literal_NULL_count": 0,
+        "nonempty_excluding_literal_NULL": 26145,
+        "unique_nonempty": 7,
+        "zero_count": 0,
+        "suspected_numeric_sentinel_count": 0
+      },
+      "空间层次": {
+        "nonempty": 26145,
+        "literal_NULL_count": 0,
+        "nonempty_excluding_literal_NULL": 26145,
+        "unique_nonempty": 2,
+        "zero_count": 25440,
+        "suspected_numeric_sentinel_count": 0,
+        "top_values": [
+          [
+            "0",
+            25440
+          ],
+          [
+            "1",
+            705
+          ]
+        ]
+      },
+      "隔离带类型": {
+        "nonempty": 26145,
+        "literal_NULL_count": 0,
+        "nonempty_excluding_literal_NULL": 26145,
+        "unique_nonempty": 2,
+        "zero_count": 0,
+        "suspected_numeric_sentinel_count": 25145
+      },
+      "路段高度限制": {
+        "nonempty": 26145,
+        "literal_NULL_count": 0,
+        "nonempty_excluding_literal_NULL": 26145,
+        "unique_nonempty": 1,
+        "zero_count": 0,
+        "suspected_numeric_sentinel_count": 26145
+      },
+      "路段宽度限制": {
+        "nonempty": 26145,
+        "literal_NULL_count": 0,
+        "nonempty_excluding_literal_NULL": 26145,
+        "unique_nonempty": 1,
+        "zero_count": 0,
+        "suspected_numeric_sentinel_count": 26145
+      },
+      "路段载重限制": {
+        "nonempty": 26145,
+        "literal_NULL_count": 0,
+        "nonempty_excluding_literal_NULL": 26145,
+        "unique_nonempty": 1,
+        "zero_count": 0,
+        "suspected_numeric_sentinel_count": 26145
+      },
+      "道路的最高限速": {
+        "nonempty": 26145,
+        "literal_NULL_count": 0,
+        "nonempty_excluding_literal_NULL": 26145,
+        "unique_nonempty": 14,
+        "zero_count": 0,
+        "suspected_numeric_sentinel_count": 4885,
+        "top_values": [
+          [
+            "15",
+            8098
+          ],
+          [
+            "-32767",
+            4885
+          ],
+          [
+            "30",
+            3903
+          ],
+          [
+            "60",
+            3454
+          ],
+          [
+            "40",
+            2736
+          ],
+          [
+            "80",
+            1184
+          ],
+          [
+            "50",
+            1016
+          ],
+          [
+            "5",
+            292
+          ],
+          [
+            "70",
+            256
+          ],
+          [
+            "20",
+            93
+          ]
+        ]
+      },
+      "道路的最低限速": {
+        "nonempty": 26145,
+        "literal_NULL_count": 0,
+        "nonempty_excluding_literal_NULL": 26145,
+        "unique_nonempty": 1,
+        "zero_count": 0,
+        "suspected_numeric_sentinel_count": 26145
+      },
+      "路段长度": {
+        "nonempty": 26145,
+        "literal_NULL_count": 0,
+        "nonempty_excluding_literal_NULL": 26145,
+        "unique_nonempty": 13898,
+        "zero_count": 0,
+        "suspected_numeric_sentinel_count": 0
+      },
+      "平均车流量": {
+        "nonempty": 26145,
+        "literal_NULL_count": 0,
+        "nonempty_excluding_literal_NULL": 26145,
+        "unique_nonempty": 1,
+        "zero_count": 0,
+        "suspected_numeric_sentinel_count": 26145
+      },
+      "平均车速": {
+        "nonempty": 26145,
+        "literal_NULL_count": 0,
+        "nonempty_excluding_literal_NULL": 26145,
+        "unique_nonempty": 1,
+        "zero_count": 0,
+        "suspected_numeric_sentinel_count": 26145,
+        "top_values": [
+          [
+            "-32767",
+            26145
+          ]
+        ]
+      },
+      "左侧的门牌编号方式": {
+        "nonempty": 26145,
+        "literal_NULL_count": 26145,
+        "nonempty_excluding_literal_NULL": 0,
+        "unique_nonempty": 1,
+        "zero_count": 0,
+        "suspected_numeric_sentinel_count": 0
+      },
+      "左侧的起始门牌编号": {
+        "nonempty": 26145,
+        "literal_NULL_count": 26145,
+        "nonempty_excluding_literal_NULL": 0,
+        "unique_nonempty": 1,
+        "zero_count": 0,
+        "suspected_numeric_sentinel_count": 0
+      },
+      "左侧的结尾门牌编号": {
+        "nonempty": 26145,
+        "literal_NULL_count": 26145,
+        "nonempty_excluding_literal_NULL": 0,
+        "unique_nonempty": 1,
+        "zero_count": 0,
+        "suspected_numeric_sentinel_count": 0
+      },
+      "右侧的门牌编号方式": {
+        "nonempty": 26145,
+        "literal_NULL_count": 26145,
+        "nonempty_excluding_literal_NULL": 0,
+        "unique_nonempty": 1,
+        "zero_count": 0,
+        "suspected_numeric_sentinel_count": 0
+      },
+      "右侧的起始门牌编号": {
+        "nonempty": 26145,
+        "literal_NULL_count": 26145,
+        "nonempty_excluding_literal_NULL": 0,
+        "unique_nonempty": 1,
+        "zero_count": 0,
+        "suspected_numeric_sentinel_count": 0
+      },
+      "右侧的结尾门牌编号": {
+        "nonempty": 26145,
+        "literal_NULL_count": 26145,
+        "nonempty_excluding_literal_NULL": 0,
+        "unique_nonempty": 1,
+        "zero_count": 0,
+        "suspected_numeric_sentinel_count": 0
+      },
+      "行政区划代码": {
+        "nonempty": 26145,
+        "literal_NULL_count": 0,
+        "nonempty_excluding_literal_NULL": 26145,
+        "unique_nonempty": 9,
+        "zero_count": 0,
+        "suspected_numeric_sentinel_count": 0
+      },
+      "始结点号": {
+        "nonempty": 26145,
+        "literal_NULL_count": 0,
+        "nonempty_excluding_literal_NULL": 26145,
+        "unique_nonempty": 18794,
+        "zero_count": 0,
+        "suspected_numeric_sentinel_count": 0,
+        "top_values": [
+          [
+            "79201",
+            5
+          ],
+          [
+            "22218",
+            4
+          ],
+          [
+            "49368",
+            4
+          ],
+          [
+            "50559",
+            4
+          ],
+          [
+            "50689",
+            4
+          ],
+          [
+            "50858",
+            4
+          ],
+          [
+            "50943",
+            4
+          ],
+          [
+            "50870",
+            4
+          ],
+          [
+            "55026",
+            4
+          ],
+          [
+            "65222",
+            4
+          ]
+        ]
+      },
+      "终结点号": {
+        "nonempty": 26145,
+        "literal_NULL_count": 0,
+        "nonempty_excluding_literal_NULL": 26145,
+        "unique_nonempty": 19646,
+        "zero_count": 0,
+        "suspected_numeric_sentinel_count": 0,
+        "top_values": [
+          [
+            "24129",
+            4
+          ],
+          [
+            "21881",
+            4
+          ],
+          [
+            "49086",
+            4
+          ],
+          [
+            "49325",
+            4
+          ],
+          [
+            "54764",
+            4
+          ],
+          [
+            "58141",
+            4
+          ],
+          [
+            "50790",
+            4
+          ],
+          [
+            "64481",
+            4
+          ],
+          [
+            "65385",
+            4
+          ],
+          [
+            "65233",
+            4
+          ]
+        ]
+      },
+      "单向行驶标志": {
+        "nonempty": 26145,
+        "literal_NULL_count": 0,
+        "nonempty_excluding_literal_NULL": 26145,
+        "unique_nonempty": 2,
+        "zero_count": 0,
+        "suspected_numeric_sentinel_count": 0,
+        "top_values": [
+          [
+            "F",
+            16939
+          ],
+          [
+            "T",
+            9206
+          ]
+        ]
+      },
+      "单向行驶标志有效时段": {
+        "nonempty": 26145,
+        "literal_NULL_count": 26124,
+        "nonempty_excluding_literal_NULL": 21,
+        "unique_nonempty": 6,
+        "zero_count": 0,
+        "suspected_numeric_sentinel_count": 0
+      },
+      "路段端结点交通灯标志": {
+        "nonempty": 26145,
+        "literal_NULL_count": 0,
+        "nonempty_excluding_literal_NULL": 26145,
+        "unique_nonempty": 4,
+        "zero_count": 0,
+        "suspected_numeric_sentinel_count": 0
+      },
+      "路段始结点上的交管信息编码": {
+        "nonempty": 26145,
+        "literal_NULL_count": 25973,
+        "nonempty_excluding_literal_NULL": 172,
+        "unique_nonempty": 9,
+        "zero_count": 0,
+        "suspected_numeric_sentinel_count": 0
+      },
+      "路段始结点上的交管信息有效时段": {
+        "nonempty": 26145,
+        "literal_NULL_count": 25973,
+        "nonempty_excluding_literal_NULL": 172,
+        "unique_nonempty": 10,
+        "zero_count": 0,
+        "suspected_numeric_sentinel_count": 0
+      },
+      "路段终结点上的交管信息编码": {
+        "nonempty": 26145,
+        "literal_NULL_count": 25058,
+        "nonempty_excluding_literal_NULL": 1087,
+        "unique_nonempty": 16,
+        "zero_count": 0,
+        "suspected_numeric_sentinel_count": 0
+      },
+      "路段终结点上的交管信息有效时段": {
+        "nonempty": 26145,
+        "literal_NULL_count": 25058,
+        "nonempty_excluding_literal_NULL": 1087,
+        "unique_nonempty": 12,
+        "zero_count": 0,
+        "suspected_numeric_sentinel_count": 0
+      },
+      "道路收费标志": {
+        "nonempty": 26145,
+        "literal_NULL_count": 0,
+        "nonempty_excluding_literal_NULL": 26145,
+        "unique_nonempty": 2,
+        "zero_count": 0,
+        "suspected_numeric_sentinel_count": 0
+      },
+      "始结点上的路口分流车道代码": {
+        "nonempty": 26145,
+        "literal_NULL_count": 25574,
+        "nonempty_excluding_literal_NULL": 571,
+        "unique_nonempty": 26,
+        "zero_count": 0,
+        "suspected_numeric_sentinel_count": 0
+      },
+      "终结点上的路口分流车道代码": {
+        "nonempty": 26145,
+        "literal_NULL_count": 24076,
+        "nonempty_excluding_literal_NULL": 2069,
+        "unique_nonempty": 123,
+        "zero_count": 0,
+        "suspected_numeric_sentinel_count": 0
+      },
+      "终结点出口编号及名称": {
+        "nonempty": 26145,
+        "literal_NULL_count": 26033,
+        "nonempty_excluding_literal_NULL": 112,
+        "unique_nonempty": 103,
+        "zero_count": 0,
+        "suspected_numeric_sentinel_count": 0
+      },
+      "终结点上的指路信息": {
+        "nonempty": 26145,
+        "literal_NULL_count": 25995,
+        "nonempty_excluding_literal_NULL": 150,
+        "unique_nonempty": 141,
+        "zero_count": 0,
+        "suspected_numeric_sentinel_count": 0
+      },
+      "始结点上的警告标志代码": {
+        "nonempty": 26145,
+        "literal_NULL_count": 0,
+        "nonempty_excluding_literal_NULL": 26145,
+        "unique_nonempty": 1,
+        "zero_count": 0,
+        "suspected_numeric_sentinel_count": 26145
+      },
+      "终结点上的警告标志代码": {
+        "nonempty": 26145,
+        "literal_NULL_count": 0,
+        "nonempty_excluding_literal_NULL": 26145,
+        "unique_nonempty": 1,
+        "zero_count": 0,
+        "suspected_numeric_sentinel_count": 26145
+      },
+      "禁行车辆编码": {
+        "nonempty": 26145,
+        "literal_NULL_count": 26145,
+        "nonempty_excluding_literal_NULL": 0,
+        "unique_nonempty": 1,
+        "zero_count": 0,
+        "suspected_numeric_sentinel_count": 0
+      },
+      "禁行车辆编码有效时段": {
+        "nonempty": 26145,
+        "literal_NULL_count": 26145,
+        "nonempty_excluding_literal_NULL": 0,
+        "unique_nonempty": 1,
+        "zero_count": 0,
+        "suspected_numeric_sentinel_count": 0
+      },
+      "路段交管信息编码": {
+        "nonempty": 26145,
+        "literal_NULL_count": 26145,
+        "nonempty_excluding_literal_NULL": 0,
+        "unique_nonempty": 1,
+        "zero_count": 0,
+        "suspected_numeric_sentinel_count": 0
+      },
+      "路段交管信息有效时段": {
+        "nonempty": 26145,
+        "literal_NULL_count": 26145,
+        "nonempty_excluding_literal_NULL": 0,
+        "unique_nonempty": 1,
+        "zero_count": 0,
+        "suspected_numeric_sentinel_count": 0
+      }
+    },
+    "set_sha256": "125edb4e5d19067b17ab98ea016e93e2c7820c508c637818b93a81befcf2c0e6",
+    "dbf_header_records": 26147,
+    "dbf_header_update_date_bytes": [
+      115,
+      1,
+      12
+    ]
+  },
+  {
+    "path": "数据/丰台数据/丰台数据/铁路.TAB",
+    "name": "铁路",
+    "info": {
+      "layer_name": "铁路",
+      "crs": "EPSG:4326",
+      "encoding": "UTF-8",
+      "fields": [
+        "要素编号",
+        "编码",
+        "名称",
+        "显示等级"
+      ],
+      "dtypes": [
+        "int32",
+        "int32",
+        "object",
+        "int32"
+      ],
+      "fid_column": "",
+      "geometry_name": "",
+      "geometry_type": "LineString",
+      "features": 58,
+      "total_bounds": [
+        116.065972,
+        39.772255,
+        116.448459,
+        39.899091
+      ],
+      "driver": "MapInfo File",
+      "capabilities": {
+        "random_read": true,
+        "fast_set_next_by_index": false,
+        "fast_spatial_filter": true,
+        "fast_feature_count": true,
+        "fast_total_bounds": true
+      },
+      "layer_metadata": null,
+      "dataset_metadata": null
+    },
+    "warnings": [],
+    "read_records": 58,
+    "null_geometry": 0,
+    "empty_geometry": 0,
+    "geometry_types": {
+      "LineString": 58
+    },
+    "invalid_geometry": 0,
+    "invalid_reasons": {},
+    "z_geometry": 0,
+    "fields": {
+      "要素编号": {
+        "nonempty": 58,
+        "literal_NULL_count": 0,
+        "nonempty_excluding_literal_NULL": 58,
+        "unique_nonempty": 55,
+        "zero_count": 0,
+        "suspected_numeric_sentinel_count": 0
+      },
+      "编码": {
+        "nonempty": 58,
+        "literal_NULL_count": 0,
+        "nonempty_excluding_literal_NULL": 58,
+        "unique_nonempty": 2,
+        "zero_count": 0,
+        "suspected_numeric_sentinel_count": 0,
+        "top_values": [
+          [
+            "140101",
+            51
+          ],
+          [
+            "140108",
+            7
+          ]
+        ]
+      },
+      "名称": {
+        "nonempty": 58,
+        "literal_NULL_count": 40,
+        "nonempty_excluding_literal_NULL": 18,
+        "unique_nonempty": 13,
+        "zero_count": 0,
+        "suspected_numeric_sentinel_count": 0
+      },
+      "显示等级": {
+        "nonempty": 58,
+        "literal_NULL_count": 0,
+        "nonempty_excluding_literal_NULL": 58,
+        "unique_nonempty": 2,
+        "zero_count": 0,
+        "suspected_numeric_sentinel_count": 0,
+        "top_values": [
+          [
+            "7",
+            47
+          ],
+          [
+            "5",
+            11
+          ]
+        ]
+      }
+    },
+    "set_sha256": "062491e7d704d904e8b942145a8d70e218a4b81b1b140795287b888a66291afb",
+    "dbf_header_records": 58,
+    "dbf_header_update_date_bytes": [
+      115,
+      1,
+      12
+    ]
+  },
+  {
+    "path": "数据/办公用水.TAB",
+    "name": "办公用水",
+    "info": {
+      "layer_name": "办公用水",
+      "crs": "LOCAL_CS[\"Nonearth\",UNIT[\"Meter\",1],AXIS[\"Easting\",EAST],AXIS[\"Northing\",NORTH]]",
+      "encoding": "UTF-8",
+      "fields": [
+        "ID",
+        "编码",
+        "名称",
+        "主次管道或口径"
+      ],
+      "dtypes": [
+        "object",
+        "object",
+        "object",
+        "object"
+      ],
+      "fid_column": "",
+      "geometry_name": "",
+      "geometry_type": "Unknown",
+      "features": 89,
+      "total_bounds": [
+        507143.55,
+        309267.41,
+        507442.93,
+        309523.05
+      ],
+      "driver": "MapInfo File",
+      "capabilities": {
+        "random_read": true,
+        "fast_set_next_by_index": false,
+        "fast_spatial_filter": true,
+        "fast_feature_count": true,
+        "fast_total_bounds": true
+      },
+      "layer_metadata": null,
+      "dataset_metadata": null
+    },
+    "warnings": [],
+    "read_records": 89,
+    "null_geometry": 0,
+    "empty_geometry": 0,
+    "geometry_types": {
+      "LineString": 84,
+      "GeometryCollection": 5
+    },
+    "invalid_geometry": 0,
+    "invalid_reasons": {},
+    "z_geometry": 0,
+    "fields": {
+      "ID": {
+        "nonempty": 89,
+        "literal_NULL_count": 0,
+        "nonempty_excluding_literal_NULL": 89,
+        "unique_nonempty": 89,
+        "zero_count": 0,
+        "suspected_numeric_sentinel_count": 0
+      },
+      "编码": {
+        "nonempty": 89,
+        "literal_NULL_count": 0,
+        "nonempty_excluding_literal_NULL": 89,
+        "unique_nonempty": 2,
+        "zero_count": 0,
+        "suspected_numeric_sentinel_count": 0,
+        "top_values": [
+          [
+            "531200",
+            84
+          ],
+          [
+            "532100",
+            5
+          ]
+        ]
+      },
+      "名称": {
+        "nonempty": 89,
+        "literal_NULL_count": 0,
+        "nonempty_excluding_literal_NULL": 89,
+        "unique_nonempty": 2,
+        "zero_count": 0,
+        "suspected_numeric_sentinel_count": 0
+      },
+      "主次管道或口径": {
+        "nonempty": 0,
+        "literal_NULL_count": 0,
+        "nonempty_excluding_literal_NULL": 0,
+        "unique_nonempty": 0,
+        "zero_count": 0,
+        "suspected_numeric_sentinel_count": 0
+      }
+    },
+    "set_sha256": "26e7bcb5f1e9c97d40c879a330a4853737138ff542391b5b6baa4c683edf711f",
+    "dbf_header_records": 90,
+    "dbf_header_update_date_bytes": [
+      105,
+      1,
+      4
+    ]
+  },
+  {
+    "path": "数据/基础层.TAB",
+    "name": "基础层",
+    "info": {
+      "layer_name": "基础层",
+      "crs": "LOCAL_CS[\"Nonearth\",UNIT[\"Meter\",1],AXIS[\"Easting\",EAST],AXIS[\"Northing\",NORTH]]",
+      "encoding": "UTF-8",
+      "fields": [
+        "ID"
+      ],
+      "dtypes": [
+        "object"
+      ],
+      "fid_column": "",
+      "geometry_name": "",
+      "geometry_type": "Unknown",
+      "features": 1026,
+      "total_bounds": [
+        507040.46,
+        309133.07,
+        507456.0,
+        309569.5
+      ],
+      "driver": "MapInfo File",
+      "capabilities": {
+        "random_read": true,
+        "fast_set_next_by_index": false,
+        "fast_spatial_filter": true,
+        "fast_feature_count": true,
+        "fast_total_bounds": true
+      },
+      "layer_metadata": null,
+      "dataset_metadata": null
+    },
+    "warnings": [],
+    "read_records": 1026,
+    "null_geometry": 0,
+    "empty_geometry": 0,
+    "geometry_types": {
+      "GeometryCollection": 8,
+      "Polygon": 206,
+      "LineString": 748,
+      "MultiLineString": 16,
+      "Point": 47,
+      "MultiPolygon": 1
+    },
+    "invalid_geometry": 6,
+    "invalid_reasons": {
+      "Too few points in geometry component": 4,
+      "Ring Self-intersection": 2
+    },
+    "z_geometry": 0,
+    "fields": {
+      "ID": {
+        "nonempty": 1026,
+        "literal_NULL_count": 0,
+        "nonempty_excluding_literal_NULL": 1026,
+        "unique_nonempty": 1010,
+        "zero_count": 0,
+        "suspected_numeric_sentinel_count": 0
+      }
+    },
+    "set_sha256": "77914613a4e5e361b843cf4c5b5aed1cc6c14f0067e02bdc5cc9a55c58905790",
+    "dbf_header_records": 1029,
+    "dbf_header_update_date_bytes": [
+      105,
+      1,
+      10
+    ]
+  },
+  {
+    "path": "数据/无标题.TAB",
+    "name": "无标题",
+    "info": {
+      "layer_name": "无标题",
+      "crs": null,
+      "encoding": "UTF-8",
+      "fields": [
+        "aa"
+      ],
+      "dtypes": [
+        "object"
+      ],
+      "fid_column": "",
+      "geometry_name": "",
+      "geometry_type": null,
+      "features": 0,
+      "total_bounds": null,
+      "driver": "MapInfo File",
+      "capabilities": {
+        "random_read": true,
+        "fast_set_next_by_index": false,
+        "fast_spatial_filter": true,
+        "fast_feature_count": true,
+        "fast_total_bounds": true
+      },
+      "layer_metadata": null,
+      "dataset_metadata": null
+    },
+    "warnings": [],
+    "read_records": 0,
+    "null_geometry": 0,
+    "empty_geometry": 0,
+    "geometry_types": {},
+    "invalid_geometry": 0,
+    "invalid_reasons": {},
+    "z_geometry": 0,
+    "fields": {
+      "aa": {
+        "nonempty": 0,
+        "literal_NULL_count": 0,
+        "nonempty_excluding_literal_NULL": 0,
+        "unique_nonempty": 0,
+        "zero_count": 0,
+        "suspected_numeric_sentinel_count": 0
+      }
+    },
+    "set_sha256": "8cfef9dc611eec4c8a52e6d76523d24273198bfa22bcfb5de56035c757d733d7",
+    "dbf_header_records": 0,
+    "dbf_header_update_date_bytes": [
+      105,
+      1,
+      5
+    ]
+  },
+  {
+    "path": "数据/暖气.TAB",
+    "name": "暖气",
+    "info": {
+      "layer_name": "暖气",
+      "crs": "LOCAL_CS[\"Nonearth\",UNIT[\"Meter\",1],AXIS[\"Easting\",EAST],AXIS[\"Northing\",NORTH]]",
+      "encoding": "UTF-8",
+      "fields": [
+        "ID",
+        "编码",
+        "名称"
+      ],
+      "dtypes": [
+        "object",
+        "object",
+        "object"
+      ],
+      "fid_column": "",
+      "geometry_name": "",
+      "geometry_type": "Unknown",
+      "features": 39,
+      "total_bounds": [
+        507148.2,
+        309272.79,
+        507321.21,
+        309486.51
+      ],
+      "driver": "MapInfo File",
+      "capabilities": {
+        "random_read": true,
+        "fast_set_next_by_index": false,
+        "fast_spatial_filter": true,
+        "fast_feature_count": true,
+        "fast_total_bounds": true
+      },
+      "layer_metadata": null,
+      "dataset_metadata": null
+    },
+    "warnings": [],
+    "read_records": 39,
+    "null_geometry": 0,
+    "empty_geometry": 0,
+    "geometry_types": {
+      "LineString": 18,
+      "GeometryCollection": 21
+    },
+    "invalid_geometry": 0,
+    "invalid_reasons": {},
+    "z_geometry": 0,
+    "fields": {
+      "ID": {
+        "nonempty": 39,
+        "literal_NULL_count": 0,
+        "nonempty_excluding_literal_NULL": 39,
+        "unique_nonempty": 39,
+        "zero_count": 0,
+        "suspected_numeric_sentinel_count": 0
+      },
+      "编码": {
+        "nonempty": 37,
+        "literal_NULL_count": 0,
+        "nonempty_excluding_literal_NULL": 37,
+        "unique_nonempty": 2,
+        "zero_count": 0,
+        "suspected_numeric_sentinel_count": 0,
+        "top_values": [
+          [
+            "562000",
+            21
+          ],
+          [
+            "561200",
+            16
+          ]
+        ]
+      },
+      "名称": {
+        "nonempty": 37,
+        "literal_NULL_count": 0,
+        "nonempty_excluding_literal_NULL": 37,
+        "unique_nonempty": 2,
+        "zero_count": 0,
+        "suspected_numeric_sentinel_count": 0
+      }
+    },
+    "set_sha256": "ce9668b3e75cea3f52ae2c67dd6887016cf570b53054b39f3940218246cb1f4c",
+    "dbf_header_records": 44,
+    "dbf_header_update_date_bytes": [
+      106,
+      6,
+      14
+    ]
+  },
+  {
+    "path": "数据/污水雨水.TAB",
+    "name": "污水雨水",
+    "info": {
+      "layer_name": "污水雨水",
+      "crs": "LOCAL_CS[\"Nonearth\",UNIT[\"Meter\",1],AXIS[\"Easting\",EAST],AXIS[\"Northing\",NORTH]]",
+      "encoding": "UTF-8",
+      "fields": [
+        "ID",
+        "编码",
+        "名称",
+        "主次管道或口径"
+      ],
+      "dtypes": [
+        "object",
+        "object",
+        "object",
+        "object"
+      ],
+      "fid_column": "",
+      "geometry_name": "",
+      "geometry_type": "Unknown",
+      "features": 1094,
+      "total_bounds": [
+        507125.03,
+        309228.61,
+        507406.94,
+        309518.68
+      ],
+      "driver": "MapInfo File",
+      "capabilities": {
+        "random_read": true,
+        "fast_set_next_by_index": false,
+        "fast_spatial_filter": true,
+        "fast_feature_count": true,
+        "fast_total_bounds": true
+      },
+      "layer_metadata": null,
+      "dataset_metadata": null
+    },
+    "warnings": [],
+    "read_records": 1094,
+    "null_geometry": 0,
+    "empty_geometry": 0,
+    "geometry_types": {
+      "GeometryCollection": 479,
+      "LineString": 615
+    },
+    "invalid_geometry": 0,
+    "invalid_reasons": {},
+    "z_geometry": 0,
+    "fields": {
+      "ID": {
+        "nonempty": 1094,
+        "literal_NULL_count": 0,
+        "nonempty_excluding_literal_NULL": 1094,
+        "unique_nonempty": 1089,
+        "zero_count": 0,
+        "suspected_numeric_sentinel_count": 0
+      },
+      "编码": {
+        "nonempty": 1094,
+        "literal_NULL_count": 0,
+        "nonempty_excluding_literal_NULL": 1094,
+        "unique_nonempty": 4,
+        "zero_count": 0,
+        "suspected_numeric_sentinel_count": 0,
+        "top_values": [
+          [
+            "541000",
+            616
+          ],
+          [
+            "544100",
+            437
+          ],
+          [
+            "544220",
+            33
+          ],
+          [
+            "544210",
+            8
+          ]
+        ]
+      },
+      "名称": {
+        "nonempty": 1094,
+        "literal_NULL_count": 0,
+        "nonempty_excluding_literal_NULL": 1094,
+        "unique_nonempty": 4,
+        "zero_count": 0,
+        "suspected_numeric_sentinel_count": 0
+      },
+      "主次管道或口径": {
+        "nonempty": 0,
+        "literal_NULL_count": 0,
+        "nonempty_excluding_literal_NULL": 0,
+        "unique_nonempty": 0,
+        "zero_count": 0,
+        "suspected_numeric_sentinel_count": 0
+      }
+    },
+    "set_sha256": "a1c11916f605427040a9c07a752348d80ce44cf5f638da806cb696e60cf6d0c8",
+    "dbf_header_records": 1094,
+    "dbf_header_update_date_bytes": [
+      105,
+      1,
+      10
+    ]
+  },
+  {
+    "path": "数据/消防水.TAB",
+    "name": "消防水",
+    "info": {
+      "layer_name": "消防水",
+      "crs": "LOCAL_CS[\"Nonearth\",UNIT[\"Meter\",1],AXIS[\"Easting\",EAST],AXIS[\"Northing\",NORTH]]",
+      "encoding": "UTF-8",
+      "fields": [
+        "ID",
+        "编码",
+        "名称",
+        "主次管道或口径"
+      ],
+      "dtypes": [
+        "object",
+        "object",
+        "object",
+        "object"
+      ],
+      "fid_column": "",
+      "geometry_name": "",
+      "geometry_type": "Unknown",
+      "features": 20,
+      "total_bounds": [
+        507193.65,
+        309255.82,
+        507365.82,
+        309513.06
+      ],
+      "driver": "MapInfo File",
+      "capabilities": {
+        "random_read": true,
+        "fast_set_next_by_index": false,
+        "fast_spatial_filter": true,
+        "fast_feature_count": true,
+        "fast_total_bounds": true
+      },
+      "layer_metadata": null,
+      "dataset_metadata": null
+    },
+    "warnings": [],
+    "read_records": 20,
+    "null_geometry": 0,
+    "empty_geometry": 0,
+    "geometry_types": {
+      "LineString": 18,
+      "GeometryCollection": 2
+    },
+    "invalid_geometry": 0,
+    "invalid_reasons": {},
+    "z_geometry": 0,
+    "fields": {
+      "ID": {
+        "nonempty": 20,
+        "literal_NULL_count": 0,
+        "nonempty_excluding_literal_NULL": 20,
+        "unique_nonempty": 20,
+        "zero_count": 0,
+        "suspected_numeric_sentinel_count": 0
+      },
+      "编码": {
+        "nonempty": 20,
+        "literal_NULL_count": 0,
+        "nonempty_excluding_literal_NULL": 20,
+        "unique_nonempty": 2,
+        "zero_count": 0,
+        "suspected_numeric_sentinel_count": 0,
+        "top_values": [
+          [
+            "531200",
+            18
+          ],
+          [
+            "532100",
+            2
+          ]
+        ]
+      },
+      "名称": {
+        "nonempty": 20,
+        "literal_NULL_count": 0,
+        "nonempty_excluding_literal_NULL": 20,
+        "unique_nonempty": 2,
+        "zero_count": 0,
+        "suspected_numeric_sentinel_count": 0
+      },
+      "主次管道或口径": {
+        "nonempty": 0,
+        "literal_NULL_count": 0,
+        "nonempty_excluding_literal_NULL": 0,
+        "unique_nonempty": 0,
+        "zero_count": 0,
+        "suspected_numeric_sentinel_count": 0
+      }
+    },
+    "set_sha256": "eaff91085e55c8f23e8fb612e79c015f0711526950ef835473a5f5fbcf368252",
+    "dbf_header_records": 20,
+    "dbf_header_update_date_bytes": [
+      105,
+      1,
+      5
+    ]
+  },
+  {
+    "path": "数据/煤气.TAB",
+    "name": "煤气",
+    "info": {
+      "layer_name": "煤气",
+      "crs": "LOCAL_CS[\"Nonearth\",UNIT[\"Meter\",1],AXIS[\"Easting\",EAST],AXIS[\"Northing\",NORTH]]",
+      "encoding": "UTF-8",
+      "fields": [
+        "ID",
+        "编码",
+        "名称"
+      ],
+      "dtypes": [
+        "object",
+        "object",
+        "object"
+      ],
+      "fid_column": "",
+      "geometry_name": "",
+      "geometry_type": "Unknown",
+      "features": 21,
+      "total_bounds": [
+        507200.22,
+        309285.25,
+        507250.51,
+        309491.62
+      ],
+      "driver": "MapInfo File",
+      "capabilities": {
+        "random_read": true,
+        "fast_set_next_by_index": false,
+        "fast_spatial_filter": true,
+        "fast_feature_count": true,
+        "fast_total_bounds": true
+      },
+      "layer_metadata": null,
+      "dataset_metadata": null
+    },
+    "warnings": [],
+    "read_records": 21,
+    "null_geometry": 0,
+    "empty_geometry": 0,
+    "geometry_types": {
+      "LineString": 11,
+      "GeometryCollection": 10
+    },
+    "invalid_geometry": 0,
+    "invalid_reasons": {},
+    "z_geometry": 0,
+    "fields": {
+      "ID": {
+        "nonempty": 21,
+        "literal_NULL_count": 0,
+        "nonempty_excluding_literal_NULL": 21,
+        "unique_nonempty": 21,
+        "zero_count": 0,
+        "suspected_numeric_sentinel_count": 0
+      },
+      "编码": {
+        "nonempty": 21,
+        "literal_NULL_count": 0,
+        "nonempty_excluding_literal_NULL": 21,
+        "unique_nonempty": 2,
+        "zero_count": 0,
+        "suspected_numeric_sentinel_count": 0,
+        "top_values": [
+          [
+            "551200",
+            11
+          ],
+          [
+            "554000",
+            10
+          ]
+        ]
+      },
+      "名称": {
+        "nonempty": 21,
+        "literal_NULL_count": 0,
+        "nonempty_excluding_literal_NULL": 21,
+        "unique_nonempty": 2,
+        "zero_count": 0,
+        "suspected_numeric_sentinel_count": 0
+      }
+    },
+    "set_sha256": "3551ce3613e2879dd5ef5bdcce8f87a5e3de2f97a439b02da4f507a7e8dfd333",
+    "dbf_header_records": 22,
+    "dbf_header_update_date_bytes": [
+      105,
+      1,
+      10
+    ]
+  },
+  {
+    "path": "数据/电力线.TAB",
+    "name": "电力线",
+    "info": {
+      "layer_name": "电力线",
+      "crs": "LOCAL_CS[\"Nonearth\",UNIT[\"Meter\",1],AXIS[\"Easting\",EAST],AXIS[\"Northing\",NORTH]]",
+      "encoding": "UTF-8",
+      "fields": [
+        "ID",
+        "编码",
+        "名称",
+        "容量"
+      ],
+      "dtypes": [
+        "object",
+        "object",
+        "object",
+        "object"
+      ],
+      "fid_column": "",
+      "geometry_name": "",
+      "geometry_type": "Unknown",
+      "features": 13,
+      "total_bounds": [
+        507135.57,
+        309176.06,
+        507420.1,
+        309532.04
+      ],
+      "driver": "MapInfo File",
+      "capabilities": {
+        "random_read": true,
+        "fast_set_next_by_index": false,
+        "fast_spatial_filter": true,
+        "fast_feature_count": true,
+        "fast_total_bounds": true
+      },
+      "layer_metadata": null,
+      "dataset_metadata": null
+    },
+    "warnings": [],
+    "read_records": 13,
+    "null_geometry": 0,
+    "empty_geometry": 0,
+    "geometry_types": {
+      "GeometryCollection": 12,
+      "MultiLineString": 1
+    },
+    "invalid_geometry": 0,
+    "invalid_reasons": {},
+    "z_geometry": 0,
+    "fields": {
+      "ID": {
+        "nonempty": 13,
+        "literal_NULL_count": 0,
+        "nonempty_excluding_literal_NULL": 13,
+        "unique_nonempty": 13,
+        "zero_count": 0,
+        "suspected_numeric_sentinel_count": 0
+      },
+      "编码": {
+        "nonempty": 13,
+        "literal_NULL_count": 0,
+        "nonempty_excluding_literal_NULL": 13,
+        "unique_nonempty": 4,
+        "zero_count": 0,
+        "suspected_numeric_sentinel_count": 0,
+        "top_values": [
+          [
+            "511300",
+            8
+          ],
+          [
+            "518200",
+            3
+          ],
+          [
+            "516000",
+            1
+          ],
+          [
+            "512200",
+            1
+          ]
+        ]
+      },
+      "名称": {
+        "nonempty": 13,
+        "literal_NULL_count": 0,
+        "nonempty_excluding_literal_NULL": 13,
+        "unique_nonempty": 4,
+        "zero_count": 0,
+        "suspected_numeric_sentinel_count": 0
+      },
+      "容量": {
+        "nonempty": 0,
+        "literal_NULL_count": 0,
+        "nonempty_excluding_literal_NULL": 0,
+        "unique_nonempty": 0,
+        "zero_count": 0,
+        "suspected_numeric_sentinel_count": 0
+      }
+    },
+    "set_sha256": "1b2943ba0d8a7ae61be95b319e6b8faa8d1091aa456e3d3cd1cf20ed39cd0232",
+    "dbf_header_records": 13,
+    "dbf_header_update_date_bytes": [
+      105,
+      1,
+      10
+    ]
+  },
+  {
+    "path": "数据/给姜艳媛/Query4.TAB",
+    "name": "Query4",
+    "info": {
+      "layer_name": "Query4",
+      "crs": "LOCAL_CS[\"Nonearth\",UNIT[\"Meter\",1],AXIS[\"Easting\",EAST],AXIS[\"Northing\",NORTH]]",
+      "encoding": "UTF-8",
+      "fields": [
+        "ID",
+        "编码",
+        "名称",
+        "主次管道或口径"
+      ],
+      "dtypes": [
+        "object",
+        "object",
+        "object",
+        "object"
+      ],
+      "fid_column": "",
+      "geometry_name": "",
+      "geometry_type": "Unknown",
+      "features": 616,
+      "total_bounds": [
+        507125.96,
+        309229.39,
+        507406.94,
+        309518.68
+      ],
+      "driver": "MapInfo File",
+      "capabilities": {
+        "random_read": true,
+        "fast_set_next_by_index": false,
+        "fast_spatial_filter": true,
+        "fast_feature_count": true,
+        "fast_total_bounds": true
+      },
+      "layer_metadata": null,
+      "dataset_metadata": null
+    },
+    "warnings": [],
+    "read_records": 616,
+    "null_geometry": 0,
+    "empty_geometry": 0,
+    "geometry_types": {
+      "LineString": 615,
+      "GeometryCollection": 1
+    },
+    "invalid_geometry": 0,
+    "invalid_reasons": {},
+    "z_geometry": 0,
+    "fields": {
+      "ID": {
+        "nonempty": 616,
+        "literal_NULL_count": 0,
+        "nonempty_excluding_literal_NULL": 616,
+        "unique_nonempty": 615,
+        "zero_count": 0,
+        "suspected_numeric_sentinel_count": 0
+      },
+      "编码": {
+        "nonempty": 616,
+        "literal_NULL_count": 0,
+        "nonempty_excluding_literal_NULL": 616,
+        "unique_nonempty": 1,
+        "zero_count": 0,
+        "suspected_numeric_sentinel_count": 0,
+        "top_values": [
+          [
+            "541000",
+            616
+          ]
+        ]
+      },
+      "名称": {
+        "nonempty": 616,
+        "literal_NULL_count": 0,
+        "nonempty_excluding_literal_NULL": 616,
+        "unique_nonempty": 1,
+        "zero_count": 0,
+        "suspected_numeric_sentinel_count": 0
+      },
+      "主次管道或口径": {
+        "nonempty": 0,
+        "literal_NULL_count": 0,
+        "nonempty_excluding_literal_NULL": 0,
+        "unique_nonempty": 0,
+        "zero_count": 0,
+        "suspected_numeric_sentinel_count": 0
+      }
+    },
+    "set_sha256": "d216f139bdb4c474acb3f7862a1315a4ca17d634ece27e29a53ab8ad1a928d31",
+    "dbf_header_records": 616,
+    "dbf_header_update_date_bytes": [
+      105,
+      1,
+      10
+    ]
+  },
+  {
+    "path": "数据/给姜艳媛/办公用水.TAB",
+    "name": "办公用水",
+    "info": {
+      "layer_name": "办公用水",
+      "crs": "LOCAL_CS[\"Nonearth\",UNIT[\"Meter\",1],AXIS[\"Easting\",EAST],AXIS[\"Northing\",NORTH]]",
+      "encoding": "UTF-8",
+      "fields": [
+        "ID",
+        "编码",
+        "名称",
+        "主次管道或口径"
+      ],
+      "dtypes": [
+        "object",
+        "object",
+        "object",
+        "object"
+      ],
+      "fid_column": "",
+      "geometry_name": "",
+      "geometry_type": "Unknown",
+      "features": 89,
+      "total_bounds": [
+        507143.55,
+        309267.41,
+        507442.93,
+        309523.05
+      ],
+      "driver": "MapInfo File",
+      "capabilities": {
+        "random_read": true,
+        "fast_set_next_by_index": false,
+        "fast_spatial_filter": true,
+        "fast_feature_count": true,
+        "fast_total_bounds": true
+      },
+      "layer_metadata": null,
+      "dataset_metadata": null
+    },
+    "warnings": [],
+    "read_records": 89,
+    "null_geometry": 0,
+    "empty_geometry": 0,
+    "geometry_types": {
+      "LineString": 84,
+      "GeometryCollection": 5
+    },
+    "invalid_geometry": 0,
+    "invalid_reasons": {},
+    "z_geometry": 0,
+    "fields": {
+      "ID": {
+        "nonempty": 89,
+        "literal_NULL_count": 0,
+        "nonempty_excluding_literal_NULL": 89,
+        "unique_nonempty": 89,
+        "zero_count": 0,
+        "suspected_numeric_sentinel_count": 0
+      },
+      "编码": {
+        "nonempty": 89,
+        "literal_NULL_count": 0,
+        "nonempty_excluding_literal_NULL": 89,
+        "unique_nonempty": 2,
+        "zero_count": 0,
+        "suspected_numeric_sentinel_count": 0,
+        "top_values": [
+          [
+            "531200",
+            84
+          ],
+          [
+            "532100",
+            5
+          ]
+        ]
+      },
+      "名称": {
+        "nonempty": 89,
+        "literal_NULL_count": 0,
+        "nonempty_excluding_literal_NULL": 89,
+        "unique_nonempty": 2,
+        "zero_count": 0,
+        "suspected_numeric_sentinel_count": 0
+      },
+      "主次管道或口径": {
+        "nonempty": 0,
+        "literal_NULL_count": 0,
+        "nonempty_excluding_literal_NULL": 0,
+        "unique_nonempty": 0,
+        "zero_count": 0,
+        "suspected_numeric_sentinel_count": 0
+      }
+    },
+    "set_sha256": "26e7bcb5f1e9c97d40c879a330a4853737138ff542391b5b6baa4c683edf711f",
+    "dbf_header_records": 90,
+    "dbf_header_update_date_bytes": [
+      105,
+      1,
+      4
+    ]
+  },
+  {
+    "path": "数据/给姜艳媛/基础层.TAB",
+    "name": "基础层",
+    "info": {
+      "layer_name": "基础层",
+      "crs": "LOCAL_CS[\"Nonearth\",UNIT[\"Meter\",1],AXIS[\"Easting\",EAST],AXIS[\"Northing\",NORTH]]",
+      "encoding": "UTF-8",
+      "fields": [
+        "ID"
+      ],
+      "dtypes": [
+        "object"
+      ],
+      "fid_column": "",
+      "geometry_name": "",
+      "geometry_type": "Unknown",
+      "features": 1026,
+      "total_bounds": [
+        507040.46,
+        309133.07,
+        507456.0,
+        309569.5
+      ],
+      "driver": "MapInfo File",
+      "capabilities": {
+        "random_read": true,
+        "fast_set_next_by_index": false,
+        "fast_spatial_filter": true,
+        "fast_feature_count": true,
+        "fast_total_bounds": true
+      },
+      "layer_metadata": null,
+      "dataset_metadata": null
+    },
+    "warnings": [],
+    "read_records": 1026,
+    "null_geometry": 0,
+    "empty_geometry": 0,
+    "geometry_types": {
+      "GeometryCollection": 8,
+      "Polygon": 206,
+      "LineString": 748,
+      "MultiLineString": 16,
+      "Point": 47,
+      "MultiPolygon": 1
+    },
+    "invalid_geometry": 6,
+    "invalid_reasons": {
+      "Too few points in geometry component": 4,
+      "Ring Self-intersection": 2
+    },
+    "z_geometry": 0,
+    "fields": {
+      "ID": {
+        "nonempty": 1026,
+        "literal_NULL_count": 0,
+        "nonempty_excluding_literal_NULL": 1026,
+        "unique_nonempty": 1010,
+        "zero_count": 0,
+        "suspected_numeric_sentinel_count": 0
+      }
+    },
+    "set_sha256": "77914613a4e5e361b843cf4c5b5aed1cc6c14f0067e02bdc5cc9a55c58905790",
+    "dbf_header_records": 1029,
+    "dbf_header_update_date_bytes": [
+      105,
+      1,
+      10
+    ]
+  },
+  {
+    "path": "数据/给姜艳媛/无标题.TAB",
+    "name": "无标题",
+    "info": {
+      "layer_name": "无标题",
+      "crs": null,
+      "encoding": "UTF-8",
+      "fields": [
+        "aa"
+      ],
+      "dtypes": [
+        "object"
+      ],
+      "fid_column": "",
+      "geometry_name": "",
+      "geometry_type": null,
+      "features": 0,
+      "total_bounds": null,
+      "driver": "MapInfo File",
+      "capabilities": {
+        "random_read": true,
+        "fast_set_next_by_index": false,
+        "fast_spatial_filter": true,
+        "fast_feature_count": true,
+        "fast_total_bounds": true
+      },
+      "layer_metadata": null,
+      "dataset_metadata": null
+    },
+    "warnings": [],
+    "read_records": 0,
+    "null_geometry": 0,
+    "empty_geometry": 0,
+    "geometry_types": {},
+    "invalid_geometry": 0,
+    "invalid_reasons": {},
+    "z_geometry": 0,
+    "fields": {
+      "aa": {
+        "nonempty": 0,
+        "literal_NULL_count": 0,
+        "nonempty_excluding_literal_NULL": 0,
+        "unique_nonempty": 0,
+        "zero_count": 0,
+        "suspected_numeric_sentinel_count": 0
+      }
+    },
+    "set_sha256": "8cfef9dc611eec4c8a52e6d76523d24273198bfa22bcfb5de56035c757d733d7",
+    "dbf_header_records": 0,
+    "dbf_header_update_date_bytes": [
+      105,
+      1,
+      5
+    ]
+  },
+  {
+    "path": "数据/给姜艳媛/暖气.TAB",
+    "name": "暖气",
+    "info": {
+      "layer_name": "暖气",
+      "crs": "LOCAL_CS[\"Nonearth\",UNIT[\"Meter\",1],AXIS[\"Easting\",EAST],AXIS[\"Northing\",NORTH]]",
+      "encoding": "UTF-8",
+      "fields": [
+        "ID",
+        "编码",
+        "名称"
+      ],
+      "dtypes": [
+        "object",
+        "object",
+        "object"
+      ],
+      "fid_column": "",
+      "geometry_name": "",
+      "geometry_type": "Unknown",
+      "features": 37,
+      "total_bounds": [
+        507148.2,
+        309272.79,
+        507321.21,
+        309486.51
+      ],
+      "driver": "MapInfo File",
+      "capabilities": {
+        "random_read": true,
+        "fast_set_next_by_index": false,
+        "fast_spatial_filter": true,
+        "fast_feature_count": true,
+        "fast_total_bounds": true
+      },
+      "layer_metadata": null,
+      "dataset_metadata": null
+    },
+    "warnings": [],
+    "read_records": 37,
+    "null_geometry": 0,
+    "empty_geometry": 0,
+    "geometry_types": {
+      "LineString": 16,
+      "GeometryCollection": 21
+    },
+    "invalid_geometry": 0,
+    "invalid_reasons": {},
+    "z_geometry": 0,
+    "fields": {
+      "ID": {
+        "nonempty": 37,
+        "literal_NULL_count": 0,
+        "nonempty_excluding_literal_NULL": 37,
+        "unique_nonempty": 37,
+        "zero_count": 0,
+        "suspected_numeric_sentinel_count": 0
+      },
+      "编码": {
+        "nonempty": 37,
+        "literal_NULL_count": 0,
+        "nonempty_excluding_literal_NULL": 37,
+        "unique_nonempty": 2,
+        "zero_count": 0,
+        "suspected_numeric_sentinel_count": 0,
+        "top_values": [
+          [
+            "562000",
+            21
+          ],
+          [
+            "561200",
+            16
+          ]
+        ]
+      },
+      "名称": {
+        "nonempty": 37,
+        "literal_NULL_count": 0,
+        "nonempty_excluding_literal_NULL": 37,
+        "unique_nonempty": 2,
+        "zero_count": 0,
+        "suspected_numeric_sentinel_count": 0
+      }
+    },
+    "set_sha256": "5600d63d2e5f52d9187b056d6207542e7ae1f80866d54f7d69f1af1f488c847b",
+    "dbf_header_records": 41,
+    "dbf_header_update_date_bytes": [
+      105,
+      1,
+      10
+    ]
+  },
+  {
+    "path": "数据/给姜艳媛/污水雨水.TAB",
+    "name": "污水雨水",
+    "info": {
+      "layer_name": "污水雨水",
+      "crs": "LOCAL_CS[\"Nonearth\",UNIT[\"Meter\",1],AXIS[\"Easting\",EAST],AXIS[\"Northing\",NORTH]]",
+      "encoding": "UTF-8",
+      "fields": [
+        "ID",
+        "编码",
+        "名称",
+        "主次管道或口径"
+      ],
+      "dtypes": [
+        "object",
+        "object",
+        "object",
+        "object"
+      ],
+      "fid_column": "",
+      "geometry_name": "",
+      "geometry_type": "Unknown",
+      "features": 1094,
+      "total_bounds": [
+        507125.03,
+        309228.61,
+        507406.94,
+        309518.68
+      ],
+      "driver": "MapInfo File",
+      "capabilities": {
+        "random_read": true,
+        "fast_set_next_by_index": false,
+        "fast_spatial_filter": true,
+        "fast_feature_count": true,
+        "fast_total_bounds": true
+      },
+      "layer_metadata": null,
+      "dataset_metadata": null
+    },
+    "warnings": [],
+    "read_records": 1094,
+    "null_geometry": 0,
+    "empty_geometry": 0,
+    "geometry_types": {
+      "GeometryCollection": 479,
+      "LineString": 615
+    },
+    "invalid_geometry": 0,
+    "invalid_reasons": {},
+    "z_geometry": 0,
+    "fields": {
+      "ID": {
+        "nonempty": 1094,
+        "literal_NULL_count": 0,
+        "nonempty_excluding_literal_NULL": 1094,
+        "unique_nonempty": 1089,
+        "zero_count": 0,
+        "suspected_numeric_sentinel_count": 0
+      },
+      "编码": {
+        "nonempty": 1094,
+        "literal_NULL_count": 0,
+        "nonempty_excluding_literal_NULL": 1094,
+        "unique_nonempty": 4,
+        "zero_count": 0,
+        "suspected_numeric_sentinel_count": 0,
+        "top_values": [
+          [
+            "541000",
+            616
+          ],
+          [
+            "544100",
+            437
+          ],
+          [
+            "544220",
+            33
+          ],
+          [
+            "544210",
+            8
+          ]
+        ]
+      },
+      "名称": {
+        "nonempty": 1094,
+        "literal_NULL_count": 0,
+        "nonempty_excluding_literal_NULL": 1094,
+        "unique_nonempty": 4,
+        "zero_count": 0,
+        "suspected_numeric_sentinel_count": 0
+      },
+      "主次管道或口径": {
+        "nonempty": 0,
+        "literal_NULL_count": 0,
+        "nonempty_excluding_literal_NULL": 0,
+        "unique_nonempty": 0,
+        "zero_count": 0,
+        "suspected_numeric_sentinel_count": 0
+      }
+    },
+    "set_sha256": "a1c11916f605427040a9c07a752348d80ce44cf5f638da806cb696e60cf6d0c8",
+    "dbf_header_records": 1094,
+    "dbf_header_update_date_bytes": [
+      105,
+      1,
+      10
+    ]
+  },
+  {
+    "path": "数据/给姜艳媛/消防水.TAB",
+    "name": "消防水",
+    "info": {
+      "layer_name": "消防水",
+      "crs": "LOCAL_CS[\"Nonearth\",UNIT[\"Meter\",1],AXIS[\"Easting\",EAST],AXIS[\"Northing\",NORTH]]",
+      "encoding": "UTF-8",
+      "fields": [
+        "ID",
+        "编码",
+        "名称",
+        "主次管道或口径"
+      ],
+      "dtypes": [
+        "object",
+        "object",
+        "object",
+        "object"
+      ],
+      "fid_column": "",
+      "geometry_name": "",
+      "geometry_type": "Unknown",
+      "features": 20,
+      "total_bounds": [
+        507193.65,
+        309255.82,
+        507365.82,
+        309513.06
+      ],
+      "driver": "MapInfo File",
+      "capabilities": {
+        "random_read": true,
+        "fast_set_next_by_index": false,
+        "fast_spatial_filter": true,
+        "fast_feature_count": true,
+        "fast_total_bounds": true
+      },
+      "layer_metadata": null,
+      "dataset_metadata": null
+    },
+    "warnings": [],
+    "read_records": 20,
+    "null_geometry": 0,
+    "empty_geometry": 0,
+    "geometry_types": {
+      "LineString": 18,
+      "GeometryCollection": 2
+    },
+    "invalid_geometry": 0,
+    "invalid_reasons": {},
+    "z_geometry": 0,
+    "fields": {
+      "ID": {
+        "nonempty": 20,
+        "literal_NULL_count": 0,
+        "nonempty_excluding_literal_NULL": 20,
+        "unique_nonempty": 20,
+        "zero_count": 0,
+        "suspected_numeric_sentinel_count": 0
+      },
+      "编码": {
+        "nonempty": 20,
+        "literal_NULL_count": 0,
+        "nonempty_excluding_literal_NULL": 20,
+        "unique_nonempty": 2,
+        "zero_count": 0,
+        "suspected_numeric_sentinel_count": 0,
+        "top_values": [
+          [
+            "531200",
+            18
+          ],
+          [
+            "532100",
+            2
+          ]
+        ]
+      },
+      "名称": {
+        "nonempty": 20,
+        "literal_NULL_count": 0,
+        "nonempty_excluding_literal_NULL": 20,
+        "unique_nonempty": 2,
+        "zero_count": 0,
+        "suspected_numeric_sentinel_count": 0
+      },
+      "主次管道或口径": {
+        "nonempty": 0,
+        "literal_NULL_count": 0,
+        "nonempty_excluding_literal_NULL": 0,
+        "unique_nonempty": 0,
+        "zero_count": 0,
+        "suspected_numeric_sentinel_count": 0
+      }
+    },
+    "set_sha256": "eaff91085e55c8f23e8fb612e79c015f0711526950ef835473a5f5fbcf368252",
+    "dbf_header_records": 20,
+    "dbf_header_update_date_bytes": [
+      105,
+      1,
+      5
+    ]
+  },
+  {
+    "path": "数据/给姜艳媛/煤气.TAB",
+    "name": "煤气",
+    "info": {
+      "layer_name": "煤气",
+      "crs": "LOCAL_CS[\"Nonearth\",UNIT[\"Meter\",1],AXIS[\"Easting\",EAST],AXIS[\"Northing\",NORTH]]",
+      "encoding": "UTF-8",
+      "fields": [
+        "ID",
+        "编码",
+        "名称"
+      ],
+      "dtypes": [
+        "object",
+        "object",
+        "object"
+      ],
+      "fid_column": "",
+      "geometry_name": "",
+      "geometry_type": "Unknown",
+      "features": 21,
+      "total_bounds": [
+        507200.22,
+        309285.25,
+        507250.51,
+        309491.62
+      ],
+      "driver": "MapInfo File",
+      "capabilities": {
+        "random_read": true,
+        "fast_set_next_by_index": false,
+        "fast_spatial_filter": true,
+        "fast_feature_count": true,
+        "fast_total_bounds": true
+      },
+      "layer_metadata": null,
+      "dataset_metadata": null
+    },
+    "warnings": [],
+    "read_records": 21,
+    "null_geometry": 0,
+    "empty_geometry": 0,
+    "geometry_types": {
+      "LineString": 11,
+      "GeometryCollection": 10
+    },
+    "invalid_geometry": 0,
+    "invalid_reasons": {},
+    "z_geometry": 0,
+    "fields": {
+      "ID": {
+        "nonempty": 21,
+        "literal_NULL_count": 0,
+        "nonempty_excluding_literal_NULL": 21,
+        "unique_nonempty": 21,
+        "zero_count": 0,
+        "suspected_numeric_sentinel_count": 0
+      },
+      "编码": {
+        "nonempty": 21,
+        "literal_NULL_count": 0,
+        "nonempty_excluding_literal_NULL": 21,
+        "unique_nonempty": 2,
+        "zero_count": 0,
+        "suspected_numeric_sentinel_count": 0,
+        "top_values": [
+          [
+            "551200",
+            11
+          ],
+          [
+            "554000",
+            10
+          ]
+        ]
+      },
+      "名称": {
+        "nonempty": 21,
+        "literal_NULL_count": 0,
+        "nonempty_excluding_literal_NULL": 21,
+        "unique_nonempty": 2,
+        "zero_count": 0,
+        "suspected_numeric_sentinel_count": 0
+      }
+    },
+    "set_sha256": "3551ce3613e2879dd5ef5bdcce8f87a5e3de2f97a439b02da4f507a7e8dfd333",
+    "dbf_header_records": 22,
+    "dbf_header_update_date_bytes": [
+      105,
+      1,
+      10
+    ]
+  },
+  {
+    "path": "数据/给姜艳媛/电力线.TAB",
+    "name": "电力线",
+    "info": {
+      "layer_name": "电力线",
+      "crs": "LOCAL_CS[\"Nonearth\",UNIT[\"Meter\",1],AXIS[\"Easting\",EAST],AXIS[\"Northing\",NORTH]]",
+      "encoding": "UTF-8",
+      "fields": [
+        "ID",
+        "编码",
+        "名称",
+        "容量"
+      ],
+      "dtypes": [
+        "object",
+        "object",
+        "object",
+        "object"
+      ],
+      "fid_column": "",
+      "geometry_name": "",
+      "geometry_type": "Unknown",
+      "features": 13,
+      "total_bounds": [
+        507135.57,
+        309176.06,
+        507420.1,
+        309532.04
+      ],
+      "driver": "MapInfo File",
+      "capabilities": {
+        "random_read": true,
+        "fast_set_next_by_index": false,
+        "fast_spatial_filter": true,
+        "fast_feature_count": true,
+        "fast_total_bounds": true
+      },
+      "layer_metadata": null,
+      "dataset_metadata": null
+    },
+    "warnings": [],
+    "read_records": 13,
+    "null_geometry": 0,
+    "empty_geometry": 0,
+    "geometry_types": {
+      "GeometryCollection": 12,
+      "MultiLineString": 1
+    },
+    "invalid_geometry": 0,
+    "invalid_reasons": {},
+    "z_geometry": 0,
+    "fields": {
+      "ID": {
+        "nonempty": 13,
+        "literal_NULL_count": 0,
+        "nonempty_excluding_literal_NULL": 13,
+        "unique_nonempty": 13,
+        "zero_count": 0,
+        "suspected_numeric_sentinel_count": 0
+      },
+      "编码": {
+        "nonempty": 13,
+        "literal_NULL_count": 0,
+        "nonempty_excluding_literal_NULL": 13,
+        "unique_nonempty": 4,
+        "zero_count": 0,
+        "suspected_numeric_sentinel_count": 0,
+        "top_values": [
+          [
+            "511300",
+            8
+          ],
+          [
+            "518200",
+            3
+          ],
+          [
+            "516000",
+            1
+          ],
+          [
+            "512200",
+            1
+          ]
+        ]
+      },
+      "名称": {
+        "nonempty": 13,
+        "literal_NULL_count": 0,
+        "nonempty_excluding_literal_NULL": 13,
+        "unique_nonempty": 4,
+        "zero_count": 0,
+        "suspected_numeric_sentinel_count": 0
+      },
+      "容量": {
+        "nonempty": 0,
+        "literal_NULL_count": 0,
+        "nonempty_excluding_literal_NULL": 0,
+        "unique_nonempty": 0,
+        "zero_count": 0,
+        "suspected_numeric_sentinel_count": 0
+      }
+    },
+    "set_sha256": "1b2943ba0d8a7ae61be95b319e6b8faa8d1091aa456e3d3cd1cf20ed39cd0232",
+    "dbf_header_records": 13,
+    "dbf_header_update_date_bytes": [
+      105,
+      1,
+      10
+    ]
+  },
+  {
+    "path": "数据/给姜艳媛/自来水.TAB",
+    "name": "自来水",
+    "info": {
+      "layer_name": "自来水",
+      "crs": "LOCAL_CS[\"Nonearth\",UNIT[\"Meter\",1],AXIS[\"Easting\",EAST],AXIS[\"Northing\",NORTH]]",
+      "encoding": "UTF-8",
+      "fields": [
+        "ID",
+        "编码",
+        "名称",
+        "主次管道或口径"
+      ],
+      "dtypes": [
+        "object",
+        "object",
+        "object",
+        "object"
+      ],
+      "fid_column": "",
+      "geometry_name": "",
+      "geometry_type": "Unknown",
+      "features": 268,
+      "total_bounds": [
+        507126.36,
+        309234.53,
+        507422.45,
+        309520.73
+      ],
+      "driver": "MapInfo File",
+      "capabilities": {
+        "random_read": true,
+        "fast_set_next_by_index": false,
+        "fast_spatial_filter": true,
+        "fast_feature_count": true,
+        "fast_total_bounds": true
+      },
+      "layer_metadata": null,
+      "dataset_metadata": null
+    },
+    "warnings": [],
+    "read_records": 268,
+    "null_geometry": 0,
+    "empty_geometry": 0,
+    "geometry_types": {
+      "LineString": 201,
+      "GeometryCollection": 67
+    },
+    "invalid_geometry": 0,
+    "invalid_reasons": {},
+    "z_geometry": 0,
+    "fields": {
+      "ID": {
+        "nonempty": 268,
+        "literal_NULL_count": 0,
+        "nonempty_excluding_literal_NULL": 268,
+        "unique_nonempty": 268,
+        "zero_count": 0,
+        "suspected_numeric_sentinel_count": 0
+      },
+      "编码": {
+        "nonempty": 268,
+        "literal_NULL_count": 0,
+        "nonempty_excluding_literal_NULL": 268,
+        "unique_nonempty": 2,
+        "zero_count": 0,
+        "suspected_numeric_sentinel_count": 0,
+        "top_values": [
+          [
+            "531200",
+            200
+          ],
+          [
+            "532100",
+            68
+          ]
+        ]
+      },
+      "名称": {
+        "nonempty": 268,
+        "literal_NULL_count": 0,
+        "nonempty_excluding_literal_NULL": 268,
+        "unique_nonempty": 2,
+        "zero_count": 0,
+        "suspected_numeric_sentinel_count": 0
+      },
+      "主次管道或口径": {
+        "nonempty": 0,
+        "literal_NULL_count": 0,
+        "nonempty_excluding_literal_NULL": 0,
+        "unique_nonempty": 0,
+        "zero_count": 0,
+        "suspected_numeric_sentinel_count": 0
+      }
+    },
+    "set_sha256": "36ce3daf1bbfae6a260af1c112713dc92b69633a0ade972edeafc2b7347675d7",
+    "dbf_header_records": 273,
+    "dbf_header_update_date_bytes": [
+      105,
+      1,
+      11
+    ]
+  },
+  {
+    "path": "数据/给姜艳媛/辅助层.TAB",
+    "name": "辅助层",
+    "info": {
+      "layer_name": "辅助层",
+      "crs": "LOCAL_CS[\"Nonearth\",UNIT[\"Meter\",1],AXIS[\"Easting\",EAST],AXIS[\"Northing\",NORTH]]",
+      "encoding": "UTF-8",
+      "fields": [
+        "ID"
+      ],
+      "dtypes": [
+        "object"
+      ],
+      "fid_column": "",
+      "geometry_name": "",
+      "geometry_type": "Unknown",
+      "features": 938,
+      "total_bounds": [
+        507040.45,
+        309133.07,
+        507456.0,
+        309569.5
+      ],
+      "driver": "MapInfo File",
+      "capabilities": {
+        "random_read": true,
+        "fast_set_next_by_index": false,
+        "fast_spatial_filter": true,
+        "fast_feature_count": true,
+        "fast_total_bounds": true
+      },
+      "layer_metadata": null,
+      "dataset_metadata": null
+    },
+    "warnings": [],
+    "read_records": 938,
+    "null_geometry": 0,
+    "empty_geometry": 0,
+    "geometry_types": {
+      "Point": 107,
+      "GeometryCollection": 29,
+      "MultiLineString": 48,
+      "LineString": 744,
+      "Polygon": 10
+    },
+    "invalid_geometry": 1,
+    "invalid_reasons": {
+      "Too few points in geometry component": 1
+    },
+    "z_geometry": 0,
+    "fields": {
+      "ID": {
+        "nonempty": 938,
+        "literal_NULL_count": 0,
+        "nonempty_excluding_literal_NULL": 938,
+        "unique_nonempty": 898,
+        "zero_count": 0,
+        "suspected_numeric_sentinel_count": 0
+      }
+    },
+    "set_sha256": "d9bca6ac973ead34b3eb27e9dee282ac608aa741c07adb0e247ece95540219fa",
+    "dbf_header_records": 939,
+    "dbf_header_update_date_bytes": [
+      105,
+      1,
+      10
+    ]
+  },
+  {
+    "path": "数据/给姜艳媛/通信线.TAB",
+    "name": "通信线",
+    "info": {
+      "layer_name": "通信线",
+      "crs": "LOCAL_CS[\"Nonearth\",UNIT[\"Meter\",1],AXIS[\"Easting\",EAST],AXIS[\"Northing\",NORTH]]",
+      "encoding": "UTF-8",
+      "fields": [
+        "ID",
+        "编码",
+        "名称"
+      ],
+      "dtypes": [
+        "object",
+        "object",
+        "object"
+      ],
+      "fid_column": "",
+      "geometry_name": "",
+      "geometry_type": "Unknown",
+      "features": 29,
+      "total_bounds": [
+        507126.79,
+        309315.47,
+        507360.01,
+        309493.52
+      ],
+      "driver": "MapInfo File",
+      "capabilities": {
+        "random_read": true,
+        "fast_set_next_by_index": false,
+        "fast_spatial_filter": true,
+        "fast_feature_count": true,
+        "fast_total_bounds": true
+      },
+      "layer_metadata": null,
+      "dataset_metadata": null
+    },
+    "warnings": [],
+    "read_records": 29,
+    "null_geometry": 0,
+    "empty_geometry": 0,
+    "geometry_types": {
+      "MultiLineString": 1,
+      "GeometryCollection": 15,
+      "MultiPolygon": 13
+    },
+    "invalid_geometry": 0,
+    "invalid_reasons": {},
+    "z_geometry": 0,
+    "fields": {
+      "ID": {
+        "nonempty": 29,
+        "literal_NULL_count": 0,
+        "nonempty_excluding_literal_NULL": 29,
+        "unique_nonempty": 16,
+        "zero_count": 0,
+        "suspected_numeric_sentinel_count": 0
+      },
+      "编码": {
+        "nonempty": 16,
+        "literal_NULL_count": 0,
+        "nonempty_excluding_literal_NULL": 16,
+        "unique_nonempty": 4,
+        "zero_count": 0,
+        "suspected_numeric_sentinel_count": 0,
+        "top_values": [
+          [
+            "521000",
+            13
+          ],
+          [
+            "526000",
+            1
+          ],
+          [
+            "525000",
+            1
+          ],
+          [
+            "522000",
+            1
+          ]
+        ]
+      },
+      "名称": {
+        "nonempty": 16,
+        "literal_NULL_count": 0,
+        "nonempty_excluding_literal_NULL": 16,
+        "unique_nonempty": 4,
+        "zero_count": 0,
+        "suspected_numeric_sentinel_count": 0
+      }
+    },
+    "set_sha256": "02b5fc8d86ac49125821fe37282f4b04c74ccbfa575722f936deb0abcbaa8c9b",
+    "dbf_header_records": 29,
+    "dbf_header_update_date_bytes": [
+      105,
+      1,
+      10
+    ]
+  },
+  {
+    "path": "数据/自来水.TAB",
+    "name": "自来水",
+    "info": {
+      "layer_name": "自来水",
+      "crs": "LOCAL_CS[\"Nonearth\",UNIT[\"Meter\",1],AXIS[\"Easting\",EAST],AXIS[\"Northing\",NORTH]]",
+      "encoding": "UTF-8",
+      "fields": [
+        "ID",
+        "编码",
+        "名称",
+        "主次管道或口径"
+      ],
+      "dtypes": [
+        "object",
+        "object",
+        "object",
+        "object"
+      ],
+      "fid_column": "",
+      "geometry_name": "",
+      "geometry_type": "Unknown",
+      "features": 270,
+      "total_bounds": [
+        507126.36,
+        309234.53,
+        507422.45,
+        309520.73
+      ],
+      "driver": "MapInfo File",
+      "capabilities": {
+        "random_read": true,
+        "fast_set_next_by_index": false,
+        "fast_spatial_filter": true,
+        "fast_feature_count": true,
+        "fast_total_bounds": true
+      },
+      "layer_metadata": null,
+      "dataset_metadata": null
+    },
+    "warnings": [],
+    "read_records": 270,
+    "null_geometry": 0,
+    "empty_geometry": 0,
+    "geometry_types": {
+      "LineString": 201,
+      "GeometryCollection": 67,
+      "Point": 2
+    },
+    "invalid_geometry": 0,
+    "invalid_reasons": {},
+    "z_geometry": 0,
+    "fields": {
+      "ID": {
+        "nonempty": 270,
+        "literal_NULL_count": 0,
+        "nonempty_excluding_literal_NULL": 270,
+        "unique_nonempty": 270,
+        "zero_count": 0,
+        "suspected_numeric_sentinel_count": 0
+      },
+      "编码": {
+        "nonempty": 270,
+        "literal_NULL_count": 0,
+        "nonempty_excluding_literal_NULL": 270,
+        "unique_nonempty": 4,
+        "zero_count": 0,
+        "suspected_numeric_sentinel_count": 0,
+        "top_values": [
+          [
+            "531200",
+            200
+          ],
+          [
+            "532100",
+            68
+          ],
+          [
+            "5666",
+            1
+          ],
+          [
+            "hhh",
+            1
+          ]
+        ]
+      },
+      "名称": {
+        "nonempty": 270,
+        "literal_NULL_count": 0,
+        "nonempty_excluding_literal_NULL": 270,
+        "unique_nonempty": 4,
+        "zero_count": 0,
+        "suspected_numeric_sentinel_count": 0
+      },
+      "主次管道或口径": {
+        "nonempty": 0,
+        "literal_NULL_count": 0,
+        "nonempty_excluding_literal_NULL": 0,
+        "unique_nonempty": 0,
+        "zero_count": 0,
+        "suspected_numeric_sentinel_count": 0
+      }
+    },
+    "set_sha256": "b36847a752b7116c54fb8a44683c13640cb74a39f881f117d1ae80f10d1875ea",
+    "dbf_header_records": 271,
+    "dbf_header_update_date_bytes": [
+      105,
+      4,
+      20
+    ]
+  },
+  {
+    "path": "数据/辅助层.TAB",
+    "name": "辅助层",
+    "info": {
+      "layer_name": "辅助层",
+      "crs": "LOCAL_CS[\"Nonearth\",UNIT[\"Meter\",1],AXIS[\"Easting\",EAST],AXIS[\"Northing\",NORTH]]",
+      "encoding": "UTF-8",
+      "fields": [
+        "ID"
+      ],
+      "dtypes": [
+        "object"
+      ],
+      "fid_column": "",
+      "geometry_name": "",
+      "geometry_type": "Unknown",
+      "features": 938,
+      "total_bounds": [
+        507040.45,
+        309133.07,
+        507456.0,
+        309569.5
+      ],
+      "driver": "MapInfo File",
+      "capabilities": {
+        "random_read": true,
+        "fast_set_next_by_index": false,
+        "fast_spatial_filter": true,
+        "fast_feature_count": true,
+        "fast_total_bounds": true
+      },
+      "layer_metadata": null,
+      "dataset_metadata": null
+    },
+    "warnings": [],
+    "read_records": 938,
+    "null_geometry": 0,
+    "empty_geometry": 0,
+    "geometry_types": {
+      "Point": 107,
+      "GeometryCollection": 29,
+      "MultiLineString": 48,
+      "LineString": 744,
+      "Polygon": 10
+    },
+    "invalid_geometry": 1,
+    "invalid_reasons": {
+      "Too few points in geometry component": 1
+    },
+    "z_geometry": 0,
+    "fields": {
+      "ID": {
+        "nonempty": 938,
+        "literal_NULL_count": 0,
+        "nonempty_excluding_literal_NULL": 938,
+        "unique_nonempty": 898,
+        "zero_count": 0,
+        "suspected_numeric_sentinel_count": 0
+      }
+    },
+    "set_sha256": "d9bca6ac973ead34b3eb27e9dee282ac608aa741c07adb0e247ece95540219fa",
+    "dbf_header_records": 939,
+    "dbf_header_update_date_bytes": [
+      105,
+      1,
+      10
+    ]
+  },
+  {
+    "path": "数据/辅助层2.TAB",
+    "name": "辅助层2",
+    "info": {
+      "layer_name": "辅助层2",
+      "crs": "LOCAL_CS[\"Nonearth\",UNIT[\"Meter\",1],AXIS[\"Easting\",EAST],AXIS[\"Northing\",NORTH]]",
+      "encoding": "UTF-8",
+      "fields": [
+        "ID",
+        "编码",
+        "名称",
+        "主次管道或口径"
+      ],
+      "dtypes": [
+        "object",
+        "object",
+        "object",
+        "object"
+      ],
+      "fid_column": "",
+      "geometry_name": "",
+      "geometry_type": "Unknown",
+      "features": 616,
+      "total_bounds": [
+        507125.96,
+        309229.39,
+        507406.94,
+        309518.68
+      ],
+      "driver": "MapInfo File",
+      "capabilities": {
+        "random_read": true,
+        "fast_set_next_by_index": false,
+        "fast_spatial_filter": true,
+        "fast_feature_count": true,
+        "fast_total_bounds": true
+      },
+      "layer_metadata": null,
+      "dataset_metadata": null
+    },
+    "warnings": [],
+    "read_records": 616,
+    "null_geometry": 0,
+    "empty_geometry": 0,
+    "geometry_types": {
+      "LineString": 615,
+      "GeometryCollection": 1
+    },
+    "invalid_geometry": 0,
+    "invalid_reasons": {},
+    "z_geometry": 0,
+    "fields": {
+      "ID": {
+        "nonempty": 616,
+        "literal_NULL_count": 0,
+        "nonempty_excluding_literal_NULL": 616,
+        "unique_nonempty": 615,
+        "zero_count": 0,
+        "suspected_numeric_sentinel_count": 0
+      },
+      "编码": {
+        "nonempty": 616,
+        "literal_NULL_count": 0,
+        "nonempty_excluding_literal_NULL": 616,
+        "unique_nonempty": 1,
+        "zero_count": 0,
+        "suspected_numeric_sentinel_count": 0,
+        "top_values": [
+          [
+            "541000",
+            616
+          ]
+        ]
+      },
+      "名称": {
+        "nonempty": 616,
+        "literal_NULL_count": 0,
+        "nonempty_excluding_literal_NULL": 616,
+        "unique_nonempty": 1,
+        "zero_count": 0,
+        "suspected_numeric_sentinel_count": 0
+      },
+      "主次管道或口径": {
+        "nonempty": 0,
+        "literal_NULL_count": 0,
+        "nonempty_excluding_literal_NULL": 0,
+        "unique_nonempty": 0,
+        "zero_count": 0,
+        "suspected_numeric_sentinel_count": 0
+      }
+    },
+    "set_sha256": "d216f139bdb4c474acb3f7862a1315a4ca17d634ece27e29a53ab8ad1a928d31",
+    "dbf_header_records": 616,
+    "dbf_header_update_date_bytes": [
+      105,
+      1,
+      10
+    ]
+  },
+  {
+    "path": "数据/通信线.TAB",
+    "name": "通信线",
+    "info": {
+      "layer_name": "通信线",
+      "crs": "LOCAL_CS[\"Nonearth\",UNIT[\"Meter\",1],AXIS[\"Easting\",EAST],AXIS[\"Northing\",NORTH]]",
+      "encoding": "UTF-8",
+      "fields": [
+        "ID",
+        "编码",
+        "名称"
+      ],
+      "dtypes": [
+        "object",
+        "object",
+        "object"
+      ],
+      "fid_column": "",
+      "geometry_name": "",
+      "geometry_type": "Unknown",
+      "features": 29,
+      "total_bounds": [
+        507126.79,
+        309315.47,
+        507360.01,
+        309493.52
+      ],
+      "driver": "MapInfo File",
+      "capabilities": {
+        "random_read": true,
+        "fast_set_next_by_index": false,
+        "fast_spatial_filter": true,
+        "fast_feature_count": true,
+        "fast_total_bounds": true
+      },
+      "layer_metadata": null,
+      "dataset_metadata": null
+    },
+    "warnings": [],
+    "read_records": 29,
+    "null_geometry": 0,
+    "empty_geometry": 0,
+    "geometry_types": {
+      "MultiLineString": 1,
+      "GeometryCollection": 15,
+      "MultiPolygon": 13
+    },
+    "invalid_geometry": 0,
+    "invalid_reasons": {},
+    "z_geometry": 0,
+    "fields": {
+      "ID": {
+        "nonempty": 29,
+        "literal_NULL_count": 0,
+        "nonempty_excluding_literal_NULL": 29,
+        "unique_nonempty": 16,
+        "zero_count": 0,
+        "suspected_numeric_sentinel_count": 0
+      },
+      "编码": {
+        "nonempty": 16,
+        "literal_NULL_count": 0,
+        "nonempty_excluding_literal_NULL": 16,
+        "unique_nonempty": 4,
+        "zero_count": 0,
+        "suspected_numeric_sentinel_count": 0,
+        "top_values": [
+          [
+            "521000",
+            13
+          ],
+          [
+            "526000",
+            1
+          ],
+          [
+            "525000",
+            1
+          ],
+          [
+            "522000",
+            1
+          ]
+        ]
+      },
+      "名称": {
+        "nonempty": 16,
+        "literal_NULL_count": 0,
+        "nonempty_excluding_literal_NULL": 16,
+        "unique_nonempty": 4,
+        "zero_count": 0,
+        "suspected_numeric_sentinel_count": 0
+      }
+    },
+    "set_sha256": "19cd7546bed14a2b64ed762630629c66ac91ee3eee5104aba7379d21304ad19d",
+    "dbf_header_records": 29,
+    "dbf_header_update_date_bytes": [
+      105,
+      4,
+      20
+    ]
+  }
+]

@@ -1,0 +1,19 @@
+{
+  "method": "map_only",
+  "scenario": "free_offroad",
+  "seed": 20261102,
+  "label": "synthetic",
+  "n": 71,
+  "rmse_m": 8.553467316526712,
+  "mean_m": 7.604864537628283,
+  "median_m": 7.380885684424886,
+  "p95_m": 14.313678116326614,
+  "max_m": 16.787472649538792,
+  "status_counts": {
+    "ok": 71
+  },
+  "failure_count": 0,
+  "map_unknown_count": 0,
+  "aggregation": "all timestamps, unweighted; no success-only exclusion",
+  "percentile_method": "numpy linear"
+}

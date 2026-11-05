@@ -1,0 +1,68 @@
+{
+  "source_file": "/Users/xieyuxin1/Documents/毕设/数据核查/2026-11-01/可用地图/丰台基础地图.gpkg",
+  "source_sha256": "a096ee77234fcb6523a9c5645d20beebf92ca341cb9b806f4fd74e18a7b96612",
+  "source_crs_from_metadata": "EPSG:4326",
+  "projected_crs": "EPSG:32650",
+  "local_origin_utm_m": [
+    424203,
+    4412963
+  ],
+  "utm_bounds_m": [
+    424203,
+    4412963,
+    424603,
+    4413363
+  ],
+  "approx_wgs84_corners": [
+    [
+      116.11379903797342,
+      39.86332009940247
+    ],
+    [
+      116.11842910048608,
+      39.86695931076555
+    ]
+  ],
+  "selection_rule": "First water fid ascending, boundary fraction 0/8..7/8; 400m square snapped down to integer UTM origin, inside district; water>=1000m2, vegetation>=1000m2, roads>=100m",
+  "anchor_water_fid": 1,
+  "anchor_boundary_fraction": 0.0,
+  "cropped_water_area_m2_sum": 16627.978426600304,
+  "cropped_vegetation_area_m2_sum": 112093.24084986735,
+  "cropped_road_length_m_sum": 506.79745970632774,
+  "source_layer_feature_counts": {
+    "道路": 26145,
+    "植被": 730,
+    "水系": 104,
+    "丰台政区": 1
+  },
+  "cropped_feature_counts": {
+    "道路": 7,
+    "植被": 1,
+    "水系": 1
+  },
+  "cautions": [
+    "Coordinates follow source metadata; no independent registration",
+    "Historical map; no verified survey date or current field consistency",
+    "Water, vegetation, road and background traversability all remain unknown",
+    "Road width, slope and vehicle speed are not used as athlete parameters",
+    "Service-point layer is neither read nor exported",
+    "A synthetic trajectory on this map is not evidence of a real traversable route"
+  ],
+  "grid_statistics": {
+    "partition": "uniform_grid_cell_centres",
+    "cell_size_m": 8.0,
+    "region_count": 2500,
+    "node_count": 2500,
+    "undirected_edge_count": 9702,
+    "unknown_node_count": 2500,
+    "connection_queries": 0,
+    "dijkstra_runs": 0,
+    "cached_source_count": 0,
+    "cache_source_limit": 128
+  },
+  "versions": {
+    "numpy": "2.3.5",
+    "shapely": "2.1.2",
+    "pyogrio": "0.11.1"
+  }
+}

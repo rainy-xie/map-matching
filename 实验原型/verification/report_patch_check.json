@@ -1,0 +1,5 @@
+{
+  "passed": true,
+  "unchanged_prediction_files_after_reporting_patch": 42,
+  "change": "report scope wording only; no model/data/config changes"
+}

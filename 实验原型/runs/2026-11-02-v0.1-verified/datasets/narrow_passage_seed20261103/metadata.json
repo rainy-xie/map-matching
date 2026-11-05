@@ -1,0 +1,38 @@
+{
+  "scenario": "narrow_passage",
+  "seed": 20261103,
+  "label": "synthetic",
+  "dataset_version": "0.1.0",
+  "n": 71,
+  "cell_size_m": 4.0,
+  "time_basis": "seconds relative to arbitrary synthetic start",
+  "coordinates": "LOCAL_SYNTHETIC_METRES",
+  "reference_source": "independent hand-authored or analytic route; no HMM or graph routing",
+  "reference_definition": {
+    "kind": "analytic_curve",
+    "formula": "x=20+160u; y=78+2sin(2*pi*u)",
+    "passage_y_range_m": [
+      70,
+      86
+    ],
+    "passage_width_m": 16
+  },
+  "description": "A 16 m synthetic passage, only four nominal 4 m grid cells across.",
+  "noise": {
+    "kind": "independent isotropic Gaussian",
+    "sigma_per_axis_m": 6.0,
+    "bias_m": [
+      0.0,
+      0.0
+    ],
+    "rng": "numpy.default_rng / PCG64",
+    "seed_sequence_entropy": [
+      20261103,
+      3
+    ],
+    "source": "synthetic engineering setting, not measured GPS error"
+  },
+  "parameter_policy": "fixed before model results; no result-based selection",
+  "split": "mechanism_suite_not_generalization_test",
+  "config_sha256": "5e65055d79cd1b3649682a6b0df6b419b49e7d66fca2775d0f6275d0c1483795"
+}

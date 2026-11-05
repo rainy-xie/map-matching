@@ -1,0 +1,955 @@
+{
+  "植被": {
+    "records": 730,
+    "header_bytes": 161,
+    "record_bytes": 61,
+    "all_dbf_descriptors_type": {
+      "C": 4
+    },
+    "deleted": 0,
+    "active": 730,
+    "fields": {
+      "要素编号": {
+        "type": "Integer",
+        "zero": 0,
+        "nonzero": 730,
+        "nonfinite": 0,
+        "distinct": 730,
+        "min": 660,
+        "max": 3381
+      },
+      "编码": {
+        "type": "Integer",
+        "zero": 0,
+        "nonzero": 730,
+        "nonfinite": 0,
+        "distinct": 1,
+        "min": 220200,
+        "max": 220200,
+        "top_values": [
+          [
+            220200,
+            730
+          ]
+        ]
+      },
+      "名称": {
+        "type": "Char",
+        "empty": 0,
+        "nonempty": 730,
+        "distinct_nonempty": 58,
+        "possible_placeholder_counts": {
+          "NULL": 661
+        }
+      },
+      "显示等级": {
+        "type": "Smallint",
+        "zero": 0,
+        "nonzero": 730,
+        "nonfinite": 0,
+        "distinct": 1,
+        "min": 7,
+        "max": 7,
+        "top_values": [
+          [
+            7,
+            730
+          ]
+        ]
+      }
+    },
+    "record_flags": {
+      "32": 730
+    }
+  },
+  "水系": {
+    "records": 104,
+    "header_bytes": 193,
+    "record_bytes": 81,
+    "all_dbf_descriptors_type": {
+      "C": 5
+    },
+    "deleted": 0,
+    "active": 104,
+    "fields": {
+      "要素编号": {
+        "type": "Integer",
+        "zero": 0,
+        "nonzero": 104,
+        "nonfinite": 0,
+        "distinct": 104,
+        "min": 114,
+        "max": 1613
+      },
+      "编码": {
+        "type": "Integer",
+        "zero": 0,
+        "nonzero": 104,
+        "nonfinite": 0,
+        "distinct": 4,
+        "min": 160201,
+        "max": 161103,
+        "top_values": [
+          [
+            160401,
+            73
+          ],
+          [
+            160201,
+            25
+          ],
+          [
+            161103,
+            4
+          ],
+          [
+            160405,
+            2
+          ]
+        ]
+      },
+      "名称": {
+        "type": "Char",
+        "empty": 0,
+        "nonempty": 104,
+        "distinct_nonempty": 15,
+        "possible_placeholder_counts": {
+          "NULL": 90
+        }
+      },
+      "河流代码": {
+        "type": "Char",
+        "empty": 0,
+        "nonempty": 104,
+        "distinct_nonempty": 1,
+        "top_values": [
+          [
+            "NULL",
+            104
+          ]
+        ],
+        "possible_placeholder_counts": {
+          "NULL": 104
+        }
+      },
+      "显示等级": {
+        "type": "Smallint",
+        "zero": 0,
+        "nonzero": 104,
+        "nonfinite": 0,
+        "distinct": 2,
+        "min": 5,
+        "max": 7,
+        "top_values": [
+          [
+            7,
+            93
+          ],
+          [
+            5,
+            11
+          ]
+        ]
+      }
+    },
+    "record_flags": {
+      "32": 104
+    }
+  },
+  "道路": {
+    "records": 26147,
+    "header_bytes": 1825,
+    "record_bytes": 1892,
+    "all_dbf_descriptors_type": {
+      "C": 56
+    },
+    "deleted": 2,
+    "active": 26145,
+    "fields": {
+      "要素编号": {
+        "type": "Integer",
+        "zero": 0,
+        "nonzero": 26145,
+        "nonfinite": 0,
+        "distinct": 26144,
+        "min": 28046,
+        "max": 303770
+      },
+      "编码": {
+        "type": "Integer",
+        "zero": 0,
+        "nonzero": 26145,
+        "nonfinite": 0,
+        "distinct": 11,
+        "min": 140305,
+        "max": 140402,
+        "top_values": [
+          [
+            140314,
+            10132
+          ],
+          [
+            140319,
+            4289
+          ],
+          [
+            140317,
+            3543
+          ],
+          [
+            140402,
+            2638
+          ],
+          [
+            140316,
+            2080
+          ],
+          [
+            140311,
+            1442
+          ],
+          [
+            140305,
+            786
+          ],
+          [
+            140318,
+            741
+          ],
+          [
+            140307,
+            263
+          ],
+          [
+            140309,
+            227
+          ],
+          [
+            140313,
+            4
+          ]
+        ]
+      },
+      "道路名称": {
+        "type": "Char",
+        "empty": 0,
+        "nonempty": 26145,
+        "distinct_nonempty": 441,
+        "possible_placeholder_counts": {
+          "NULL": 16399
+        }
+      },
+      "道路名称的汉语拼音": {
+        "type": "Char",
+        "empty": 0,
+        "nonempty": 26145,
+        "distinct_nonempty": 541,
+        "possible_placeholder_counts": {
+          "NULL": 16076
+        }
+      },
+      "道路路线全称": {
+        "type": "Char",
+        "empty": 0,
+        "nonempty": 26145,
+        "distinct_nonempty": 14,
+        "possible_placeholder_counts": {
+          "NULL": 25238
+        }
+      },
+      "类型": {
+        "type": "Char",
+        "empty": 0,
+        "nonempty": 26145,
+        "distinct_nonempty": 2,
+        "possible_placeholder_counts": {
+          "NULL": 20
+        }
+      },
+      "公路编号": {
+        "type": "Char",
+        "empty": 0,
+        "nonempty": 26145,
+        "distinct_nonempty": 17,
+        "possible_placeholder_counts": {
+          "NULL": 25136
+        }
+      },
+      "道路功能等级": {
+        "type": "Smallint",
+        "zero": 601,
+        "nonzero": 25544,
+        "nonfinite": 0,
+        "distinct": 5,
+        "min": 0,
+        "max": 4,
+        "top_values": [
+          [
+            4,
+            18468
+          ],
+          [
+            3,
+            3720
+          ],
+          [
+            2,
+            2245
+          ],
+          [
+            1,
+            1111
+          ],
+          [
+            0,
+            601
+          ]
+        ]
+      },
+      "道路技术等级": {
+        "type": "Smallint",
+        "zero": 0,
+        "nonzero": 26145,
+        "nonfinite": 0,
+        "distinct": 6,
+        "min": 1,
+        "max": 6,
+        "top_values": [
+          [
+            6,
+            12005
+          ],
+          [
+            4,
+            9326
+          ],
+          [
+            2,
+            3024
+          ],
+          [
+            1,
+            1137
+          ],
+          [
+            3,
+            650
+          ],
+          [
+            5,
+            3
+          ]
+        ]
+      },
+      "道路显示等级": {
+        "type": "Smallint",
+        "zero": 0,
+        "nonzero": 26145,
+        "nonfinite": 0,
+        "distinct": 8,
+        "min": 3,
+        "max": 10,
+        "top_values": [
+          [
+            8,
+            12621
+          ],
+          [
+            7,
+            4624
+          ],
+          [
+            6,
+            3819
+          ],
+          [
+            5,
+            2722
+          ],
+          [
+            4,
+            955
+          ],
+          [
+            9,
+            617
+          ],
+          [
+            10,
+            603
+          ],
+          [
+            3,
+            184
+          ]
+        ]
+      },
+      "内部路段标识码": {
+        "type": "Smallint",
+        "zero": 0,
+        "nonzero": 26145,
+        "nonfinite": 0,
+        "distinct": 2,
+        "min": -32767,
+        "max": 1
+      },
+      "特殊功能路段类型码": {
+        "type": "Char",
+        "empty": 0,
+        "nonempty": 26145,
+        "distinct_nonempty": 9,
+        "possible_placeholder_counts": {
+          "NULL": 23321
+        }
+      },
+      "宽度": {
+        "type": "Float",
+        "zero": 0,
+        "nonzero": 26145,
+        "nonfinite": 0,
+        "distinct": 4,
+        "min": 3.5,
+        "max": 15.0,
+        "top_values": [
+          [
+            13.0,
+            14590
+          ],
+          [
+            5.5,
+            10872
+          ],
+          [
+            15.0,
+            624
+          ],
+          [
+            3.5,
+            59
+          ]
+        ]
+      },
+      "铺宽": {
+        "type": "Float",
+        "zero": 0,
+        "nonzero": 26145,
+        "nonfinite": 0,
+        "distinct": 1,
+        "min": -999999.9,
+        "max": -999999.9
+      },
+      "比高": {
+        "type": "Float",
+        "zero": 0,
+        "nonzero": 26145,
+        "nonfinite": 0,
+        "distinct": 1,
+        "min": -999999.9,
+        "max": -999999.9
+      },
+      "通行月份": {
+        "type": "Char",
+        "empty": 0,
+        "nonempty": 26145,
+        "distinct_nonempty": 1,
+        "top_values": [
+          [
+            "111111111111",
+            26145
+          ]
+        ],
+        "possible_placeholder_counts": {}
+      },
+      "最小曲率半径": {
+        "type": "Float",
+        "zero": 0,
+        "nonzero": 26145,
+        "nonfinite": 0,
+        "distinct": 1,
+        "min": -999999.9,
+        "max": -999999.9
+      },
+      "最大纵坡": {
+        "type": "Float",
+        "zero": 0,
+        "nonzero": 26145,
+        "nonfinite": 0,
+        "distinct": 1,
+        "min": -999999.9,
+        "max": -999999.9
+      },
+      "车道数": {
+        "type": "Smallint",
+        "zero": 0,
+        "nonzero": 26145,
+        "nonfinite": 0,
+        "distinct": 7,
+        "min": 1,
+        "max": 7,
+        "top_values": [
+          [
+            2,
+            12991
+          ],
+          [
+            1,
+            10931
+          ],
+          [
+            3,
+            1599
+          ],
+          [
+            4,
+            546
+          ],
+          [
+            5,
+            38
+          ],
+          [
+            7,
+            33
+          ],
+          [
+            6,
+            7
+          ]
+        ]
+      },
+      "空间层次": {
+        "type": "Smallint",
+        "zero": 25440,
+        "nonzero": 705,
+        "nonfinite": 0,
+        "distinct": 2,
+        "min": 0,
+        "max": 1,
+        "top_values": [
+          [
+            0,
+            25440
+          ],
+          [
+            1,
+            705
+          ]
+        ]
+      },
+      "隔离带类型": {
+        "type": "Smallint",
+        "zero": 0,
+        "nonzero": 26145,
+        "nonfinite": 0,
+        "distinct": 2,
+        "min": -32767,
+        "max": 2
+      },
+      "路段高度限制": {
+        "type": "Float",
+        "zero": 0,
+        "nonzero": 26145,
+        "nonfinite": 0,
+        "distinct": 1,
+        "min": -999999.9,
+        "max": -999999.9,
+        "top_values": [
+          [
+            -999999.9,
+            26145
+          ]
+        ]
+      },
+      "路段宽度限制": {
+        "type": "Float",
+        "zero": 0,
+        "nonzero": 26145,
+        "nonfinite": 0,
+        "distinct": 1,
+        "min": -999999.9,
+        "max": -999999.9,
+        "top_values": [
+          [
+            -999999.9,
+            26145
+          ]
+        ]
+      },
+      "路段载重限制": {
+        "type": "Float",
+        "zero": 0,
+        "nonzero": 26145,
+        "nonfinite": 0,
+        "distinct": 1,
+        "min": -999999.9,
+        "max": -999999.9,
+        "top_values": [
+          [
+            -999999.9,
+            26145
+          ]
+        ]
+      },
+      "道路的最高限速": {
+        "type": "Smallint",
+        "zero": 0,
+        "nonzero": 26145,
+        "nonfinite": 0,
+        "distinct": 14,
+        "min": -32767,
+        "max": 120,
+        "top_values": [
+          [
+            15,
+            8098
+          ],
+          [
+            -32767,
+            4885
+          ],
+          [
+            30,
+            3903
+          ],
+          [
+            60,
+            3454
+          ],
+          [
+            40,
+            2736
+          ],
+          [
+            80,
+            1184
+          ],
+          [
+            50,
+            1016
+          ],
+          [
+            5,
+            292
+          ],
+          [
+            70,
+            256
+          ],
+          [
+            20,
+            93
+          ],
+          [
+            25,
+            91
+          ],
+          [
+            100,
+            80
+          ],
+          [
+            120,
+            32
+          ],
+          [
+            10,
+            25
+          ]
+        ]
+      },
+      "道路的最低限速": {
+        "type": "Smallint",
+        "zero": 0,
+        "nonzero": 26145,
+        "nonfinite": 0,
+        "distinct": 1,
+        "min": -32767,
+        "max": -32767,
+        "top_values": [
+          [
+            -32767,
+            26145
+          ]
+        ]
+      },
+      "路段长度": {
+        "type": "Float",
+        "zero": 0,
+        "nonzero": 26145,
+        "nonfinite": 0,
+        "distinct": 13898,
+        "min": 2.0,
+        "max": 4466.92
+      },
+      "平均车流量": {
+        "type": "Smallint",
+        "zero": 0,
+        "nonzero": 26145,
+        "nonfinite": 0,
+        "distinct": 1,
+        "min": -32767,
+        "max": -32767,
+        "top_values": [
+          [
+            -32767,
+            26145
+          ]
+        ]
+      },
+      "平均车速": {
+        "type": "Smallint",
+        "zero": 0,
+        "nonzero": 26145,
+        "nonfinite": 0,
+        "distinct": 1,
+        "min": -32767,
+        "max": -32767,
+        "top_values": [
+          [
+            -32767,
+            26145
+          ]
+        ]
+      },
+      "左侧的门牌编号方式": {
+        "type": "Char",
+        "empty": 0,
+        "nonempty": 26145,
+        "distinct_nonempty": 1,
+        "possible_placeholder_counts": {
+          "NULL": 26145
+        }
+      },
+      "左侧的起始门牌编号": {
+        "type": "Char",
+        "empty": 0,
+        "nonempty": 26145,
+        "distinct_nonempty": 1,
+        "possible_placeholder_counts": {
+          "NULL": 26145
+        }
+      },
+      "左侧的结尾门牌编号": {
+        "type": "Char",
+        "empty": 0,
+        "nonempty": 26145,
+        "distinct_nonempty": 1,
+        "possible_placeholder_counts": {
+          "NULL": 26145
+        }
+      },
+      "右侧的门牌编号方式": {
+        "type": "Char",
+        "empty": 0,
+        "nonempty": 26145,
+        "distinct_nonempty": 1,
+        "possible_placeholder_counts": {
+          "NULL": 26145
+        }
+      },
+      "右侧的起始门牌编号": {
+        "type": "Char",
+        "empty": 0,
+        "nonempty": 26145,
+        "distinct_nonempty": 1,
+        "possible_placeholder_counts": {
+          "NULL": 26145
+        }
+      },
+      "右侧的结尾门牌编号": {
+        "type": "Char",
+        "empty": 0,
+        "nonempty": 26145,
+        "distinct_nonempty": 1,
+        "possible_placeholder_counts": {
+          "NULL": 26145
+        }
+      },
+      "行政区划代码": {
+        "type": "Char",
+        "empty": 0,
+        "nonempty": 26145,
+        "distinct_nonempty": 9,
+        "possible_placeholder_counts": {}
+      },
+      "始结点号": {
+        "type": "Integer",
+        "zero": 0,
+        "nonzero": 26145,
+        "nonfinite": 0,
+        "distinct": 18794,
+        "min": 21814,
+        "max": 232150
+      },
+      "终结点号": {
+        "type": "Integer",
+        "zero": 0,
+        "nonzero": 26145,
+        "nonfinite": 0,
+        "distinct": 19646,
+        "min": 21814,
+        "max": 232150
+      },
+      "单向行驶标志": {
+        "type": "Char",
+        "empty": 0,
+        "nonempty": 26145,
+        "distinct_nonempty": 2,
+        "possible_placeholder_counts": {}
+      },
+      "单向行驶标志有效时段": {
+        "type": "Char",
+        "empty": 0,
+        "nonempty": 26145,
+        "distinct_nonempty": 6,
+        "possible_placeholder_counts": {
+          "NULL": 26124
+        }
+      },
+      "路段端结点交通灯标志": {
+        "type": "Char",
+        "empty": 0,
+        "nonempty": 26145,
+        "distinct_nonempty": 4,
+        "possible_placeholder_counts": {}
+      },
+      "路段始结点上的交管信息编码": {
+        "type": "Char",
+        "empty": 0,
+        "nonempty": 26145,
+        "distinct_nonempty": 9,
+        "possible_placeholder_counts": {
+          "NULL": 25973
+        }
+      },
+      "路段始结点上的交管信息有效时段": {
+        "type": "Char",
+        "empty": 0,
+        "nonempty": 26145,
+        "distinct_nonempty": 10,
+        "possible_placeholder_counts": {
+          "NULL": 25973
+        }
+      },
+      "路段终结点上的交管信息编码": {
+        "type": "Char",
+        "empty": 0,
+        "nonempty": 26145,
+        "distinct_nonempty": 16,
+        "possible_placeholder_counts": {
+          "NULL": 25058
+        }
+      },
+      "路段终结点上的交管信息有效时段": {
+        "type": "Char",
+        "empty": 0,
+        "nonempty": 26145,
+        "distinct_nonempty": 12,
+        "possible_placeholder_counts": {
+          "NULL": 25058
+        }
+      },
+      "道路收费标志": {
+        "type": "Char",
+        "empty": 0,
+        "nonempty": 26145,
+        "distinct_nonempty": 2,
+        "possible_placeholder_counts": {}
+      },
+      "始结点上的路口分流车道代码": {
+        "type": "Char",
+        "empty": 0,
+        "nonempty": 26145,
+        "distinct_nonempty": 26,
+        "possible_placeholder_counts": {
+          "NULL": 25574
+        }
+      },
+      "终结点上的路口分流车道代码": {
+        "type": "Char",
+        "empty": 0,
+        "nonempty": 26145,
+        "distinct_nonempty": 123,
+        "possible_placeholder_counts": {
+          "NULL": 24076
+        }
+      },
+      "终结点出口编号及名称": {
+        "type": "Char",
+        "empty": 0,
+        "nonempty": 26145,
+        "distinct_nonempty": 103,
+        "possible_placeholder_counts": {
+          "NULL": 26033
+        }
+      },
+      "终结点上的指路信息": {
+        "type": "Char",
+        "empty": 0,
+        "nonempty": 26145,
+        "distinct_nonempty": 141,
+        "possible_placeholder_counts": {
+          "NULL": 25995
+        }
+      },
+      "始结点上的警告标志代码": {
+        "type": "Smallint",
+        "zero": 0,
+        "nonzero": 26145,
+        "nonfinite": 0,
+        "distinct": 1,
+        "min": -32767,
+        "max": -32767
+      },
+      "终结点上的警告标志代码": {
+        "type": "Smallint",
+        "zero": 0,
+        "nonzero": 26145,
+        "nonfinite": 0,
+        "distinct": 1,
+        "min": -32767,
+        "max": -32767
+      },
+      "禁行车辆编码": {
+        "type": "Char",
+        "empty": 0,
+        "nonempty": 26145,
+        "distinct_nonempty": 1,
+        "possible_placeholder_counts": {
+          "NULL": 26145
+        }
+      },
+      "禁行车辆编码有效时段": {
+        "type": "Char",
+        "empty": 0,
+        "nonempty": 26145,
+        "distinct_nonempty": 1,
+        "possible_placeholder_counts": {
+          "NULL": 26145
+        }
+      },
+      "路段交管信息编码": {
+        "type": "Char",
+        "empty": 0,
+        "nonempty": 26145,
+        "distinct_nonempty": 1,
+        "possible_placeholder_counts": {
+          "NULL": 26145
+        }
+      },
+      "路段交管信息有效时段": {
+        "type": "Char",
+        "empty": 0,
+        "nonempty": 26145,
+        "distinct_nonempty": 1,
+        "possible_placeholder_counts": {
+          "NULL": 26145
+        }
+      }
+    },
+    "record_flags": {
+      "32": 26145,
+      "42": 2
+    }
+  }
+}

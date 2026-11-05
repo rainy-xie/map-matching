@@ -1,0 +1,50 @@
+# macOS and editor caches
+.DS_Store
+._*
+*.swp
+*.swo
+*~
+.idea/
+.vscode/
+.ipynb_checkpoints/
+
+# Python environments, caches and build output
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+build/
+dist/
+*.egg-info/
+
+# Local credentials; keep shareable configuration examples
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Original supplied archives, extracted legacy project and full map export
+/eNavaStar.zip
+/丰台数据.rar
+/数据核查/**/原始解包/
+/数据核查/**/可用地图/*.gpkg
+
+# Personal proposal document stays local; research notes are versioned
+/解雨欣-开题报告-415.docx
+
+# Literature originals and extracted full text can be obtained from source links
+/参考文献/**/*.pdf
+/参考文献/**/*.txt
+/参考文献/**/previews/
+
+# Retain one frozen accepted run; new runs and development trials stay local
+/实验原型/runs/*
+!/实验原型/runs/2026-11-02-v0.1-verified/
+/实验原型/results/
+/实验原型/data/smoke/

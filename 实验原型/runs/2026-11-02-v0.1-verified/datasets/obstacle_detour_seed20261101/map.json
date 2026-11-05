@@ -1,0 +1,52 @@
+{
+  "name": "obstacle_detour",
+  "bounds": [
+    0.0,
+    0.0,
+    200.0,
+    160.0
+  ],
+  "crs": "LOCAL_SYNTHETIC_METRES",
+  "source": "synthetic_design_v0.1; explicit experimental assumption",
+  "background": {
+    "passability": "allowed",
+    "source": "synthetic_design_v0.1; explicit experimental assumption"
+  },
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "kind": "obstacle",
+        "passability": "blocked",
+        "source": "synthetic_design_v0.1; explicit experimental assumption"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              80.0,
+              45.0
+            ],
+            [
+              120.0,
+              45.0
+            ],
+            [
+              120.0,
+              110.0
+            ],
+            [
+              80.0,
+              110.0
+            ],
+            [
+              80.0,
+              45.0
+            ]
+          ]
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "method": "hmm",
+  "scenario": "narrow_passage",
+  "seed": 20261103,
+  "label": "synthetic",
+  "n": 71,
+  "rmse_m": 4.796540119374536,
+  "mean_m": 4.0970500440150275,
+  "median_m": 3.4426293580973617,
+  "p95_m": 10.045203893837662,
+  "max_m": 12.039369772237626,
+  "status_counts": {
+    "ok": 71
+  },
+  "failure_count": 0,
+  "map_unknown_count": 0,
+  "aggregation": "all timestamps, unweighted; no success-only exclusion",
+  "percentile_method": "numpy linear"
+}

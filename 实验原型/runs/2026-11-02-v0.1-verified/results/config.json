@@ -1,0 +1,19 @@
+{
+  "experiment_version": "0.1.0",
+  "label": "SYNTHETIC mechanism experiments; not field validation",
+  "synthetic_cell_size_m": 4.0,
+  "fengtai_cell_size_m": 8.0,
+  "model": {
+    "candidate_radius_m": 30.0,
+    "max_candidates": 48,
+    "max_speed_mps": 8.0,
+    "motion_sigma_mps": 3.0
+  },
+  "seeds": [
+    20261101,
+    20261102,
+    20261103
+  ],
+  "nominal_observation_sigma_m": 6.0,
+  "notes": "All motion/noise/grid parameters are engineering assumptions, not measured athlete/device properties; frozen before first experiment."
+}

@@ -1,0 +1,19 @@
+{
+  "method": "raw",
+  "scenario": "stop_and_go",
+  "seed": 20261103,
+  "label": "synthetic",
+  "n": 71,
+  "rmse_m": 8.224250092257387,
+  "mean_m": 7.238193417874776,
+  "median_m": 6.076845352628436,
+  "p95_m": 14.978124260823616,
+  "max_m": 16.640559774675292,
+  "status_counts": {
+    "raw": 71
+  },
+  "failure_count": 0,
+  "map_unknown_count": 0,
+  "aggregation": "all timestamps, unweighted; no success-only exclusion",
+  "percentile_method": "numpy linear"
+}

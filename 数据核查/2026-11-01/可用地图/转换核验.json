@@ -1,0 +1,32 @@
+[
+  {
+    "layer": "丰台政区",
+    "records": 1,
+    "crs": "EPSG:4326",
+    "geometry_and_attributes_roundtrip_equal": true
+  },
+  {
+    "layer": "植被",
+    "records": 730,
+    "crs": "EPSG:4326",
+    "geometry_and_attributes_roundtrip_equal": true
+  },
+  {
+    "layer": "水系",
+    "records": 104,
+    "crs": "EPSG:4326",
+    "geometry_and_attributes_roundtrip_equal": true
+  },
+  {
+    "layer": "道路",
+    "records": 26145,
+    "crs": "EPSG:4326",
+    "geometry_and_attributes_roundtrip_equal": true
+  },
+  {
+    "layer": "铁路",
+    "records": 58,
+    "crs": "EPSG:4326",
+    "geometry_and_attributes_roundtrip_equal": true
+  }
+]

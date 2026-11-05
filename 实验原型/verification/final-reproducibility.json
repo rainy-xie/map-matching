@@ -1,0 +1,13 @@
+{
+  "passed": true,
+  "baseline": "/Users/xieyuxin1/Documents/毕设/实验原型/runs/2026-11-02-v0.1-verified",
+  "repeat": "/Users/xieyuxin1/Documents/毕设/实验原型/runs/2026-11-02-v0.1-verified-repeat",
+  "dataset_count": 21,
+  "identical_input_files": 84,
+  "byte_identical_prediction_files": 42,
+  "metric_rows_independently_recomputed": 63,
+  "matching_source_files": 17,
+  "unchanged_original_files": 233,
+  "timing_equality_required": false,
+  "scope": "Reproducibility and arithmetic checks; not evidence of real-world accuracy"
+}

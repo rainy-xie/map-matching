@@ -1,0 +1,818 @@
+{
+  "compiled_on": "2026-10-27",
+  "scope": "首轮定向越野区域剖分与定位纠正文献；并非系统综述或完整查新",
+  "pdf_count": 14,
+  "total_pages": 237,
+  "total_bytes": 53526628,
+  "items": [
+    {
+      "id": "F01",
+      "title": "A Tutorial on Hidden Markov Models and Selected Applications in Speech Recognition",
+      "authors": [
+        "Lawrence R. Rabiner"
+      ],
+      "year": 1989,
+      "venue": "Proceedings of the IEEE 77(2):257–286",
+      "doi": "10.1109/5.18626",
+      "landing_url": "https://web.ece.ucsb.edu/Faculty/Rabiner/ece259/publications.html",
+      "pdf_url": "https://web.ece.ucsb.edu/Faculty/Rabiner/ece259/Reprints/tutorial%20on%20hmm%20and%20applications.pdf",
+      "status": "downloaded_verified",
+      "path": "/Users/xieyuxin1/Documents/毕设/参考文献/01_HMM基础与综述/Rabiner_1989_HMM_Tutorial.pdf",
+      "pages": 30,
+      "size_bytes": 2322272,
+      "sha256": "b4be31b1796821fdc2889f5351a259d5b08598be9c18ca990fb5d48245183579",
+      "extracted_chars": 0,
+      "document_type": "journal_tutorial",
+      "priority": "按需查阅",
+      "read_depth": "视觉阅读首页及PDF第4–8页（HMM要素、三个基本问题、前向后向与Viterbi）；未通读语音应用部分",
+      "summary": "HMM经典教程，系统区分模型要素、观测序列概率、最优状态序列和参数估计。适合查清初始分布、转移概率、观测模型及Viterbi回溯。",
+      "relevance": "为地图匹配中的概率模型和动态规划提供基础；先理解状态与观测，再结合Newson论文读具体定位建模。",
+      "limitations": "主要应用是语音；并非地图匹配方法或空间剖分创新。下载版本是扫描件，无法直接全文搜索；不必先读完全部语音识别内容。",
+      "read_sections": [
+        "II.B Elements of an HMM（PDF pp.4–5，印刷页260–261）",
+        "II.C The Three Basic Problems（PDF p.5）",
+        "III.A–B（PDF pp.6–8；Viterbi在PDF p.8/印刷页264）"
+      ],
+      "source_kind": "author_institutional_website",
+      "verified_at": "2026-10-25",
+      "metadata_sources": [
+        "https://web.ece.ucsb.edu/Faculty/Rabiner/ece259/publications.html",
+        "https://api.crossref.org/works/10.1109/5.18626"
+      ],
+      "category": "01_HMM基础与综述",
+      "relative_path": "01_HMM基础与综述/Rabiner_1989_HMM_Tutorial.pdf",
+      "validation": {
+        "path": "/Users/xieyuxin1/Documents/毕设/参考文献/01_HMM基础与综述/Rabiner_1989_HMM_Tutorial.pdf",
+        "bytes": 2322272,
+        "pages": 30,
+        "sha256": "b4be31b1796821fdc2889f5351a259d5b08598be9c18ca990fb5d48245183579",
+        "has_header": true,
+        "has_eof": true,
+        "text_chars": 0
+      }
+    },
+    {
+      "id": "F01a",
+      "title": "Correction to A Tutorial on Hidden Markov Models and Selected Applications in Speech Recognition",
+      "authors": [
+        "Lawrence R. Rabiner"
+      ],
+      "year": null,
+      "venue": "Author errata, undated PDF",
+      "landing_url": "https://web.ece.ucsb.edu/Faculty/Rabiner/ece259/publications.html",
+      "pdf_url": "https://web.ece.ucsb.edu/Faculty/Rabiner/ece259/Reprints/hmm%20tutorial%20errata.pdf",
+      "status": "downloaded_verified",
+      "path": "/Users/xieyuxin1/Documents/毕设/参考文献/01_HMM基础与综述/Rabiner_HMM_Tutorial_Errata.pdf",
+      "pages": 2,
+      "size_bytes": 96002,
+      "sha256": "c185e0f0efc7085ab47daf089add7957ff2b296d0c0e6c14c29b6e92ab97dad0",
+      "extracted_chars": 1782,
+      "document_type": "errata",
+      "priority": "配套勘误",
+      "read_depth": "已读2页作者勘误，未逐式复核证明",
+      "summary": "修正原教程中模型比较公式及缩放计算说明。",
+      "relevance": "阅读原教程对应公式时一并核对，作为配套附件。",
+      "limitations": "不是独立研究论文；文件未标明修订日期，不将网页条目的年份当成该PDF的修订年份。",
+      "read_sections": [
+        "全篇2页"
+      ],
+      "source_kind": "author_institutional_website",
+      "verified_at": "2026-10-25",
+      "category": "01_HMM基础与综述",
+      "relative_path": "01_HMM基础与综述/Rabiner_HMM_Tutorial_Errata.pdf",
+      "validation": {
+        "path": "/Users/xieyuxin1/Documents/毕设/参考文献/01_HMM基础与综述/Rabiner_HMM_Tutorial_Errata.pdf",
+        "bytes": 96002,
+        "pages": 2,
+        "sha256": "c185e0f0efc7085ab47daf089add7957ff2b296d0c0e6c14c29b6e92ab97dad0",
+        "has_header": true,
+        "has_eof": true,
+        "text_chars": 1782
+      }
+    },
+    {
+      "id": "F02",
+      "title": "Hidden Markov Map Matching Through Noise and Sparseness",
+      "authors": [
+        "Paul Newson",
+        "John Krumm"
+      ],
+      "year": 2009,
+      "venue": "ACM SIGSPATIAL GIS 2009:336–343",
+      "doi": "10.1145/1653771.1653818",
+      "landing_url": "https://www.microsoft.com/en-us/research/publication/hidden-markov-map-matching-noise-sparseness/",
+      "pdf_url": "https://www.microsoft.com/en-us/research/wp-content/uploads/2016/12/map-matching-ACM-GIS-camera-ready.pdf",
+      "status": "downloaded_verified",
+      "path": "/Users/xieyuxin1/Documents/毕设/参考文献/01_HMM基础与综述/Newson_Krumm_2009_HMM_Map_Matching.pdf",
+      "pages": 8,
+      "size_bytes": 863056,
+      "sha256": "822e305930251182f8b398aee6a73e04da05a5be0c6ae3b6d335d6858f76fc44",
+      "extracted_chars": 37637,
+      "document_type": "conference_paper",
+      "priority": "核心精读",
+      "read_depth": "已阅读摘要、问题定义、HMM方法、实现细节、数据及实验结论；未复现；首页渲染核验",
+      "summary": "以道路候选为状态，结合GPS距离观测和路径距离差转移，用Viterbi求最可能路线；通过降采样和加噪评价稳健性。",
+      "relevance": "第一篇精读，建立观测—候选—转移—序列求解的完整流程；同时借鉴噪声和采样率实验。",
+      "limitations": "针对车辆道路网络，不能直接表示越野穿林；论文是离线批处理。其人工真值为走过的路线，不是每个时刻的精确坐标，路线匹配正确不等于逐点定位误差为零。",
+      "read_sections": [
+        "§3 HMM Map Matching（PDF pp.3–4）",
+        "§4 Algorithm Particulars（PDF pp.5–6）",
+        "§5 Ground Truth Data（PDF p.6）",
+        "§6–7 Results/Conclusions（PDF pp.6–7）"
+      ],
+      "source_kind": "author_employer_publication",
+      "verified_at": "2026-10-25",
+      "metadata_sources": [
+        "https://www.microsoft.com/en-us/research/publication/hidden-markov-map-matching-noise-sparseness/",
+        "https://api.crossref.org/works/10.1145/1653771.1653818"
+      ],
+      "text_path": "/Users/xieyuxin1/Documents/毕设/参考文献/01_HMM基础与综述/Newson_Krumm_2009_HMM_Map_Matching.txt",
+      "category": "01_HMM基础与综述",
+      "relative_path": "01_HMM基础与综述/Newson_Krumm_2009_HMM_Map_Matching.pdf",
+      "validation": {
+        "path": "/Users/xieyuxin1/Documents/毕设/参考文献/01_HMM基础与综述/Newson_Krumm_2009_HMM_Map_Matching.pdf",
+        "bytes": 863056,
+        "pages": 8,
+        "sha256": "822e305930251182f8b398aee6a73e04da05a5be0c6ae3b6d335d6858f76fc44",
+        "has_header": true,
+        "has_eof": true,
+        "text_chars": 37637
+      },
+      "student_reading": {
+        "status": "focused_reading_completed",
+        "synced_on": "2026-11-04",
+        "basis": "学生反馈已完成ChatGPT辅助的第一轮项目相关重点阅读，并已整理汇总笔记；未标记为全篇通读、逐式核验或论文算法复现",
+        "notes_path": "02_阅读笔记.md",
+        "notes_section": "文献阅读笔记 01：基于隐马尔可夫模型的地图匹配",
+        "discussion_url": "https://chatgpt.com/share/6aeaffe8-5a94-83ec-8fe1-f673bc0db829",
+        "discussion_access": "本对话先前可读",
+        "key_pdf_checks": [
+          "PDF第3—4页§3、图3与图4：路段状态及按时刻变化的最近候选位置",
+          "PDF第6页§5—6、图6：道路路线参照，不是逐时刻精确坐标"
+        ]
+      }
+    },
+    {
+      "id": "F03",
+      "title": "A Survey on Map-Matching Algorithms",
+      "authors": [
+        "Pingfu Chao",
+        "Yehong Xu",
+        "Wen Hua",
+        "Xiaofang Zhou"
+      ],
+      "year": 2019,
+      "venue": "arXiv preprint 1910.13065v1 (submitted to ADC 2020)",
+      "doi": "10.48550/arXiv.1910.13065",
+      "landing_url": "https://arxiv.org/abs/1910.13065",
+      "pdf_url": "https://arxiv.org/pdf/1910.13065v1",
+      "status": "downloaded_verified",
+      "path": "/Users/xieyuxin1/Documents/毕设/参考文献/01_HMM基础与综述/Chao_2019_Map_Matching_Survey_arxiv.pdf",
+      "pages": 12,
+      "size_bytes": 1875104,
+      "sha256": "e90cc7630226fd54ab75f8e09731af5f8931bbacae8b7c7ebb48e19634728395",
+      "extracted_chars": 35158,
+      "document_type": "survey_preprint",
+      "priority": "概览与实验参考",
+      "read_depth": "阅读摘要、问题定义、方法分类、状态转移模型、实验和结论；其他分类浏览；未复现",
+      "summary": "按相似度、状态转移、候选演化及评分框架梳理地图匹配，比较代表方法，分析采样、地图密度和轨迹质量带来的挑战。",
+      "relevance": "用于搭建相关工作框架、理解在线与离线区别，并设计采样率、异常点和计算成本实验。",
+      "limitations": "下载为2019 arXiv v1，不能代表2026最新研究；主要讨论户外车辆路网，不能以此断言行人或开放空间研究不存在。",
+      "read_sections": [
+        "§2 Problem Definition",
+        "§3.2 State-Transition Model",
+        "§4 Challenges and Evaluations",
+        "§5 Conclusion"
+      ],
+      "source_kind": "arxiv_author_manuscript",
+      "verified_at": "2026-10-25",
+      "text_path": "/Users/xieyuxin1/Documents/毕设/参考文献/01_HMM基础与综述/Chao_2019_Map_Matching_Survey_arxiv.txt",
+      "category": "01_HMM基础与综述",
+      "relative_path": "01_HMM基础与综述/Chao_2019_Map_Matching_Survey_arxiv.pdf",
+      "validation": {
+        "path": "/Users/xieyuxin1/Documents/毕设/参考文献/01_HMM基础与综述/Chao_2019_Map_Matching_Survey_arxiv.pdf",
+        "bytes": 1875104,
+        "pages": 12,
+        "sha256": "e90cc7630226fd54ab75f8e09731af5f8931bbacae8b7c7ebb48e19634728395",
+        "has_header": true,
+        "has_eof": true,
+        "text_chars": 35158
+      }
+    },
+    {
+      "id": "HaunertBudig2012",
+      "title": "An Algorithm for Map Matching Given Incomplete Road Data",
+      "authors": [
+        "Jan-Henrik Haunert",
+        "Benedikt Budig"
+      ],
+      "year": 2012,
+      "venue": "Proceedings of the 20th International Conference on Advances in Geographic Information Systems (SIGSPATIAL 2012)",
+      "doi": "10.1145/2424321.2424402",
+      "arxiv": null,
+      "publication_pages": "510–513",
+      "landing_url": "https://doi.org/10.1145/2424321.2424402",
+      "pdf_url": "https://www1.pub.informatik.uni-wuerzburg.de/pub/haunert/pdf/HaunertBudig2012.pdf",
+      "version": "作者公开预印本，首页注明发表于 ACM GIS 2012；正式出版题录经 Crossref 注册记录核对。",
+      "read_depth": "全文通读（4页，含方法、实验、结论）；关键方法与实验页已渲染检查；未复现实验。",
+      "read_sections": [
+        "Abstract",
+        "1 Motivation",
+        "2 Related Work",
+        "3 Our Algorithm（每个GPS点增加离路候选；三类连接；式5–9）",
+        "4 Experimental Results（4次徒步、7799点、65 km）",
+        "5 Conclusion and Future Work"
+      ],
+      "summary": "扩展道路HMM，为每个GPS点增加位于原观测处的离路候选，用道路内最短路和带代价的道路外连接统一匹配。作者在4次徒步、7799个GPS点上检验不完整路网处理，并报告离路区段识别结果。",
+      "relevance": "说明HMM处理行人离路或缺失道路早已有研究；可作简单离路候选基线，并启发道路/区域转换代价设计。其引用的加权区域最短路也连接了地图匹配与区域通行代价。",
+      "limitations": [
+        "离路候选直接取原GPS点，不能据此声称已纠正离路坐标误差。",
+        "离路-离路使用直线，离路单位代价为常量；未建模定向地图中的植被、障碍和分区语义。",
+        "假设相邻观测间最多切换一次道路内外；总体仍偏好已知路网。",
+        "离线算法；仅4次徒步案例和运行时间，缺乏系统的逐点坐标误差基准；不应将23个识别区段全正确等同于普遍100%准确率。"
+      ],
+      "metadata_sources": [
+        "https://api.crossref.org/works/10.1145/2424321.2424402",
+        "https://www1.pub.informatik.uni-wuerzburg.de/pub/haunert/pdf/HaunertBudig2012.pdf"
+      ],
+      "status": "downloaded_verified",
+      "path": "/Users/xieyuxin1/Documents/毕设/参考文献/02_开放区域地图匹配/Haunert_Budig_2012_Incomplete_Road_Data.pdf",
+      "pages": 4,
+      "sha256": "fcda9341a2333f6a1b0ff59c57ee93ad932dd45ec6ff655ceda1019454040ea1",
+      "bytes": 341680,
+      "verification": {
+        "pdf_header": true,
+        "eof_marker": true,
+        "all_pages_text_extracted": true
+      },
+      "checked_date": "2026-10-25",
+      "category": "02_开放区域地图匹配",
+      "relative_path": "02_开放区域地图匹配/Haunert_Budig_2012_Incomplete_Road_Data.pdf",
+      "validation": {
+        "path": "/Users/xieyuxin1/Documents/毕设/参考文献/02_开放区域地图匹配/Haunert_Budig_2012_Incomplete_Road_Data.pdf",
+        "bytes": 341680,
+        "pages": 4,
+        "sha256": "fcda9341a2333f6a1b0ff59c57ee93ad932dd45ec6ff655ceda1019454040ea1",
+        "has_header": true,
+        "has_eof": true,
+        "text_chars": 19172
+      }
+    },
+    {
+      "id": "MaWangLee2024",
+      "title": "An Enhanced Hidden Markov Model for Map-Matching in Pedestrian Navigation",
+      "authors": [
+        "Shengjie Ma",
+        "Pei Wang",
+        "Hyukjoon Lee"
+      ],
+      "year": 2024,
+      "venue": "Electronics, 13(9), article 1685",
+      "doi": "10.3390/electronics13091685",
+      "arxiv": null,
+      "landing_url": "https://www.mdpi.com/2079-9292/13/9/1685",
+      "pdf_url": "https://www.mdpi.com/2079-9292/13/9/1685/pdf",
+      "version": "出版版本，2024-04-26；PDF 27页；PDF链接由出版商Crossref记录确认。已下载PDF可读，但本轮重访部分MDPI端点返回429/403。",
+      "read_depth": "全文结构浏览，精读摘要、4.2方法、5实验、6结论；视觉核对第10页开放区状态及发射模型；未逐式推导或复现。",
+      "read_sections": [
+        "Abstract",
+        "4.1 Problem Definition",
+        "4.2.1 Initial States（短时校准与到达点）",
+        "4.2.2 Emission and Transition（附加open-field状态；道路总长度因子；距离/方向/位置差）",
+        "4.2.3 Algorithm（浏览）",
+        "4.2.4 Y-net开放区域轨迹预测",
+        "5.1 Data Collection and Data Preprocessing",
+        "5.2 Results and Discussion",
+        "6 Conclusions及Data Availability"
+      ],
+      "summary": "EHMM-P通过短时校准改善初始匹配，加入开放区域隐状态，并以道路总长度及运动距离、方向、位置差调整概率。先识别开放区观测，再接入预训练Y-net生成轨迹；在校园手机GPS上与常规HMM及Behr方法比较。",
+      "relevance": "与课题最接近的重点论文。帮助区分“识别人在开放区”和“纠正开放区坐标”，可借鉴初始分布、状态转换、道路/开放区分开评价。证明开放区域HMM与运动特征结合并非空白。",
+      "limitations": [
+        "核心EHMM-P只增加一个特殊open-field状态，开放区候选坐标取GPS观测本身；区域内轨迹恢复另靠Y-net，并非语义自适应剖分。",
+        "Y-net阶段用开放区前几个观测及退出前的目的地观测，不能把完整流程直接作为无延迟实时方法。",
+        "校园行走条件，未验证林地、坡地和定向越野跑动；搜索半径不随环境自适应，高斯假设和启发式参数有适用边界。",
+        "数据因隐私不公开，仅可向通讯作者申请；真值通过地标距离/角度人工测录，正文未完整交代独立测量设备精度与误差预算。",
+        "表3的4.63 m是作者报告的平均定位误差减少量，不是绝对误差；开放区轨迹效果包含Y-net贡献，不能全部归因于HMM。"
+      ],
+      "experiment_notes": "Dataset I：10个路口、每路口5条路径各重复5次，共7700点。Dataset II：5条预设路线双向形成10条轨迹；表2总计4830点，其中2141为开放区。1 Hz采样。指标包括道路匹配率、开放区识别、路线不匹配比例、离散Frechet距离。",
+      "metadata_sources": [
+        "https://www.mdpi.com/2079-9292/13/9/1685",
+        "https://api.crossref.org/works/10.3390/electronics13091685"
+      ],
+      "status": "downloaded_verified",
+      "path": "/Users/xieyuxin1/Documents/毕设/参考文献/02_开放区域地图匹配/Ma_2024_EHMM_P.pdf",
+      "pages": 27,
+      "sha256": "70bf97fd6e63b1864d4d2bdc4941845d265cefcdca730845a86bcedf55b18516",
+      "bytes": 3992145,
+      "verification": {
+        "pdf_header": true,
+        "eof_marker": true,
+        "all_pages_text_extracted": true
+      },
+      "checked_date": "2026-10-25",
+      "category": "02_开放区域地图匹配",
+      "relative_path": "02_开放区域地图匹配/Ma_2024_EHMM_P.pdf",
+      "validation": {
+        "path": "/Users/xieyuxin1/Documents/毕设/参考文献/02_开放区域地图匹配/Ma_2024_EHMM_P.pdf",
+        "bytes": 3992145,
+        "pages": 27,
+        "sha256": "70bf97fd6e63b1864d4d2bdc4941845d265cefcdca730845a86bcedf55b18516",
+        "has_header": true,
+        "has_eof": true,
+        "text_chars": 77337
+      },
+      "student_reading": {
+        "status": "focused_reading_completed",
+        "synced_on": "2026-11-04",
+        "basis": "学生反馈已完成ChatGPT辅助的第一轮项目相关重点阅读，并已整理汇总笔记；2026年11月5日补读分享讨论正文；未标记为全篇通读、逐式核验或论文算法复现",
+        "notes_path": "02_阅读笔记.md",
+        "notes_section": "文献阅读笔记 03：EHMM-P 行人地图匹配算法",
+        "discussion_url": "https://chatgpt.com/share/6aeb0b44-74ec-83ec-b5bd-039515ddce5a",
+        "discussion_access": "2026年11月4日首次访问曾显示回复无法加载；2026年11月5日经浏览器重新访问，已成功读取讨论正文",
+        "key_pdf_checks": [
+          "PDF第10页§4.2.2式(12)：开放区候选坐标直接取GPS观测",
+          "PDF第16页§4.2.4：Y-net目的地条件含后续观测，完整流程不等于无延迟在线定位",
+          "PDF第17页§5.1、第22页表3：人工地标参照；4.63 m是平均误差减少量，非绝对误差或RMSE"
+        ],
+        "discussion_access_checked_on": "2026-11-05",
+        "discussion_read_scope": "初始校准、开放区状态、观测与转移、Viterbi与Y-net输出、实验结果、最终笔记和研究问题讨论",
+        "discussion_access_history": [
+          {
+            "checked_on": "2026-11-04",
+            "result": "reply_load_failed",
+            "note": "当时浏览器中的助手回复显示无法加载，不表示分享永久不可访问"
+          },
+          {
+            "checked_on": "2026-11-05",
+            "result": "body_loaded",
+            "method": "浏览器渲染后的页面正文",
+            "scope": "初始校准、开放区状态、观测与转移、Viterbi与Y-net输出、实验结果、最终笔记和研究问题讨论",
+            "limit": "读取讨论正文；未逐个操作或验证交互组件，论文事实仍以原PDF定点核对为依据"
+          }
+        ]
+      }
+    },
+    {
+      "id": "MurphyPaoYuen2019",
+      "title": "Map matching when the map is wrong: Efficient on/off road vehicle tracking and map learning",
+      "authors": [
+        "James Murphy",
+        "Yuanyuan Pao",
+        "Albert Yuen"
+      ],
+      "year": 2019,
+      "venue": "Proceedings of the 12th ACM SIGSPATIAL International Workshop on Computational Transportation Science (IWCTS 2019)",
+      "doi": "10.1145/3357000.3366143",
+      "arxiv": "1809.09755v2",
+      "arxiv_doi": "10.48550/arXiv.1809.09755",
+      "publication_pages": "1–10",
+      "landing_url": "https://arxiv.org/abs/1809.09755",
+      "publisher_landing_url": "https://doi.org/10.1145/3357000.3366143",
+      "pdf_url": "https://arxiv.org/pdf/1809.09755v2",
+      "version": "arXiv v2，2019-09-05，10页；初版提交2018-09-25，会议发表2019-11-05。arXiv摘要页沿用旧标题“Efficient vehicle tracking on- and off-road for map learning”，本条采用v2 PDF首页标题。",
+      "read_depth": "精读摘要、3.1模型框架、3.2.1算法、3.3目标说明及4实验、5结论；浏览概率推导，未逐式推导或复现；第8页图文渲染核对。",
+      "read_sections": [
+        "Abstract",
+        "2 Existing Work（双模型与semi-interaction）",
+        "3.1 Outline of Approach",
+        "3.2.1 Forward sIMM Algorithm",
+        "3.3 MAP State Sequence Estimation（目标与反向采样框架）",
+        "4.1 Vehicle Localization",
+        "4.2 Map Learning",
+        "4.3 Performance",
+        "5 Conclusions"
+      ],
+      "summary": "用sIMM结合道路HMM和独立运行的自由空间Kalman类滤波器，按观测切换道路内外模型，并用反向过程恢复轨迹。车辆GPS与不完整路网案例展示减少错误吸路，也可依据重复离路轨迹发现地图遗漏。",
+      "relevance": "提供道路/自由空间混合模型参考，提醒地图约束可能出错、需要保留离路解释；适合做扩展阅读而非第一版复现目标。",
+      "limitations": [
+        "对象是主要沿道路行驶的车辆，离路模型是回退机制，不能直接推广为越野运动员模型。",
+        "自由空间滤波器不利用区域语义、地形或障碍；并非区域剖分方法。",
+        "展示以地图缺失案例和Lyft轨迹地图学习为主，没有系统的公开逐点真值精度基准。",
+        "报告运行时间约常规HMM的2–4倍；完整反向轨迹重建依赖后续观测，应与可在线运行的前向滤波区分。"
+      ],
+      "metadata_sources": [
+        "https://arxiv.org/abs/1809.09755",
+        "https://arxiv.org/pdf/1809.09755v2",
+        "https://api.crossref.org/works/10.1145/3357000.3366143"
+      ],
+      "download_repair": "原文件截断、缺EOF，已从arXiv v2重新下载后替换；重新解析全部10页并检查EOF及关键页渲染。",
+      "status": "downloaded_repaired_verified",
+      "path": "/Users/xieyuxin1/Documents/毕设/参考文献/02_开放区域地图匹配/Murphy_2019_On_Off_Road_sIMM.pdf",
+      "pages": 10,
+      "sha256": "f62b1712f9ad5ef6089427610b900d6cef04e546d518125f76c15be7d7ca742c",
+      "bytes": 5575091,
+      "verification": {
+        "pdf_header": true,
+        "eof_marker": true,
+        "all_pages_text_extracted": true
+      },
+      "checked_date": "2026-10-25",
+      "category": "02_开放区域地图匹配",
+      "relative_path": "02_开放区域地图匹配/Murphy_2019_On_Off_Road_sIMM.pdf",
+      "validation": {
+        "path": "/Users/xieyuxin1/Documents/毕设/参考文献/02_开放区域地图匹配/Murphy_2019_On_Off_Road_sIMM.pdf",
+        "bytes": 5575091,
+        "pages": 10,
+        "sha256": "f62b1712f9ad5ef6089427610b900d6cef04e546d518125f76c15be7d7ca742c",
+        "has_header": true,
+        "has_eof": true,
+        "text_chars": 53870
+      }
+    },
+    {
+      "id": "Behr2021SemiRestricted",
+      "title": "Map Matching for Semi-Restricted Trajectories",
+      "authors": [
+        "Timon Behr",
+        "Thomas C. van Dijk",
+        "Axel Forsch",
+        "Jan-Henrik Haunert",
+        "Sabine Storandt"
+      ],
+      "year": 2021,
+      "venue": "11th International Conference on Geographic Information Science (GIScience 2021) – Part II, LIPIcs 208, 12:1–12:16",
+      "doi": "10.4230/LIPIcs.GIScience.2021.II.12",
+      "arxiv": null,
+      "landing_url": "https://drops.dagstuhl.de/entities/document/10.4230/LIPIcs.GIScience.2021.II.12",
+      "pdf_url": "https://drops.dagstuhl.de/storage/00lipics/lipics-vol208-giscience2021/LIPIcs.GIScience.2021.II.12/LIPIcs.GIScience.2021.II.12.pdf",
+      "document_type": "conference_paper",
+      "priority": "核心精读",
+      "read_depth": "已阅读摘要、方法、实验与结论；核对剖分示意图，尚未复现代码",
+      "summary": "面向道路与开放空间混合运动，将开放多边形三角剖分并接入路网，以候选位置和状态转移的能量模型、Dijkstra推断匹配路径。利用OSM及真实步行、骑行轨迹评价离路片段识别与轨迹表示。",
+      "relevance": "直接相关：可作为道路—面状区域统一表示、剖分后候选生成及基线设计的核心参考。作者代码：https://github.com/tcvdijk/tessa。",
+      "limitations": "使用能量最小化而非概率HMM；实验主要依靠人工标注的离路片段和与输入轨迹的形状距离，不等于高精度坐标真值验证。未直接验证定向越野的植被通行性或运动员特征。",
+      "read_sections": [
+        "Abstract（PDF p.1）",
+        "§2.1–2.2 Methodology（PDF pp.4–7）",
+        "Figure 5（PDF p.8，已视觉核对）",
+        "§3 Experiments（PDF pp.8–13）",
+        "§4 Conclusion and Future Work（PDF pp.13–14）"
+      ],
+      "status": "downloaded_verified",
+      "license": "CC BY 4.0",
+      "source_kind": "publisher_open_access",
+      "path": "/Users/xieyuxin1/Documents/毕设/参考文献/03_区域剖分与空间表示/2021_Behr_Map_Matching_for_Semi_Restricted_Trajectories.pdf",
+      "pages": 16,
+      "sha256": "a98c5b0c8ceae4360f77d393b987aa7158e2b6a4bba708dca1a0b190aa147e66",
+      "bytes": 4742375,
+      "verified_at": "2026-10-25",
+      "validation": {
+        "path": "/Users/xieyuxin1/Documents/毕设/参考文献/03_区域剖分与空间表示/2021_Behr_Map_Matching_for_Semi_Restricted_Trajectories.pdf",
+        "bytes": 4742375,
+        "pages": 16,
+        "sha256": "a98c5b0c8ceae4360f77d393b987aa7158e2b6a4bba708dca1a0b190aa147e66",
+        "has_header": true,
+        "has_eof": true,
+        "text_chars": 44411
+      },
+      "category": "03_区域剖分与空间表示",
+      "relative_path": "03_区域剖分与空间表示/2021_Behr_Map_Matching_for_Semi_Restricted_Trajectories.pdf",
+      "student_reading": {
+        "status": "focused_reading_completed",
+        "synced_on": "2026-11-04",
+        "basis": "学生反馈已完成ChatGPT辅助的第一轮项目相关重点阅读，并已整理汇总笔记；2026年11月5日补读分享讨论正文；未标记为全篇通读、逐式核验或论文算法复现",
+        "notes_path": "02_阅读笔记.md",
+        "notes_section": "文献阅读笔记 02：面向半受限轨迹的地图匹配",
+        "discussion_url": "https://chatgpt.com/share/6aeb0b34-e7c4-83ec-a829-cb976f5e0096",
+        "discussion_access": "2026年11月4日首次访问曾显示回复无法加载；2026年11月5日经浏览器重新访问，已成功读取讨论正文",
+        "key_pdf_checks": [
+          "PDF第4—5页§2.1、第7页§2.2、第8页图5：剖分边接入图，候选不等于整个三角形",
+          "PDF第10—11页§3.2与图7：Fréchet/DTW相对输入GPS轨迹衡量形状",
+          "PDF第13页图9后正文：未匹配路径空洞为未匹配连接边构成的连续子路径"
+        ],
+        "discussion_access_checked_on": "2026-11-05",
+        "discussion_read_scope": "研究问题、候选与扩展图、能量与Dijkstra、实验形状指标与未匹配空洞、最终笔记和课题迁移讨论",
+        "discussion_access_history": [
+          {
+            "checked_on": "2026-11-04",
+            "result": "reply_load_failed",
+            "note": "当时浏览器中的助手回复显示无法加载，不表示分享永久不可访问"
+          },
+          {
+            "checked_on": "2026-11-05",
+            "result": "body_loaded",
+            "method": "浏览器渲染后的页面正文",
+            "scope": "研究问题、候选与扩展图、能量与Dijkstra、实验形状指标与未匹配空洞、最终笔记和课题迁移讨论",
+            "limit": "读取讨论正文；未逐个操作或验证交互组件，论文事实仍以原PDF定点核对为依据"
+          }
+        ]
+      }
+    },
+    {
+      "id": "LaValle2006Ch6",
+      "title": "Planning Algorithms — Chapter 6: Combinatorial Motion Planning",
+      "authors": [
+        "Steven M. LaValle"
+      ],
+      "year": 2006,
+      "venue": "Planning Algorithms, Cambridge University Press（作者公开章节）",
+      "doi": null,
+      "arxiv": null,
+      "landing_url": "https://lavalle.pl/planning/",
+      "pdf_url": "https://lavalle.pl/planning/ch6.pdf",
+      "document_type": "textbook_chapter",
+      "priority": "按需查阅",
+      "read_depth": "选读§6.1、§6.2.1–6.2.2及§6.3.2；核对二维剖分与邻接图示意，未通读全章",
+      "summary": "介绍精确单元分解、垂直/梯形剖分与三角剖分，说明如何把连续自由空间转成保持连通性的邻接图。适合学习区域、边界、孔洞与图的关系，以及二维剖分必须满足的基本条件。",
+      "relevance": "基础方法借鉴：用于定义剖分和拓扑连通性、理解单元内可达性；不是GPS地图匹配论文，也不是课题创新证据。",
+      "limitations": "主要解决运动规划与几何连通性；没有GPS噪声、HMM观测模型或定向地图语义。教材的规划最优性、完备性不能直接等同于定位准确性。",
+      "read_sections": [
+        "§6.1 Introduction（书页249–251；PDF pp.2–3）",
+        "§6.2.1 Representation（书页252–253；PDF pp.3–4）",
+        "§6.2.2 Vertical Cell Decomposition（书页253–260；PDF pp.4–7）",
+        "Figures 6.3–6.5（书页255–256；PDF p.5，已视觉核对）",
+        "§6.3.2 2D Decompositions（书页268–270；PDF pp.11–12）"
+      ],
+      "status": "downloaded_verified",
+      "license": "作者网站公开提供下载；保留版权",
+      "source_kind": "author_website",
+      "notes": "只下载第6章，非全书；PDF为双页排版，物理PDF页数与书内页码不同。未核验图书DOI，故留空。",
+      "path": "/Users/xieyuxin1/Documents/毕设/参考文献/03_区域剖分与空间表示/2006_LaValle_Planning_Algorithms_Chapter6.pdf",
+      "pages": 36,
+      "sha256": "629ba8e701f8e6274830d4a79327f806839d4a19799613f2e0583fbb444f27d2",
+      "bytes": 557338,
+      "verified_at": "2026-10-25",
+      "validation": {
+        "path": "/Users/xieyuxin1/Documents/毕设/参考文献/03_区域剖分与空间表示/2006_LaValle_Planning_Algorithms_Chapter6.pdf",
+        "bytes": 557338,
+        "pages": 36,
+        "sha256": "629ba8e701f8e6274830d4a79327f806839d4a19799613f2e0583fbb444f27d2",
+        "has_header": true,
+        "has_eof": true,
+        "text_chars": 151200
+      },
+      "category": "03_区域剖分与空间表示",
+      "relative_path": "03_区域剖分与空间表示/2006_LaValle_Planning_Algorithms_Chapter6.pdf"
+    },
+    {
+      "id": "SeoKia2022AdaptiveHMM",
+      "title": "Online Target Localization using Adaptive Belief Propagation in the HMM Framework",
+      "authors": [
+        "Min-Won Seo",
+        "Solmaz S. Kia"
+      ],
+      "year": 2022,
+      "venue": "IEEE Robotics and Automation Letters 7(4):10288–10295（下载arXiv v5作者稿）",
+      "doi": "10.1109/LRA.2022.3193243",
+      "arxiv": "2203.03815v5",
+      "landing_url": "https://arxiv.org/abs/2203.03815",
+      "pdf_url": "https://arxiv.org/pdf/2203.03815v5",
+      "document_type": "journal_author_manuscript",
+      "priority": "方法借鉴",
+      "read_depth": "已阅读摘要、问题定义、方法、实验与结论；核对自适应细分图，尚未复现",
+      "summary": "把二维位置离散为HMM状态，按四叉树启发的由粗到细策略缩小Viterbi搜索空间，以减少计算与存储。室内UWB实验检验定位与开销，适合借鉴空间分辨率和推断成本之间的取舍。",
+      "relevance": "方法借鉴：连接自适应空间离散、HMM和定位，可用于思考“哪里细分、状态数如何影响计算”。并非直接的户外GPS地图匹配。",
+      "limitations": "测量来自室内UWB锚点；细化主要由概率支持区域驱动，不等于定向地图语义剖分。第一组用动作捕捉参照，第二组用规定几何路线；不能移用其误差数值证明户外效果，粗层误判的影响也应另行检验。",
+      "read_sections": [
+        "Abstract/§I Introduction（PDF pp.1–2）",
+        "§II Problem Definition（PDF p.2）",
+        "§III A–D（PDF pp.2–5）",
+        "Figure 4（PDF p.4，已视觉核对）",
+        "§IV Experimental Demonstrations（PDF pp.5–7）",
+        "§V Conclusions（PDF p.7）"
+      ],
+      "status": "downloaded_verified",
+      "license": "arXiv作者公开稿；许可详情见arXiv页面",
+      "source_kind": "arxiv_author_manuscript",
+      "path": "/Users/xieyuxin1/Documents/毕设/参考文献/03_区域剖分与空间表示/2022_Seo_Kia_Adaptive_Belief_Propagation_HMM.pdf",
+      "pages": 8,
+      "sha256": "e5b4a48e6fea1b0f6370f2165db58f7bd976f724eb1430b5a829fd1142427534",
+      "bytes": 5959144,
+      "verified_at": "2026-10-25",
+      "validation": {
+        "path": "/Users/xieyuxin1/Documents/毕设/参考文献/03_区域剖分与空间表示/2022_Seo_Kia_Adaptive_Belief_Propagation_HMM.pdf",
+        "bytes": 5959144,
+        "pages": 8,
+        "sha256": "e5b4a48e6fea1b0f6370f2165db58f7bd976f724eb1430b5a829fd1142427534",
+        "has_header": true,
+        "has_eof": true,
+        "text_chars": 42104
+      },
+      "category": "03_区域剖分与空间表示",
+      "relative_path": "03_区域剖分与空间表示/2022_Seo_Kia_Adaptive_Belief_Propagation_HMM.pdf"
+    },
+    {
+      "id": "T01",
+      "title": "Route planning on orienteering maps with least-cost path analysis",
+      "authors": [
+        "Gáspár Albert",
+        "Zsófia Sárközy"
+      ],
+      "year": 2021,
+      "venue": "Proceedings of the International Cartographic Association, 4, article 4 (ICC 2021)",
+      "doi": "10.5194/ica-proc-4-4-2021",
+      "arxiv": null,
+      "landing_url": "https://ica-proc.copernicus.org/articles/4/4/2021/",
+      "pdf_url": "https://ica-proc.copernicus.org/articles/4/4/2021/ica-proc-4-4-2021.pdf",
+      "read_depth": "全文初读：摘要、完整方法、结果、讨论和结论；未复现计算",
+      "summary": "将定向地图的等高线、道路和覆盖类型转成成本栅格，用最小成本路径模拟路线选择。以11名专家的手绘路线调参，与26名运动员的选线比较，说明地图语义可转为运动代价。",
+      "relevance": "最直接对应地图语义如何成为区域属性和移动代价；可作为均匀栅格加地图成本的参照方法，再检验语义驱动剖分能否改善HMM定位纠正。路线规划输出不能直接当作实际轨迹真值。",
+      "limitations": "单一约5.17平方公里场地；主要验证为手绘理想路线，未开展专门的实地跑测；时间换算仅粗略参考历史比赛GPS；部分石地等地物因源数据问题未处理。文中60%地形和40%覆盖成本组合及表1权重为该案例经验调参，不能直接当通用参数。会议贡献基于摘要单盲评审。",
+      "read_sections": [
+        "PDF p.1 Abstract and Introduction",
+        "PDF pp.2-4 Sections 2.1-2.5 Materials and methods, Table 1",
+        "PDF p.5 Section 3 Results, Figure 6",
+        "PDF p.6 Sections 4-5 Discussion and Conclusion"
+      ],
+      "priority": 1,
+      "source_type": "Publisher open access, CC BY 4.0",
+      "path": "/Users/xieyuxin1/Documents/毕设/参考文献/04_定向地图与运动建模/2021_Albert_Route_planning_orienteering_LCP.pdf",
+      "pages": 7,
+      "sha256": "e52f19aeda1ae0300e6e673f61a7fb730a02d01f90cf30fff9cd2bf6685727ec",
+      "status": "downloaded_verified",
+      "verification": "PDF magic bytes checked; all pages opened and extracted with pypdf; title/authorship/version and research content checked against full text",
+      "download_checked_date": "2026-10-25",
+      "text_path": "/Users/xieyuxin1/Documents/毕设/参考文献/04_定向地图与运动建模/2021_Albert_Route_planning_orienteering_LCP.txt",
+      "category": "04_定向地图与运动建模",
+      "relative_path": "04_定向地图与运动建模/2021_Albert_Route_planning_orienteering_LCP.pdf",
+      "validation": {
+        "path": "/Users/xieyuxin1/Documents/毕设/参考文献/04_定向地图与运动建模/2021_Albert_Route_planning_orienteering_LCP.pdf",
+        "bytes": 2027941,
+        "pages": 7,
+        "sha256": "e52f19aeda1ae0300e6e673f61a7fb730a02d01f90cf30fff9cd2bf6685727ec",
+        "has_header": true,
+        "has_eof": true,
+        "text_chars": 32110
+      },
+      "student_reading": {
+        "status": "focused_reading_completed",
+        "synced_on": "2026-11-04",
+        "basis": "学生反馈已完成ChatGPT辅助的第一轮项目相关重点阅读，并已整理汇总笔记；2026年11月5日补读分享讨论正文；未标记为全篇通读、逐式核验或论文算法复现",
+        "notes_path": "02_阅读笔记.md",
+        "notes_section": "文献阅读笔记 04：定向越野地图的最小代价路径规划",
+        "discussion_url": "https://chatgpt.com/share/6aeb0b55-0664-83ec-b718-b698a3662796",
+        "discussion_access": "2026年11月4日首次访问曾显示回复无法加载；2026年11月5日经浏览器重新访问，已成功读取讨论正文",
+        "key_pdf_checks": [
+          "PDF第4页§2.4式(1)：HCR = TRI × sqrt(abs(PC) × SLO)，SLO在根号内",
+          "PDF第4页§2.4—2.5：各成本变量先归一化至0.1—1，再组合与峰值对齐；权重为案例经验",
+          "PDF第5—6页：手绘理想选线验证路线规划，不是GPS定位纠正验证"
+        ],
+        "discussion_access_checked_on": "2026-11-05",
+        "discussion_read_scope": "ACR/HCR/LCP框架、地形成本与融合、手绘选线实验、最终笔记及与HMM结合的讨论",
+        "discussion_access_history": [
+          {
+            "checked_on": "2026-11-04",
+            "result": "reply_load_failed",
+            "note": "当时浏览器中的助手回复显示无法加载，不表示分享永久不可访问"
+          },
+          {
+            "checked_on": "2026-11-05",
+            "result": "body_loaded",
+            "method": "浏览器渲染后的页面正文",
+            "scope": "ACR/HCR/LCP框架、地形成本与融合、手绘选线实验、最终笔记及与HMM结合的讨论",
+            "limit": "读取讨论正文；未逐个操作或验证交互组件，论文事实仍以原PDF定点核对为依据"
+          }
+        ]
+      }
+    },
+    {
+      "id": "T02",
+      "title": "Using crowdsourced fitness tracker data to model the relationship between slope and travel rates",
+      "authors": [
+        "Michael J. Campbell",
+        "Philip E. Dennison",
+        "Bret W. Butler",
+        "Wesley G. Page"
+      ],
+      "year": 2019,
+      "venue": "Applied Geography, 106, 93-107",
+      "doi": "10.1016/j.apgeog.2019.03.008",
+      "arxiv": null,
+      "landing_url": "https://doi.org/10.1016/j.apgeog.2019.03.008",
+      "pdf_url": "https://content.csbs.utah.edu/~pdennison/reprints/denn/2019_Campbell_etal_AG.pdf",
+      "read_depth": "关键章节初读：摘要、数据处理及拟合方法、验证设计、主要结果、讨论和结论；未逐项核验附录参数或复现",
+      "summary": "利用约3万名用户42万次活动构建坡度与移动速度的分位数模型，拟合时区分上下坡影响。清洗后约105万条记录随机分半训练验证，并用另取的100条徒步记录比较旅行时间。",
+      "relevance": "支持采用随坡度、方向和个体能力变化的速度范围，而不是固定速度阈值；可用于HMM转移可达性和候选区域搜索半径。按高程变化分割同质坡段的思路也可启发运动约束下的剖分。",
+      "limitations": "数据为盐湖城周边自然路面步道上的混合徒步、慢跑和跑步，不能直接代表离路穿越林地的定向运动员；匿名聚合数据无法确定每个样本的运动方式、疲劳和个体特征；植被、地表粗糙度等未建模；分位数拟合误差不是GPS定位误差，也不是个体瞬时速度预测误差；现有分位数须重新标定。",
+      "read_sections": [
+        "PDF p.1 Abstract",
+        "PDF pp.4-8 Section 3 Methods (slope segmentation, filtering, percentile fits, random split validation, 100 AllTrails hikes)",
+        "PDF pp.8-11 Section 4 Results",
+        "PDF pp.11-14 Sections 5-6 Discussion and Conclusions"
+      ],
+      "priority": 3,
+      "source_type": "Author institutional public full text, University of Utah",
+      "path": "/Users/xieyuxin1/Documents/毕设/参考文献/04_定向地图与运动建模/2019_Campbell_Slope_and_travel_rates.pdf",
+      "pages": 15,
+      "sha256": "db45e29f47d20318af0895722e22379abcd3d156817af77580ed1f7bc5c5e125",
+      "status": "downloaded_verified",
+      "verification": "PDF magic bytes checked; all pages opened and extracted with pypdf; title/authorship/version and research content checked against full text",
+      "download_checked_date": "2026-10-25",
+      "text_path": "/Users/xieyuxin1/Documents/毕设/参考文献/04_定向地图与运动建模/2019_Campbell_Slope_and_travel_rates.txt",
+      "category": "04_定向地图与运动建模",
+      "relative_path": "04_定向地图与运动建模/2019_Campbell_Slope_and_travel_rates.pdf",
+      "validation": {
+        "path": "/Users/xieyuxin1/Documents/毕设/参考文献/04_定向地图与运动建模/2019_Campbell_Slope_and_travel_rates.pdf",
+        "bytes": 4377535,
+        "pages": 15,
+        "sha256": "db45e29f47d20318af0895722e22379abcd3d156817af77580ed1f7bc5c5e125",
+        "has_header": true,
+        "has_eof": true,
+        "text_chars": 65006
+      }
+    },
+    {
+      "id": "T03",
+      "title": "International Specification for Orienteering Maps: ISOM 2017-2, Revision 6, January 2024",
+      "authors": [
+        "IOF Map Commission",
+        "International Orienteering Federation"
+      ],
+      "year": 2024,
+      "venue": "International Orienteering Federation technical specification",
+      "doi": null,
+      "arxiv": null,
+      "isbn": "978-91-639-3394-3",
+      "landing_url": "https://orienteering.sport/iof/mapping/",
+      "pdf_url": "https://drive.google.com/uc?export=download&id=1XYQGmF-LlO4sfqhTx77f6EcJ_zphAhL0",
+      "source_landing_url": "https://tk.lof.lv/dokumenti",
+      "source_file_view_url": "https://drive.google.com/file/d/1XYQGmF-LlO4sfqhTx77f6EcJ_zphAhL0/view",
+      "read_depth": "相关条文精读：版本页、地图内容、可跑性、障碍、制图综合、精度、地理配准以及植被和禁入符号；未逐条读完全部制图尺寸",
+      "summary": "官方地图符号规范提供地物、可跑性、障碍及方向性信息。第2.3节给出相对速度分级，第2.6至2.8节解释制图综合、精度和地理配准，可用于建立地图语义到区域属性的映射。",
+      "relevance": "先定义每类区域的语义、相对通行速度和边界约束；将禁止进入与物理上难穿越区分；考虑制图位移和配准误差，避免把图上边界视为绝对准确。",
+      "limitations": "这是制图规范而非算法论文，也不是每位运动员的实测速度模型。已核验为Revision 6 January 2024，PDF注明2024-02-01生效、2025-01-01强制；本次不保证其为最新版本。文件来自拉脱维亚定向联合会技术委员会公开链接，PDF内版权及出版信息确认IOF来源。ISOM的impassable/uncrossable不自动等同比赛禁入；不能混用短距离定向ISSprOM的规则语义。",
+      "read_sections": [
+        "PDF pp.1-2 version and publication information",
+        "PDF p.4 Section 1.1 conventions, Section 2.1",
+        "PDF pp.5-6 Sections 2.2-2.4 content, runnability and barriers",
+        "PDF pp.6-8 Sections 2.6-2.8 generalisation, accuracy and georeferencing",
+        "PDF pp.27-28 Symbols 405-410 vegetation",
+        "PDF p.34 Symbol 520 area that shall not be entered"
+      ],
+      "priority": 2,
+      "source_type": "Official IOF specification; public copy linked by Latvian Orienteering Federation Technical Commission",
+      "path": "/Users/xieyuxin1/Documents/毕设/参考文献/04_定向地图与运动建模/2024_IOF_ISOM_2017-2_Revision6.pdf",
+      "pages": 44,
+      "sha256": "7f26347f0616d156aa33b97db41f5596f19e3b330a71d2e97e73df69cce76947",
+      "status": "downloaded_verified",
+      "verification": "PDF magic bytes checked; all pages opened and extracted with pypdf; title/authorship/version and research content checked against full text",
+      "download_checked_date": "2026-10-25",
+      "text_path": "/Users/xieyuxin1/Documents/毕设/参考文献/04_定向地图与运动建模/2024_IOF_ISOM_2017-2_Revision6.txt",
+      "category": "04_定向地图与运动建模",
+      "relative_path": "04_定向地图与运动建模/2024_IOF_ISOM_2017-2_Revision6.pdf",
+      "validation": {
+        "path": "/Users/xieyuxin1/Documents/毕设/参考文献/04_定向地图与运动建模/2024_IOF_ISOM_2017-2_Revision6.pdf",
+        "bytes": 11738409,
+        "pages": 44,
+        "sha256": "7f26347f0616d156aa33b97db41f5596f19e3b330a71d2e97e73df69cce76947",
+        "has_header": true,
+        "has_eof": true,
+        "text_chars": 88498
+      }
+    },
+    {
+      "id": "Wang2026ACHMM",
+      "title": "AC-HMM: azimuth-constrained hidden Markov model-based map matching for robust pedestrian positioning in urban canyons",
+      "authors": [
+        "Jingxian Wang",
+        "Ahmed Mansour",
+        "Mengyu Ding",
+        "Duojie Weng",
+        "Huan Luo",
+        "Wu Chen"
+      ],
+      "year": 2026,
+      "publication_date": "2026-06-09",
+      "venue": "Geo-spatial Information Science, advance online publication",
+      "doi": "10.1080/10095020.2026.2681349",
+      "landing_url": "https://www.tandfonline.com/doi/10.1080/10095020.2026.2681349",
+      "source_landing_url": "https://ahmedmansoour.github.io/indoor-positioning-hub/publications/ac-hmm-azimuth-constrained-map-matching-urban-canyons.html",
+      "pdf_url": "https://ahmedmansoour.github.io/indoor-positioning-hub/paper-pdfs/ac-hmm-azimuth-constrained-map-matching-urban-canyons.pdf",
+      "source_type": "Coauthor public PDF of publisher version; CC BY 4.0 stated in article",
+      "path": "/Users/xieyuxin1/Documents/毕设/参考文献/05_近期补充与运动约束/2026_Wang_AC_HMM_Azimuth_Constrained_Pedestrian.pdf",
+      "relative_path": "05_近期补充与运动约束/2026_Wang_AC_HMM_Azimuth_Constrained_Pedestrian.pdf",
+      "category": "05_近期补充与运动约束",
+      "pages": 18,
+      "bytes": 9058536,
+      "sha256": "7f60498bea6de3d7c761252b0ef3baf3049a32a3ba3d162d2da5a89ae23fc31a",
+      "status": "downloaded_verified",
+      "download_checked_date": "2026-10-27",
+      "priority": 3,
+      "read_depth": "选读摘要、方法框架与方向约束、采集与参照构建、结论及数据声明；首页视觉核验；未逐式复核或复现",
+      "summary": "在道路HMM中结合短期、长期运动方向和道路连接关系，缓解城市人行道误匹配。方向来自手机传感器；匹配位置投影到选定道路边。",
+      "relevance": "补充运动方向约束相关工作，说明加入方向信息已有先例；可借鉴特征与模型连接方式，不能视为开放区域剖分方案。",
+      "limitations": "场景为城市人行道，未验证定向越野自由穿林；参数在作者数据上标定。参照使用已知坐标灯柱及步数插值，不能直接外推为野外真值方案；原始传感器数据需向作者申请。",
+      "read_sections": [
+        "PDF p.2 abstract",
+        "PDF pp.6-10 method framework, azimuth constraints, emission and transition design",
+        "PDF p.12 section 3.1.2 trajectory collection and reference",
+        "PDF pp.16-17 conclusions and data availability"
+      ],
+      "verification": "PDF header and EOF checked; all pages parsed; SHA-256 saved; cover metadata visually checked",
+      "notes": "Publisher page direct access returned 403; retrieved public PDF via coauthor research page.",
+      "validation": {
+        "path": "/Users/xieyuxin1/Documents/毕设/参考文献/05_近期补充与运动约束/2026_Wang_AC_HMM_Azimuth_Constrained_Pedestrian.pdf",
+        "bytes": 9058536,
+        "pages": 18,
+        "sha256": "7f60498bea6de3d7c761252b0ef3baf3049a32a3ba3d162d2da5a89ae23fc31a",
+        "has_header": true,
+        "has_eof": true,
+        "text_chars": 76978
+      }
+    }
+  ],
+  "reading_progress_updated_on": "2026-11-04",
+  "reading_record_convention": "read_depth保留文献整理期间的核查记录；student_reading单独记录学生重点阅读进度。notes_path相对于参考文献目录；synced_on为同步日期，不等于每篇实际完成日。",
+  "next_student_reading_step": "以道路—林地—绕水体—回到道路的教学例子串联四篇，明确空间表示、候选坐标、转移、输出与评价；按需查ISOM及剖分教材，方案与实验仍待验证。",
+  "discussion_access_updated_on": "2026-11-05"
+}

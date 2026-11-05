@@ -1,0 +1,43 @@
+[
+  {
+    "id": "Wang2026ACHMM",
+    "title": "AC-HMM: azimuth-constrained hidden Markov model-based map matching for robust pedestrian positioning in urban canyons",
+    "authors": [
+      "Jingxian Wang",
+      "Ahmed Mansour",
+      "Mengyu Ding",
+      "Duojie Weng",
+      "Huan Luo",
+      "Wu Chen"
+    ],
+    "year": 2026,
+    "publication_date": "2026-06-09",
+    "venue": "Geo-spatial Information Science, advance online publication",
+    "doi": "10.1080/10095020.2026.2681349",
+    "landing_url": "https://www.tandfonline.com/doi/10.1080/10095020.2026.2681349",
+    "source_landing_url": "https://ahmedmansoour.github.io/indoor-positioning-hub/publications/ac-hmm-azimuth-constrained-map-matching-urban-canyons.html",
+    "pdf_url": "https://ahmedmansoour.github.io/indoor-positioning-hub/paper-pdfs/ac-hmm-azimuth-constrained-map-matching-urban-canyons.pdf",
+    "source_type": "Coauthor public PDF of publisher version; CC BY 4.0 stated in article",
+    "path": "/Users/xieyuxin1/Documents/毕设/参考文献/05_近期补充与运动约束/2026_Wang_AC_HMM_Azimuth_Constrained_Pedestrian.pdf",
+    "relative_path": "05_近期补充与运动约束/2026_Wang_AC_HMM_Azimuth_Constrained_Pedestrian.pdf",
+    "category": "05_近期补充与运动约束",
+    "pages": 18,
+    "bytes": 9058536,
+    "sha256": "7f60498bea6de3d7c761252b0ef3baf3049a32a3ba3d162d2da5a89ae23fc31a",
+    "status": "downloaded_verified",
+    "download_checked_date": "2026-10-27",
+    "priority": 3,
+    "read_depth": "选读摘要、方法框架与方向约束、采集与参照构建、结论及数据声明；首页视觉核验；未逐式复核或复现",
+    "summary": "在道路HMM中结合短期、长期运动方向和道路连接关系，缓解城市人行道误匹配。方向来自手机传感器；匹配位置投影到选定道路边。",
+    "relevance": "补充运动方向约束相关工作，说明加入方向信息已有先例；可借鉴特征与模型连接方式，不能视为开放区域剖分方案。",
+    "limitations": "场景为城市人行道，未验证定向越野自由穿林；参数在作者数据上标定。参照使用已知坐标灯柱及步数插值，不能直接外推为野外真值方案；原始传感器数据需向作者申请。",
+    "read_sections": [
+      "PDF p.2 abstract",
+      "PDF pp.6-10 method framework, azimuth constraints, emission and transition design",
+      "PDF p.12 section 3.1.2 trajectory collection and reference",
+      "PDF pp.16-17 conclusions and data availability"
+    ],
+    "verification": "PDF header and EOF checked; all pages parsed; SHA-256 saved; cover metadata visually checked",
+    "notes": "Publisher page direct access returned 403; retrieved public PDF via coauthor research page."
+  }
+]

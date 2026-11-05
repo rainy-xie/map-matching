@@ -1,0 +1,39 @@
+{
+  "name": "free_offroad",
+  "bounds": [
+    0.0,
+    0.0,
+    200.0,
+    160.0
+  ],
+  "crs": "LOCAL_SYNTHETIC_METRES",
+  "source": "synthetic_design_v0.1; explicit experimental assumption",
+  "background": {
+    "passability": "allowed",
+    "source": "synthetic_design_v0.1; explicit experimental assumption"
+  },
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "kind": "decorative_road",
+        "passability": "unknown",
+        "source": "synthetic_design_v0.1; explicit experimental assumption",
+        "note": "Decorative line only; no verified road width or traversability polygon."
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            10,
+            35
+          ],
+          [
+            190,
+            35
+          ]
+        ]
+      }
+    }
+  ]
+}
