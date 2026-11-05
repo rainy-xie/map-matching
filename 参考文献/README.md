@@ -1,19 +1,31 @@
 # 毕业论文参考文献目录
 
-更新于2026年11月4日。文献文件统计沿用2026年10月27日记录：已下载14份PDF，共237个物理PDF页，约51.0 MiB。其中11篇论文或综述、1个教材章节、1份制图规范，以及1份教程勘误。
+更新于2026年11月6日。文件统计沿用2026年10月27日记录：14份PDF，共237个物理PDF页，约51.0 MiB，包含11篇论文或综述、1个教材章节、1份制图规范及1份勘误。本次仅合并阅读指引，未新增文献或重新核验原文。
 
-建议从[阅读导引](00_阅读导引.md)开始；[BibTeX引用库](references.bib)可用于导入参考文献工具；[下载与阅读总清单](download-manifest.json)记录来源、版本、实际阅读深度和校验结果。
+本页是文献主入口，保存来源、用途、原文位置与既有核查范围。[个人阅读笔记](02_阅读笔记.md)保留学习记录；跨论文差异、关键公式及R–P–Q教学例子见[专题笔记](专题笔记.md)。项目定义与当前安排分别见[研究方案](../研究方案.md)、[研究进度与接力说明](../研究进度与接力说明.md)。
 
-截至2026年11月4日，学生已借助ChatGPT完成Newson、Behr、Ma和Albert四篇核心文献的第一轮重点阅读，并整理为[阅读笔记](02_阅读笔记.md)。这是面向项目所需部分的阅读理解，不表示全篇通读、逐式推导或算法复现。下文各条“资料准备阅读核查”记录此前整理材料时对原文的核查范围，不代表学生已逐篇学完其余文献。
+## 按问题查阅
 
-下一辅导起点是[四篇文献串联与课题设计](03_四篇文献串联与课题设计.md)，用同一个小例子横向说明空间表示、候选、观测、转移和评价，再按问题查ISOM、LaValle等工具资料。研究假设仍待验证，真实GPS与独立位置参照仍需取得；已有合成原型的证据与边界见[研究进度与接力说明](../研究进度与接力说明.md)。
+四篇已读论文可以按问题复查，不必重新从第一篇开始。下表只指引材料位置，不另设项目任务；资料准备时的原文核查与学生实际学习、算法复现是不同记录。
+
+| 要弄清的问题 | 阅读入口与重点 |
+| --- | --- |
+| 区域怎样离散，边界、孔洞和连接怎样表达 | Behr §2.1—2.2；LaValle §6.2.1、§6.2.2、§6.3.2；分辨率与开销取舍查Seo。面／体用途和具体处理的依据仍需补充，不能由现有二维资料代替论证 |
+| 地图知识与运动特征怎样形成可计算关系 | Albert地图成本、归一化与融合；ISOM的通行语义及制图误差；Campbell的坡度与速度范围。关注混合地形、参数来源与适用条件，不能只读成属性标签 |
+| 观测怎样用于位置估计，结果怎样评价 | Newson §3—6；Ma §4.2及§5；HMM概念按需查Rabiner II.B、II.C、III.B及勘误。区分区域、路线与坐标，补读离路或退化机制时查Haunert、Murphy，方向约束查AC-HMM |
+
+具体差别可直接查[方法对照](专题笔记.md#方法对照)，概念串联查[场景算例](专题笔记.md#场景算例)，研究解释与证据边界查[待验证问题](专题笔记.md#待验证问题)。公式、图表和拟引用结论须回到PDF；TXT只用于检索。
+
+## 文献文件与来源
+
+[BibTeX引用库](references.bib)用于导入参考文献工具；[下载与阅读总清单](download-manifest.json)记录版本、核查深度和文件校验。下列每篇的“资料准备阅读核查”沿用此前记录，不表示学生已逐篇学完，也不表示本次重新核验。
 
 | 用途 | 文献 | 年份 | PDF页数 | 原始来源 |
 | --- | --- | --- | ---: | --- |
-| 核心1：HMM匹配流程 | [Hidden Markov Map Matching Through Noise and Sparseness](01_HMM%E5%9F%BA%E7%A1%80%E4%B8%8E%E7%BB%BC%E8%BF%B0/Newson_Krumm_2009_HMM_Map_Matching.pdf) | 2009 | 8 | [来源](https://www.microsoft.com/en-us/research/publication/hidden-markov-map-matching-noise-sparseness/) |
-| 核心2：开放区剖分匹配 | [Map Matching for Semi-Restricted Trajectories](03_%E5%8C%BA%E5%9F%9F%E5%89%96%E5%88%86%E4%B8%8E%E7%A9%BA%E9%97%B4%E8%A1%A8%E7%A4%BA/2021_Behr_Map_Matching_for_Semi_Restricted_Trajectories.pdf) | 2021 | 16 | [来源](https://drops.dagstuhl.de/entities/document/10.4230/LIPIcs.GIScience.2021.II.12) |
-| 核心3：行人开放区HMM | [An Enhanced Hidden Markov Model for Map-Matching in Pedestrian Navigation](02_%E5%BC%80%E6%94%BE%E5%8C%BA%E5%9F%9F%E5%9C%B0%E5%9B%BE%E5%8C%B9%E9%85%8D/Ma_2024_EHMM_P.pdf) | 2024 | 27 | [来源](https://www.mdpi.com/2079-9292/13/9/1685) |
-| 核心4：定向图运动成本 | [Route planning on orienteering maps with least-cost path analysis](04_%E5%AE%9A%E5%90%91%E5%9C%B0%E5%9B%BE%E4%B8%8E%E8%BF%90%E5%8A%A8%E5%BB%BA%E6%A8%A1/2021_Albert_Route_planning_orienteering_LCP.pdf) | 2021 | 7 | [来源](https://ica-proc.copernicus.org/articles/4/4/2021/) |
+| 定位推断：HMM流程 | [Hidden Markov Map Matching Through Noise and Sparseness](01_HMM%E5%9F%BA%E7%A1%80%E4%B8%8E%E7%BB%BC%E8%BF%B0/Newson_Krumm_2009_HMM_Map_Matching.pdf) | 2009 | 8 | [来源](https://www.microsoft.com/en-us/research/publication/hidden-markov-map-matching-noise-sparseness/) |
+| 空间表示：开放区剖分 | [Map Matching for Semi-Restricted Trajectories](03_%E5%8C%BA%E5%9F%9F%E5%89%96%E5%88%86%E4%B8%8E%E7%A9%BA%E9%97%B4%E8%A1%A8%E7%A4%BA/2021_Behr_Map_Matching_for_Semi_Restricted_Trajectories.pdf) | 2021 | 16 | [来源](https://drops.dagstuhl.de/entities/document/10.4230/LIPIcs.GIScience.2021.II.12) |
+| 定位推断：开放区HMM | [An Enhanced Hidden Markov Model for Map-Matching in Pedestrian Navigation](02_%E5%BC%80%E6%94%BE%E5%8C%BA%E5%9F%9F%E5%9C%B0%E5%9B%BE%E5%8C%B9%E9%85%8D/Ma_2024_EHMM_P.pdf) | 2024 | 27 | [来源](https://www.mdpi.com/2079-9292/13/9/1685) |
+| 知识与运动：定向图成本 | [Route planning on orienteering maps with least-cost path analysis](04_%E5%AE%9A%E5%90%91%E5%9C%B0%E5%9B%BE%E4%B8%8E%E8%BF%90%E5%8A%A8%E5%BB%BA%E6%A8%A1/2021_Albert_Route_planning_orienteering_LCP.pdf) | 2021 | 7 | [来源](https://ica-proc.copernicus.org/articles/4/4/2021/) |
 | 随读随查：地图语义规范 | [International Specification for Orienteering Maps: ISOM 2017-2, Revision 6, January 2024](04_%E5%AE%9A%E5%90%91%E5%9C%B0%E5%9B%BE%E4%B8%8E%E8%BF%90%E5%8A%A8%E5%BB%BA%E6%A8%A1/2024_IOF_ISOM_2017-2_Revision6.pdf) | 2024 | 44 | [来源](https://orienteering.sport/iof/mapping/) |
 | 工具书：HMM基础 | [A Tutorial on Hidden Markov Models and Selected Applications in Speech Recognition](01_HMM%E5%9F%BA%E7%A1%80%E4%B8%8E%E7%BB%BC%E8%BF%B0/Rabiner_1989_HMM_Tutorial.pdf) | 1989 | 30 | [来源](https://web.ece.ucsb.edu/Faculty/Rabiner/ece259/publications.html) |
 | 配套勘误 | [Correction to A Tutorial on Hidden Markov Models and Selected Applications in Speech Recognition](01_HMM%E5%9F%BA%E7%A1%80%E4%B8%8E%E7%BB%BC%E8%BF%B0/Rabiner_HMM_Tutorial_Errata.pdf) | 未注明 | 2 | [来源](https://web.ece.ucsb.edu/Faculty/Rabiner/ece259/publications.html) |
@@ -25,7 +37,7 @@
 | 扩展：道路内外混合滤波 | [Map matching when the map is wrong: Efficient on/off road vehicle tracking and map learning](02_%E5%BC%80%E6%94%BE%E5%8C%BA%E5%9F%9F%E5%9C%B0%E5%9B%BE%E5%8C%B9%E9%85%8D/Murphy_2019_On_Off_Road_sIMM.pdf) | 2019 | 10 | [来源](https://arxiv.org/abs/1809.09755) |
 | 近期补充：方向约束 | [AC-HMM: azimuth-constrained hidden Markov model-based map matching for robust pedestrian positioning in urban canyons](05_%E8%BF%91%E6%9C%9F%E8%A1%A5%E5%85%85%E4%B8%8E%E8%BF%90%E5%8A%A8%E7%BA%A6%E6%9D%9F/2026_Wang_AC_HMM_Azimuth_Constrained_Pedestrian.pdf) | 2026 | 18 | [作者公开版本](https://ahmedmansoour.github.io/indoor-positioning-hub/publications/ac-hmm-azimuth-constrained-map-matching-urban-canyons.html) |
 
-新增[核心文献对照与研究问题](01_核心文献对照与研究问题.md)，用于从阅读进入方法设计；近期补检与访问限制记录见[检索记录](检索记录_2026-10-27.md)。
+补充检索范围、未取得全文的线索与访问限制见[检索记录](检索记录_2026-10-27.md)。
 
 ## 每篇的主要用途与适用边界
 
@@ -35,7 +47,7 @@
 
 以道路候选为状态，结合GPS距离观测和路径距离差转移，用Viterbi求最可能路线；通过降采样和加噪评价稳健性。
 
-**与课题的关系：** 第一篇精读，建立观测—候选—转移—序列求解的完整流程；同时借鉴噪声和采样率实验。
+**与课题的关系：** 理解观测—候选—转移—序列求解的完整流程，并借鉴噪声和采样率实验。
 
 **适用边界：** 针对车辆道路网络，不能直接表示越野穿林；论文是离线批处理。其人工真值为走过的路线，不是每个时刻的精确坐标，路线匹配正确不等于逐点定位误差为零。
 
@@ -63,7 +75,7 @@
 
 EHMM-P通过短时校准改善初始匹配，加入开放区域隐状态，并以道路总长度及运动距离、方向、位置差调整概率。先识别开放区观测，再接入预训练Y-net生成轨迹；在校园手机GPS上与常规HMM及Behr方法比较。
 
-**与课题的关系：** 与课题最接近的重点论文。帮助区分“识别人在开放区”和“纠正开放区坐标”，可借鉴初始分布、状态转换、道路/开放区分开评价。证明开放区域HMM与运动特征结合并非空白。
+**与课题的关系：** 帮助区分“识别人在开放区”和“纠正开放区坐标”，可借鉴初始分布、状态转换、道路/开放区分开评价。证明开放区域HMM与运动特征结合并非空白。
 
 **适用边界：** 核心EHMM-P只增加一个特殊open-field状态，开放区候选坐标取GPS观测本身；区域内轨迹恢复另靠Y-net，并非语义自适应剖分。 Y-net阶段用开放区前几个观测及退出前的目的地观测，不能把完整流程直接作为无延迟实时方法。 校园行走条件，未验证林地、坡地和定向越野跑动；搜索半径不随环境自适应，高斯假设和启发式参数有适用边界。 数据因隐私不公开，仅可向通讯作者申请；真值通过地标距离/角度人工测录，正文未完整交代独立测量设备精度与误差预算。 表3的4.63 m是作者报告的平均定位误差减少量，不是绝对误差；开放区轨迹效果包含Y-net贡献，不能全部归因于HMM。
 
@@ -77,7 +89,7 @@ EHMM-P通过短时校准改善初始匹配，加入开放区域隐状态，并�
 
 将定向地图的等高线、道路和覆盖类型转成成本栅格，用最小成本路径模拟路线选择。第2.4节式(1)的地形成本为`HCR = TRI × sqrt(abs(PC) × SLO)`；参与合成的各成本变量先归一化到0.1—1。以11名专家的手绘路线调参，与26名运动员的选线比较，说明地图语义可转为运动代价。
 
-**与课题的关系：** 最直接对应地图语义如何成为区域属性和移动代价；可作为均匀栅格加地图成本的参照方法，再检验语义驱动剖分能否改善HMM定位纠正。路线规划输出不能直接当作实际轨迹真值。
+**与课题的关系：** 最直接对应地图语义如何成为区域属性和移动代价；可作为均匀栅格加地图成本的参照方法；用于定位时仍需定义成本与移动计算的关系。路线规划输出不能直接当作实际轨迹真值。
 
 **适用边界：** 单一约5.17平方公里场地；主要验证为手绘理想路线，未开展专门的实地跑测；时间换算仅粗略参考历史比赛GPS；部分石地等地物因源数据问题未处理。文中60%地形和40%覆盖成本组合及表1权重为该案例经验调参，不能直接当通用参数。会议贡献基于摘要单盲评审。
 
